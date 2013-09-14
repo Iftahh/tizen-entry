@@ -1,0 +1,3778 @@
+{
+    "swordskel_treffer_n0002.png": {
+        "right": 85, 
+        "orig_h": 95, 
+        "bottom": 79, 
+        "top": 30, 
+        "orig_w": 95, 
+        "left": 29
+    }, 
+    "swordskel_attack_e0002.png": {
+        "right": 78, 
+        "orig_h": 95, 
+        "bottom": 87, 
+        "top": 22, 
+        "orig_w": 95, 
+        "left": 38
+    }, 
+    "zerf%E4llt_se0004.png": {
+        "right": 74, 
+        "orig_h": 95, 
+        "bottom": 90, 
+        "top": 34, 
+        "orig_w": 95, 
+        "left": 33
+    }, 
+    "swordskel_l%E4uft_nw0002.png": {
+        "right": 66, 
+        "orig_h": 95, 
+        "bottom": 82, 
+        "top": 24, 
+        "orig_w": 95, 
+        "left": 28
+    }, 
+    "swordskel_rennt_nw0008.png": {
+        "right": 75, 
+        "orig_h": 95, 
+        "bottom": 81, 
+        "top": 16, 
+        "orig_w": 95, 
+        "left": 23
+    }, 
+    "swordskel_treffer_n0000.png": {
+        "right": 65, 
+        "orig_h": 95, 
+        "bottom": 78, 
+        "top": 25, 
+        "orig_w": 95, 
+        "left": 33
+    }, 
+    "swordskel_treffer_w0004.png": {
+        "right": 74, 
+        "orig_h": 95, 
+        "bottom": 83, 
+        "top": 24, 
+        "orig_w": 95, 
+        "left": 36
+    }, 
+    "zerf%E4llt_nw0008.png": {
+        "right": 71, 
+        "orig_h": 95, 
+        "bottom": 85, 
+        "top": 47, 
+        "orig_w": 95, 
+        "left": 24
+    }, 
+    "swordskel_attack_ne0004.png": {
+        "right": 77, 
+        "orig_h": 95, 
+        "bottom": 81, 
+        "top": 24, 
+        "orig_w": 95, 
+        "left": 39
+    }, 
+    "swordskel_treffer_sw0003.png": {
+        "right": 73, 
+        "orig_h": 95, 
+        "bottom": 82, 
+        "top": 19, 
+        "orig_w": 95, 
+        "left": 22
+    }, 
+    "strickt_se0002.png": {
+        "right": 74, 
+        "orig_h": 95, 
+        "bottom": 89, 
+        "top": 22, 
+        "orig_w": 95, 
+        "left": 32
+    }, 
+    "swordskel_l%E4uft_n0002.png": {
+        "right": 65, 
+        "orig_h": 95, 
+        "bottom": 81, 
+        "top": 25, 
+        "orig_w": 95, 
+        "left": 30
+    }, 
+    "swordskel_rennt_nw0000.png": {
+        "right": 75, 
+        "orig_h": 95, 
+        "bottom": 81, 
+        "top": 16, 
+        "orig_w": 95, 
+        "left": 22
+    }, 
+    "swordskel_rennt_w0004.png": {
+        "right": 79, 
+        "orig_h": 95, 
+        "bottom": 79, 
+        "top": 19, 
+        "orig_w": 95, 
+        "left": 20
+    }, 
+    "swordskel_attack_sw0008.png": {
+        "right": 77, 
+        "orig_h": 95, 
+        "bottom": 89, 
+        "top": 24, 
+        "orig_w": 95, 
+        "left": 28
+    }, 
+    "swordskel_spricht_nw0000.png": {
+        "right": 66, 
+        "orig_h": 95, 
+        "bottom": 84, 
+        "top": 24, 
+        "orig_w": 95, 
+        "left": 35
+    }, 
+    "swordskel_attack_ne0003.png": {
+        "right": 81, 
+        "orig_h": 95, 
+        "bottom": 80, 
+        "top": 25, 
+        "orig_w": 95, 
+        "left": 39
+    }, 
+    "swordskel_attack_se0009.png": {
+        "right": 67, 
+        "orig_h": 95, 
+        "bottom": 91, 
+        "top": 22, 
+        "orig_w": 95, 
+        "left": 37
+    }, 
+    "zerf%E4llt_w0004.png": {
+        "right": 72, 
+        "orig_h": 95, 
+        "bottom": 86, 
+        "top": 41, 
+        "orig_w": 95, 
+        "left": 26
+    }, 
+    "swordskel_attack_se0006.png": {
+        "right": 76, 
+        "orig_h": 95, 
+        "bottom": 85, 
+        "top": 24, 
+        "orig_w": 95, 
+        "left": 35
+    }, 
+    "swordskel_treffer_e0006.png": {
+        "right": 73, 
+        "orig_h": 95, 
+        "bottom": 81, 
+        "top": 23, 
+        "orig_w": 95, 
+        "left": 38
+    }, 
+    "swordskel_l%E4uft_ne0001.png": {
+        "right": 77, 
+        "orig_h": 95, 
+        "bottom": 85, 
+        "top": 21, 
+        "orig_w": 95, 
+        "left": 32
+    }, 
+    "swordskel_l%E4uft_ne0004.png": {
+        "right": 75, 
+        "orig_h": 95, 
+        "bottom": 82, 
+        "top": 24, 
+        "orig_w": 95, 
+        "left": 29
+    }, 
+    "zerf%E4llt_n0007.png": {
+        "right": 76, 
+        "orig_h": 95, 
+        "bottom": 83, 
+        "top": 48, 
+        "orig_w": 95, 
+        "left": 23
+    }, 
+    "swordskel_rennt_n0000.png": {
+        "right": 75, 
+        "orig_h": 95, 
+        "bottom": 89, 
+        "top": 16, 
+        "orig_w": 95, 
+        "left": 33
+    }, 
+    "swordskel_l%E4uft_sw0001.png": {
+        "right": 68, 
+        "orig_h": 95, 
+        "bottom": 84, 
+        "top": 22, 
+        "orig_w": 95, 
+        "left": 27
+    }, 
+    "zerf%E4llt_se0007.png": {
+        "right": 77, 
+        "orig_h": 95, 
+        "bottom": 92, 
+        "top": 49, 
+        "orig_w": 95, 
+        "left": 29
+    }, 
+    "swordskel_rennt_e0008.png": {
+        "right": 78, 
+        "orig_h": 95, 
+        "bottom": 81, 
+        "top": 20, 
+        "orig_w": 95, 
+        "left": 21
+    }, 
+    "swordskel_treffer_se0006.png": {
+        "right": 67, 
+        "orig_h": 95, 
+        "bottom": 87, 
+        "top": 22, 
+        "orig_w": 95, 
+        "left": 34
+    }, 
+    "swordskel_treffer_nw0002.png": {
+        "right": 72, 
+        "orig_h": 95, 
+        "bottom": 82, 
+        "top": 27, 
+        "orig_w": 95, 
+        "left": 32
+    }, 
+    "swordskel_attack_ne0006.png": {
+        "right": 84, 
+        "orig_h": 95, 
+        "bottom": 82, 
+        "top": 23, 
+        "orig_w": 95, 
+        "left": 25
+    }, 
+    "swordskel_rennt_s0002.png": {
+        "right": 69, 
+        "orig_h": 95, 
+        "bottom": 82, 
+        "top": 24, 
+        "orig_w": 95, 
+        "left": 26
+    }, 
+    "swordskel_attack_n0000.png": {
+        "right": 65, 
+        "orig_h": 95, 
+        "bottom": 78, 
+        "top": 25, 
+        "orig_w": 95, 
+        "left": 31
+    }, 
+    "swordskel_l%E4uft_se0004.png": {
+        "right": 76, 
+        "orig_h": 95, 
+        "bottom": 89, 
+        "top": 22, 
+        "orig_w": 95, 
+        "left": 32
+    }, 
+    "swordskel_rennt_e0000.png": {
+        "right": 78, 
+        "orig_h": 95, 
+        "bottom": 81, 
+        "top": 20, 
+        "orig_w": 95, 
+        "left": 21
+    }, 
+    "strickt_ne0003.png": {
+        "right": 72, 
+        "orig_h": 95, 
+        "bottom": 85, 
+        "top": 25, 
+        "orig_w": 95, 
+        "left": 34
+    }, 
+    "swordskel_spricht_s0003.png": {
+        "right": 70, 
+        "orig_h": 95, 
+        "bottom": 88, 
+        "top": 20, 
+        "orig_w": 95, 
+        "left": 34
+    }, 
+    "swordskel_l%E4uft_n0000.png": {
+        "right": 65, 
+        "orig_h": 95, 
+        "bottom": 89, 
+        "top": 15, 
+        "orig_w": 95, 
+        "left": 31
+    }, 
+    "strickt_w0002.png": {
+        "right": 67, 
+        "orig_h": 95, 
+        "bottom": 83, 
+        "top": 23, 
+        "orig_w": 95, 
+        "left": 28
+    }, 
+    "zerf%E4llt_ne0001.png": {
+        "right": 76, 
+        "orig_h": 95, 
+        "bottom": 75, 
+        "top": 22, 
+        "orig_w": 95, 
+        "left": 32
+    }, 
+    "swordskel_l%E4uft_sw0006.png": {
+        "right": 66, 
+        "orig_h": 95, 
+        "bottom": 82, 
+        "top": 22, 
+        "orig_w": 95, 
+        "left": 21
+    }, 
+    "swordskel_attack_w0003.png": {
+        "right": 68, 
+        "orig_h": 95, 
+        "bottom": 81, 
+        "top": 12, 
+        "orig_w": 95, 
+        "left": 20
+    }, 
+    "strickt_ne0005.png": {
+        "right": 71, 
+        "orig_h": 95, 
+        "bottom": 85, 
+        "top": 24, 
+        "orig_w": 95, 
+        "left": 34
+    }, 
+    "zerf%E4llt_n0008.png": {
+        "right": 76, 
+        "orig_h": 95, 
+        "bottom": 84, 
+        "top": 48, 
+        "orig_w": 95, 
+        "left": 22
+    }, 
+    "swordskel_rennt_se0002.png": {
+        "right": 77, 
+        "orig_h": 95, 
+        "bottom": 80, 
+        "top": 23, 
+        "orig_w": 95, 
+        "left": 27
+    }, 
+    "strickt_n0000.png": {
+        "right": 67, 
+        "orig_h": 95, 
+        "bottom": 82, 
+        "top": 25, 
+        "orig_w": 95, 
+        "left": 34
+    }, 
+    "swordskel_spricht_e0006.png": {
+        "right": 75, 
+        "orig_h": 95, 
+        "bottom": 81, 
+        "top": 23, 
+        "orig_w": 95, 
+        "left": 36
+    }, 
+    "swordskel_attack_s0007.png": {
+        "right": 71, 
+        "orig_h": 95, 
+        "bottom": 91, 
+        "top": 29, 
+        "orig_w": 95, 
+        "left": 39
+    }, 
+    "swordskel_attack_w0001.png": {
+        "right": 67, 
+        "orig_h": 95, 
+        "bottom": 82, 
+        "top": 24, 
+        "orig_w": 95, 
+        "left": 24
+    }, 
+    "swordskel_l%E4uft_ne0003.png": {
+        "right": 79, 
+        "orig_h": 95, 
+        "bottom": 80, 
+        "top": 24, 
+        "orig_w": 95, 
+        "left": 32
+    }, 
+    "zerf%E4llt_s0008.png": {
+        "right": 79, 
+        "orig_h": 95, 
+        "bottom": 94, 
+        "top": 53, 
+        "orig_w": 95, 
+        "left": 23
+    }, 
+    "swordskel_treffer_nw0006.png": {
+        "right": 66, 
+        "orig_h": 95, 
+        "bottom": 80, 
+        "top": 24, 
+        "orig_w": 95, 
+        "left": 33
+    }, 
+    "swordskel_l%E4uft_s0005.png": {
+        "right": 71, 
+        "orig_h": 95, 
+        "bottom": 89, 
+        "top": 22, 
+        "orig_w": 95, 
+        "left": 35
+    }, 
+    "swordskel_spricht_se0002.png": {
+        "right": 80, 
+        "orig_h": 95, 
+        "bottom": 90, 
+        "top": 21, 
+        "orig_w": 95, 
+        "left": 36
+    }, 
+    "strickt_nw0001.png": {
+        "right": 66, 
+        "orig_h": 95, 
+        "bottom": 83, 
+        "top": 24, 
+        "orig_w": 95, 
+        "left": 29
+    }, 
+    "zerf%E4llt_se0003.png": {
+        "right": 72, 
+        "orig_h": 95, 
+        "bottom": 89, 
+        "top": 28, 
+        "orig_w": 95, 
+        "left": 35
+    }, 
+    "swordskel_l%E4uft_w0003.png": {
+        "right": 67, 
+        "orig_h": 95, 
+        "bottom": 81, 
+        "top": 23, 
+        "orig_w": 95, 
+        "left": 21
+    }, 
+    "swordskel_l%E4uft_e0004.png": {
+        "right": 75, 
+        "orig_h": 95, 
+        "bottom": 83, 
+        "top": 24, 
+        "orig_w": 95, 
+        "left": 28
+    }, 
+    "swordskel_attack_e0003.png": {
+        "right": 82, 
+        "orig_h": 95, 
+        "bottom": 86, 
+        "top": 23, 
+        "orig_w": 95, 
+        "left": 37
+    }, 
+    "swordskel_attack_n0006.png": {
+        "right": 74, 
+        "orig_h": 95, 
+        "bottom": 81, 
+        "top": 17, 
+        "orig_w": 95, 
+        "left": 20
+    }, 
+    "swordskel_rennt_s0004.png": {
+        "right": 71, 
+        "orig_h": 95, 
+        "bottom": 91, 
+        "top": 20, 
+        "orig_w": 95, 
+        "left": 27
+    }, 
+    "swordskel_rennt_w0006.png": {
+        "right": 63, 
+        "orig_h": 95, 
+        "bottom": 83, 
+        "top": 23, 
+        "orig_w": 95, 
+        "left": 25
+    }, 
+    "swordskel_rennt_nw0002.png": {
+        "right": 73, 
+        "orig_h": 95, 
+        "bottom": 82, 
+        "top": 22, 
+        "orig_w": 95, 
+        "left": 26
+    }, 
+    "swordskel_attack_nw0005.png": {
+        "right": 79, 
+        "orig_h": 95, 
+        "bottom": 80, 
+        "top": 17, 
+        "orig_w": 95, 
+        "left": 18
+    }, 
+    "swordskel_treffer_n0004.png": {
+        "right": 85, 
+        "orig_h": 95, 
+        "bottom": 79, 
+        "top": 30, 
+        "orig_w": 95, 
+        "left": 29
+    }, 
+    "swordskel_l%E4uft_e0002.png": {
+        "right": 82, 
+        "orig_h": 95, 
+        "bottom": 82, 
+        "top": 23, 
+        "orig_w": 95, 
+        "left": 39
+    }, 
+    "swordskel_attack_e0005.png": {
+        "right": 79, 
+        "orig_h": 95, 
+        "bottom": 84, 
+        "top": 21, 
+        "orig_w": 95, 
+        "left": 28
+    }, 
+    "swordskel_spricht_s0001.png": {
+        "right": 67, 
+        "orig_h": 95, 
+        "bottom": 88, 
+        "top": 21, 
+        "orig_w": 95, 
+        "left": 34
+    }, 
+    "swordskel_rennt_s0006.png": {
+        "right": 69, 
+        "orig_h": 95, 
+        "bottom": 82, 
+        "top": 24, 
+        "orig_w": 95, 
+        "left": 26
+    }, 
+    "strickt_s0005.png": {
+        "right": 66, 
+        "orig_h": 95, 
+        "bottom": 83, 
+        "top": 22, 
+        "orig_w": 95, 
+        "left": 30
+    }, 
+    "swordskel_attack_n0004.png": {
+        "right": 78, 
+        "orig_h": 95, 
+        "bottom": 79, 
+        "top": 21, 
+        "orig_w": 95, 
+        "left": 33
+    }, 
+    "zerf%E4llt_s0001.png": {
+        "right": 74, 
+        "orig_h": 95, 
+        "bottom": 85, 
+        "top": 22, 
+        "orig_w": 95, 
+        "left": 34
+    }, 
+    "swordskel_treffer_e0000.png": {
+        "right": 73, 
+        "orig_h": 95, 
+        "bottom": 81, 
+        "top": 23, 
+        "orig_w": 95, 
+        "left": 38
+    }, 
+    "swordskel_attack_ne0009.png": {
+        "right": 85, 
+        "orig_h": 95, 
+        "bottom": 80, 
+        "top": 24, 
+        "orig_w": 95, 
+        "left": 28
+    }, 
+    "swordskel_spricht_w0001.png": {
+        "right": 67, 
+        "orig_h": 95, 
+        "bottom": 84, 
+        "top": 24, 
+        "orig_w": 95, 
+        "left": 23
+    }, 
+    "swordskel_rennt_se0000.png": {
+        "right": 75, 
+        "orig_h": 95, 
+        "bottom": 85, 
+        "top": 20, 
+        "orig_w": 95, 
+        "left": 23
+    }, 
+    "swordskel_treffer_s0004.png": {
+        "right": 71, 
+        "orig_h": 95, 
+        "bottom": 79, 
+        "top": 17, 
+        "orig_w": 95, 
+        "left": 13
+    }, 
+    "zerf%E4llt_w0006.png": {
+        "right": 72, 
+        "orig_h": 95, 
+        "bottom": 89, 
+        "top": 52, 
+        "orig_w": 95, 
+        "left": 23
+    }, 
+    "strickt_n0002.png": {
+        "right": 68, 
+        "orig_h": 95, 
+        "bottom": 82, 
+        "top": 25, 
+        "orig_w": 95, 
+        "left": 33
+    }, 
+    "swordskel_rennt_n0006.png": {
+        "right": 74, 
+        "orig_h": 95, 
+        "bottom": 77, 
+        "top": 21, 
+        "orig_w": 95, 
+        "left": 34
+    }, 
+    "swordskel_attack_e0009.png": {
+        "right": 75, 
+        "orig_h": 95, 
+        "bottom": 81, 
+        "top": 24, 
+        "orig_w": 95, 
+        "left": 36
+    }, 
+    "swordskel_treffer_w0003.png": {
+        "right": 76, 
+        "orig_h": 95, 
+        "bottom": 84, 
+        "top": 24, 
+        "orig_w": 95, 
+        "left": 41
+    }, 
+    "strickt_nw0000.png": {
+        "right": 66, 
+        "orig_h": 95, 
+        "bottom": 83, 
+        "top": 24, 
+        "orig_w": 95, 
+        "left": 30
+    }, 
+    "strickt_s0004.png": {
+        "right": 68, 
+        "orig_h": 95, 
+        "bottom": 83, 
+        "top": 22, 
+        "orig_w": 95, 
+        "left": 30
+    }, 
+    "swordskel_steht0006.png": {
+        "right": 63, 
+        "orig_h": 95, 
+        "bottom": 81, 
+        "top": 23, 
+        "orig_w": 95, 
+        "left": 38
+    }, 
+    "swordskel_l%E4uft_se0002.png": {
+        "right": 72, 
+        "orig_h": 95, 
+        "bottom": 86, 
+        "top": 22, 
+        "orig_w": 95, 
+        "left": 36
+    }, 
+    "swordskel_rennt_nw0004.png": {
+        "right": 85, 
+        "orig_h": 95, 
+        "bottom": 92, 
+        "top": 18, 
+        "orig_w": 95, 
+        "left": 27
+    }, 
+    "swordskel_rennt_w0000.png": {
+        "right": 77, 
+        "orig_h": 95, 
+        "bottom": 77, 
+        "top": 20, 
+        "orig_w": 95, 
+        "left": 19
+    }, 
+    "strickt_s0001.png": {
+        "right": 66, 
+        "orig_h": 95, 
+        "bottom": 83, 
+        "top": 22, 
+        "orig_w": 95, 
+        "left": 30
+    }, 
+    "swordskel_treffer_w0005.png": {
+        "right": 70, 
+        "orig_h": 95, 
+        "bottom": 81, 
+        "top": 24, 
+        "orig_w": 95, 
+        "left": 27
+    }, 
+    "swordskel_l%E4uft_n0006.png": {
+        "right": 65, 
+        "orig_h": 95, 
+        "bottom": 80, 
+        "top": 24, 
+        "orig_w": 95, 
+        "left": 31
+    }, 
+    "swordskel_rennt_w0002.png": {
+        "right": 63, 
+        "orig_h": 95, 
+        "bottom": 82, 
+        "top": 23, 
+        "orig_w": 95, 
+        "left": 24
+    }, 
+    "swordskel_rennt_nw0006.png": {
+        "right": 71, 
+        "orig_h": 95, 
+        "bottom": 82, 
+        "top": 21, 
+        "orig_w": 95, 
+        "left": 26
+    }, 
+    "strickt_w0006.png": {
+        "right": 67, 
+        "orig_h": 95, 
+        "bottom": 83, 
+        "top": 24, 
+        "orig_w": 95, 
+        "left": 30
+    }, 
+    "swordskel_attack_ne0000.png": {
+        "right": 70, 
+        "orig_h": 95, 
+        "bottom": 80, 
+        "top": 24, 
+        "orig_w": 95, 
+        "left": 30
+    }, 
+    "swordskel_spricht_ne0001.png": {
+        "right": 77, 
+        "orig_h": 95, 
+        "bottom": 80, 
+        "top": 24, 
+        "orig_w": 95, 
+        "left": 33
+    }, 
+    "swordskel_l%E4uft_n0008.png": {
+        "right": 65, 
+        "orig_h": 95, 
+        "bottom": 89, 
+        "top": 15, 
+        "orig_w": 95, 
+        "left": 31
+    }, 
+    "zerf%E4llt_w0000.png": {
+        "right": 71, 
+        "orig_h": 95, 
+        "bottom": 81, 
+        "top": 22, 
+        "orig_w": 95, 
+        "left": 32
+    }, 
+    "swordskel_treffer_ne0002.png": {
+        "right": 84, 
+        "orig_h": 95, 
+        "bottom": 84, 
+        "top": 27, 
+        "orig_w": 95, 
+        "left": 29
+    }, 
+    "swordskel_attack_nw0001.png": {
+        "right": 67, 
+        "orig_h": 95, 
+        "bottom": 80, 
+        "top": 20, 
+        "orig_w": 95, 
+        "left": 29
+    }, 
+    "swordskel_spricht_n0004.png": {
+        "right": 65, 
+        "orig_h": 95, 
+        "bottom": 81, 
+        "top": 21, 
+        "orig_w": 95, 
+        "left": 33
+    }, 
+    "swordskel_spricht_sw0006.png": {
+        "right": 66, 
+        "orig_h": 95, 
+        "bottom": 83, 
+        "top": 22, 
+        "orig_w": 95, 
+        "left": 21
+    }, 
+    "strickt_w0004.png": {
+        "right": 67, 
+        "orig_h": 95, 
+        "bottom": 83, 
+        "top": 23, 
+        "orig_w": 95, 
+        "left": 28
+    }, 
+    "swordskel_l%E4uft_n0007.png": {
+        "right": 65, 
+        "orig_h": 95, 
+        "bottom": 85, 
+        "top": 16, 
+        "orig_w": 95, 
+        "left": 30
+    }, 
+    "swordskel_spricht_e0002.png": {
+        "right": 75, 
+        "orig_h": 95, 
+        "bottom": 81, 
+        "top": 24, 
+        "orig_w": 95, 
+        "left": 36
+    }, 
+    "swordskel_attack_s0003.png": {
+        "right": 65, 
+        "orig_h": 95, 
+        "bottom": 86, 
+        "top": 20, 
+        "orig_w": 95, 
+        "left": 19
+    }, 
+    "swordskel_treffer_s0003.png": {
+        "right": 73, 
+        "orig_h": 95, 
+        "bottom": 79, 
+        "top": 16, 
+        "orig_w": 95, 
+        "left": 7
+    }, 
+    "swordskel_l%E4uft_s0003.png": {
+        "right": 71, 
+        "orig_h": 95, 
+        "bottom": 86, 
+        "top": 22, 
+        "orig_w": 95, 
+        "left": 35
+    }, 
+    "swordskel_spricht_n0003.png": {
+        "right": 65, 
+        "orig_h": 95, 
+        "bottom": 81, 
+        "top": 21, 
+        "orig_w": 95, 
+        "left": 33
+    }, 
+    "swordskel_treffer_ne0005.png": {
+        "right": 78, 
+        "orig_h": 95, 
+        "bottom": 81, 
+        "top": 25, 
+        "orig_w": 95, 
+        "left": 32
+    }, 
+    "zerf%E4llt_e0003.png": {
+        "right": 72, 
+        "orig_h": 95, 
+        "bottom": 81, 
+        "top": 30, 
+        "orig_w": 95, 
+        "left": 34
+    }, 
+    "swordskel_rennt_se0001.png": {
+        "right": 75, 
+        "orig_h": 95, 
+        "bottom": 82, 
+        "top": 22, 
+        "orig_w": 95, 
+        "left": 30
+    }, 
+    "swordskel_l%E4uft_n0005.png": {
+        "right": 65, 
+        "orig_h": 95, 
+        "bottom": 85, 
+        "top": 25, 
+        "orig_w": 95, 
+        "left": 30
+    }, 
+    "strickt_n0003.png": {
+        "right": 69, 
+        "orig_h": 95, 
+        "bottom": 82, 
+        "top": 25, 
+        "orig_w": 95, 
+        "left": 32
+    }, 
+    "swordskel_spricht_e0004.png": {
+        "right": 75, 
+        "orig_h": 95, 
+        "bottom": 81, 
+        "top": 24, 
+        "orig_w": 95, 
+        "left": 36
+    }, 
+    "swordskel_attack_s0005.png": {
+        "right": 75, 
+        "orig_h": 95, 
+        "bottom": 85, 
+        "top": 10, 
+        "orig_w": 95, 
+        "left": 29
+    }, 
+    "swordskel_steht0004.png": {
+        "right": 65, 
+        "orig_h": 95, 
+        "bottom": 78, 
+        "top": 25, 
+        "orig_w": 95, 
+        "left": 33
+    }, 
+    "swordskel_attack_nw0007.png": {
+        "right": 65, 
+        "orig_h": 95, 
+        "bottom": 89, 
+        "top": 14, 
+        "orig_w": 95, 
+        "left": 18
+    }, 
+    "swordskel_rennt_e0005.png": {
+        "right": 81, 
+        "orig_h": 95, 
+        "bottom": 81, 
+        "top": 21, 
+        "orig_w": 95, 
+        "left": 26
+    }, 
+    "swordskel_attack_se0000.png": {
+        "right": 65, 
+        "orig_h": 95, 
+        "bottom": 84, 
+        "top": 22, 
+        "orig_w": 95, 
+        "left": 33
+    }, 
+    "zerf%E4llt_ne0007.png": {
+        "right": 82, 
+        "orig_h": 95, 
+        "bottom": 83, 
+        "top": 43, 
+        "orig_w": 95, 
+        "left": 28
+    }, 
+    "swordskel_attack_e0004.png": {
+        "right": 83, 
+        "orig_h": 95, 
+        "bottom": 80, 
+        "top": 23, 
+        "orig_w": 95, 
+        "left": 37
+    }, 
+    "swordskel_rennt_se0003.png": {
+        "right": 78, 
+        "orig_h": 95, 
+        "bottom": 84, 
+        "top": 22, 
+        "orig_w": 95, 
+        "left": 20
+    }, 
+    "strickt_s0003.png": {
+        "right": 69, 
+        "orig_h": 95, 
+        "bottom": 83, 
+        "top": 21, 
+        "orig_w": 95, 
+        "left": 30
+    }, 
+    "strickt_n0001.png": {
+        "right": 68, 
+        "orig_h": 95, 
+        "bottom": 82, 
+        "top": 25, 
+        "orig_w": 95, 
+        "left": 34
+    }, 
+    "zerf%E4llt_s0004.png": {
+        "right": 76, 
+        "orig_h": 95, 
+        "bottom": 90, 
+        "top": 37, 
+        "orig_w": 95, 
+        "left": 29
+    }, 
+    "swordskel_rennt_ne0005.png": {
+        "right": 70, 
+        "orig_h": 95, 
+        "bottom": 85, 
+        "top": 17, 
+        "orig_w": 95, 
+        "left": 24
+    }, 
+    "swordskel_rennt_sw0004.png": {
+        "right": 78, 
+        "orig_h": 95, 
+        "bottom": 84, 
+        "top": 20, 
+        "orig_w": 95, 
+        "left": 23
+    }, 
+    "swordskel_l%E4uft_se0007.png": {
+        "right": 76, 
+        "orig_h": 95, 
+        "bottom": 82, 
+        "top": 22, 
+        "orig_w": 95, 
+        "left": 33
+    }, 
+    "swordskel_spricht_sw0002.png": {
+        "right": 68, 
+        "orig_h": 95, 
+        "bottom": 83, 
+        "top": 21, 
+        "orig_w": 95, 
+        "left": 21
+    }, 
+    "swordskel_l%E4uft_w0001.png": {
+        "right": 67, 
+        "orig_h": 95, 
+        "bottom": 82, 
+        "top": 24, 
+        "orig_w": 95, 
+        "left": 19
+    }, 
+    "zerf%E4llt_sw0008.png": {
+        "right": 72, 
+        "orig_h": 95, 
+        "bottom": 90, 
+        "top": 56, 
+        "orig_w": 95, 
+        "left": 18
+    }, 
+    "zerf%E4llt_w0002.png": {
+        "right": 69, 
+        "orig_h": 95, 
+        "bottom": 82, 
+        "top": 30, 
+        "orig_w": 95, 
+        "left": 29
+    }, 
+    "swordskel_rennt_sw0002.png": {
+        "right": 64, 
+        "orig_h": 95, 
+        "bottom": 80, 
+        "top": 23, 
+        "orig_w": 95, 
+        "left": 29
+    }, 
+    "swordskel_attack_sw0003.png": {
+        "right": 67, 
+        "orig_h": 95, 
+        "bottom": 84, 
+        "top": 17, 
+        "orig_w": 95, 
+        "left": 22
+    }, 
+    "swordskel_l%E4uft_se0001.png": {
+        "right": 77, 
+        "orig_h": 95, 
+        "bottom": 82, 
+        "top": 22, 
+        "orig_w": 95, 
+        "left": 32
+    }, 
+    "swordskel_l%E4uft_n0001.png": {
+        "right": 65, 
+        "orig_h": 95, 
+        "bottom": 85, 
+        "top": 16, 
+        "orig_w": 95, 
+        "left": 31
+    }, 
+    "swordskel_l%E4uft_sw0007.png": {
+        "right": 68, 
+        "orig_h": 95, 
+        "bottom": 83, 
+        "top": 22, 
+        "orig_w": 95, 
+        "left": 28
+    }, 
+    "swordskel_spricht_ne0005.png": {
+        "right": 77, 
+        "orig_h": 95, 
+        "bottom": 80, 
+        "top": 24, 
+        "orig_w": 95, 
+        "left": 33
+    }, 
+    "swordskel_l%E4uft_s0001.png": {
+        "right": 69, 
+        "orig_h": 95, 
+        "bottom": 85, 
+        "top": 22, 
+        "orig_w": 95, 
+        "left": 36
+    }, 
+    "swordskel_l%E4uft_ne0008.png": {
+        "right": 74, 
+        "orig_h": 95, 
+        "bottom": 87, 
+        "top": 17, 
+        "orig_w": 95, 
+        "left": 30
+    }, 
+    "swordskel_l%E4uft_se0005.png": {
+        "right": 74, 
+        "orig_h": 95, 
+        "bottom": 89, 
+        "top": 22, 
+        "orig_w": 95, 
+        "left": 36
+    }, 
+    "zerf%E4llt_nw0003.png": {
+        "right": 69, 
+        "orig_h": 95, 
+        "bottom": 78, 
+        "top": 32, 
+        "orig_w": 95, 
+        "left": 33
+    }, 
+    "swordskel_steht0002.png": {
+        "right": 67, 
+        "orig_h": 95, 
+        "bottom": 81, 
+        "top": 24, 
+        "orig_w": 95, 
+        "left": 36
+    }, 
+    "swordskel_treffer_n0005.png": {
+        "right": 70, 
+        "orig_h": 95, 
+        "bottom": 78, 
+        "top": 27, 
+        "orig_w": 95, 
+        "left": 31
+    }, 
+    "strickt_sw0003.png": {
+        "right": 66, 
+        "orig_h": 95, 
+        "bottom": 82, 
+        "top": 22, 
+        "orig_w": 95, 
+        "left": 27
+    }, 
+    "swordskel_attack_nw0008.png": {
+        "right": 66, 
+        "orig_h": 95, 
+        "bottom": 88, 
+        "top": 22, 
+        "orig_w": 95, 
+        "left": 16
+    }, 
+    "swordskel_spricht_w0006.png": {
+        "right": 67, 
+        "orig_h": 95, 
+        "bottom": 84, 
+        "top": 24, 
+        "orig_w": 95, 
+        "left": 23
+    }, 
+    "swordskel_attack_se0008.png": {
+        "right": 78, 
+        "orig_h": 95, 
+        "bottom": 80, 
+        "top": 29, 
+        "orig_w": 95, 
+        "left": 36
+    }, 
+    "zerf%E4llt_sw0002.png": {
+        "right": 73, 
+        "orig_h": 95, 
+        "bottom": 80, 
+        "top": 27, 
+        "orig_w": 95, 
+        "left": 23
+    }, 
+    "swordskel_rennt_sw0006.png": {
+        "right": 63, 
+        "orig_h": 95, 
+        "bottom": 80, 
+        "top": 23, 
+        "orig_w": 95, 
+        "left": 28
+    }, 
+    "swordskel_rennt_n0005.png": {
+        "right": 75, 
+        "orig_h": 95, 
+        "bottom": 88, 
+        "top": 16, 
+        "orig_w": 95, 
+        "left": 34
+    }, 
+    "swordskel_treffer_n0001.png": {
+        "right": 70, 
+        "orig_h": 95, 
+        "bottom": 78, 
+        "top": 27, 
+        "orig_w": 95, 
+        "left": 31
+    }, 
+    "swordskel_spricht_w0000.png": {
+        "right": 67, 
+        "orig_h": 95, 
+        "bottom": 84, 
+        "top": 24, 
+        "orig_w": 95, 
+        "left": 23
+    }, 
+    "swordskel_l%E4uft_e0000.png": {
+        "right": 80, 
+        "orig_h": 95, 
+        "bottom": 81, 
+        "top": 23, 
+        "orig_w": 95, 
+        "left": 27
+    }, 
+    "swordskel_attack_e0007.png": {
+        "right": 95, 
+        "orig_h": 95, 
+        "bottom": 81, 
+        "top": 24, 
+        "orig_w": 95, 
+        "left": 22
+    }, 
+    "swordskel_treffer_nw0003.png": {
+        "right": 76, 
+        "orig_h": 95, 
+        "bottom": 84, 
+        "top": 29, 
+        "orig_w": 95, 
+        "left": 32
+    }, 
+    "swordskel_rennt_n0003.png": {
+        "right": 74, 
+        "orig_h": 95, 
+        "bottom": 87, 
+        "top": 16, 
+        "orig_w": 95, 
+        "left": 34
+    }, 
+    "swordskel_rennt_n0007.png": {
+        "right": 74, 
+        "orig_h": 95, 
+        "bottom": 85, 
+        "top": 20, 
+        "orig_w": 95, 
+        "left": 33
+    }, 
+    "zerf%E4llt_s0006.png": {
+        "right": 78, 
+        "orig_h": 95, 
+        "bottom": 93, 
+        "top": 48, 
+        "orig_w": 95, 
+        "left": 25
+    }, 
+    "swordskel_rennt_ne0007.png": {
+        "right": 77, 
+        "orig_h": 95, 
+        "bottom": 86, 
+        "top": 20, 
+        "orig_w": 95, 
+        "left": 37
+    }, 
+    "strickt_e0003.png": {
+        "right": 74, 
+        "orig_h": 95, 
+        "bottom": 87, 
+        "top": 24, 
+        "orig_w": 95, 
+        "left": 35
+    }, 
+    "swordskel_l%E4uft_e0008.png": {
+        "right": 80, 
+        "orig_h": 95, 
+        "bottom": 81, 
+        "top": 23, 
+        "orig_w": 95, 
+        "left": 27
+    }, 
+    "swordskel_treffer_s0000.png": {
+        "right": 66, 
+        "orig_h": 95, 
+        "bottom": 87, 
+        "top": 22, 
+        "orig_w": 95, 
+        "left": 35
+    }, 
+    "swordskel_attack_sw0007.png": {
+        "right": 77, 
+        "orig_h": 95, 
+        "bottom": 84, 
+        "top": 29, 
+        "orig_w": 95, 
+        "left": 21
+    }, 
+    "strickt_sw0002.png": {
+        "right": 66, 
+        "orig_h": 95, 
+        "bottom": 82, 
+        "top": 22, 
+        "orig_w": 95, 
+        "left": 27
+    }, 
+    "swordskel_l%E4uft_w0002.png": {
+        "right": 67, 
+        "orig_h": 95, 
+        "bottom": 81, 
+        "top": 24, 
+        "orig_w": 95, 
+        "left": 16
+    }, 
+    "zerf%E4llt_ne0005.png": {
+        "right": 82, 
+        "orig_h": 95, 
+        "bottom": 80, 
+        "top": 40, 
+        "orig_w": 95, 
+        "left": 31
+    }, 
+    "strickt_e0006.png": {
+        "right": 72, 
+        "orig_h": 95, 
+        "bottom": 87, 
+        "top": 23, 
+        "orig_w": 95, 
+        "left": 35
+    }, 
+    "swordskel_spricht_w0003.png": {
+        "right": 69, 
+        "orig_h": 95, 
+        "bottom": 84, 
+        "top": 23, 
+        "orig_w": 95, 
+        "left": 23
+    }, 
+    "swordskel_spricht_s0000.png": {
+        "right": 65, 
+        "orig_h": 95, 
+        "bottom": 88, 
+        "top": 22, 
+        "orig_w": 95, 
+        "left": 34
+    }, 
+    "strickt_sw0004.png": {
+        "right": 66, 
+        "orig_h": 95, 
+        "bottom": 82, 
+        "top": 22, 
+        "orig_w": 95, 
+        "left": 27
+    }, 
+    "swordskel_attack_s0008.png": {
+        "right": 73, 
+        "orig_h": 95, 
+        "bottom": 89, 
+        "top": 27, 
+        "orig_w": 95, 
+        "left": 36
+    }, 
+    "swordskel_treffer_nw0001.png": {
+        "right": 68, 
+        "orig_h": 95, 
+        "bottom": 80, 
+        "top": 25, 
+        "orig_w": 95, 
+        "left": 33
+    }, 
+    "zerf%E4llt_s0000.png": {
+        "right": 73, 
+        "orig_h": 95, 
+        "bottom": 84, 
+        "top": 19, 
+        "orig_w": 95, 
+        "left": 35
+    }, 
+    "swordskel_attack_se0002.png": {
+        "right": 75, 
+        "orig_h": 95, 
+        "bottom": 84, 
+        "top": 21, 
+        "orig_w": 95, 
+        "left": 29
+    }, 
+    "swordskel_treffer_e0001.png": {
+        "right": 68, 
+        "orig_h": 95, 
+        "bottom": 85, 
+        "top": 23, 
+        "orig_w": 95, 
+        "left": 36
+    }, 
+    "zerf%E4llt_nw0004.png": {
+        "right": 70, 
+        "orig_h": 95, 
+        "bottom": 80, 
+        "top": 38, 
+        "orig_w": 95, 
+        "left": 30
+    }, 
+    "strickt_e0004.png": {
+        "right": 73, 
+        "orig_h": 95, 
+        "bottom": 87, 
+        "top": 24, 
+        "orig_w": 95, 
+        "left": 35
+    }, 
+    "zerf%E4llt_n0005.png": {
+        "right": 74, 
+        "orig_h": 95, 
+        "bottom": 80, 
+        "top": 45, 
+        "orig_w": 95, 
+        "left": 26
+    }, 
+    "strickt_e0005.png": {
+        "right": 73, 
+        "orig_h": 95, 
+        "bottom": 87, 
+        "top": 24, 
+        "orig_w": 95, 
+        "left": 35
+    }, 
+    "swordskel_l%E4uft_s0000.png": {
+        "right": 68, 
+        "orig_h": 95, 
+        "bottom": 86, 
+        "top": 22, 
+        "orig_w": 95, 
+        "left": 36
+    }, 
+    "swordskel_spricht_ne0004.png": {
+        "right": 77, 
+        "orig_h": 95, 
+        "bottom": 80, 
+        "top": 19, 
+        "orig_w": 95, 
+        "left": 33
+    }, 
+    "swordskel_spricht_n0001.png": {
+        "right": 65, 
+        "orig_h": 95, 
+        "bottom": 81, 
+        "top": 25, 
+        "orig_w": 95, 
+        "left": 33
+    }, 
+    "strickt_se0004.png": {
+        "right": 74, 
+        "orig_h": 95, 
+        "bottom": 89, 
+        "top": 22, 
+        "orig_w": 95, 
+        "left": 32
+    }, 
+    "swordskel_rennt_ne0003.png": {
+        "right": 70, 
+        "orig_h": 95, 
+        "bottom": 86, 
+        "top": 16, 
+        "orig_w": 95, 
+        "left": 25
+    }, 
+    "swordskel_treffer_se0003.png": {
+        "right": 68, 
+        "orig_h": 95, 
+        "bottom": 93, 
+        "top": 18, 
+        "orig_w": 95, 
+        "left": 23
+    }, 
+    "zerf%E4llt_n0003.png": {
+        "right": 71, 
+        "orig_h": 95, 
+        "bottom": 76, 
+        "top": 33, 
+        "orig_w": 95, 
+        "left": 30
+    }, 
+    "swordskel_l%E4uft_ne0000.png": {
+        "right": 74, 
+        "orig_h": 95, 
+        "bottom": 87, 
+        "top": 17, 
+        "orig_w": 95, 
+        "left": 30
+    }, 
+    "swordskel_l%E4uft_s0006.png": {
+        "right": 70, 
+        "orig_h": 95, 
+        "bottom": 89, 
+        "top": 22, 
+        "orig_w": 95, 
+        "left": 35
+    }, 
+    "swordskel_l%E4uft_s0002.png": {
+        "right": 71, 
+        "orig_h": 95, 
+        "bottom": 89, 
+        "top": 22, 
+        "orig_w": 95, 
+        "left": 35
+    }, 
+    "swordskel_treffer_nw0005.png": {
+        "right": 68, 
+        "orig_h": 95, 
+        "bottom": 80, 
+        "top": 25, 
+        "orig_w": 95, 
+        "left": 33
+    }, 
+    "zerf%E4llt_e0002.png": {
+        "right": 71, 
+        "orig_h": 95, 
+        "bottom": 80, 
+        "top": 25, 
+        "orig_w": 95, 
+        "left": 37
+    }, 
+    "swordskel_spricht_nw0006.png": {
+        "right": 66, 
+        "orig_h": 95, 
+        "bottom": 84, 
+        "top": 24, 
+        "orig_w": 95, 
+        "left": 35
+    }, 
+    "swordskel_rennt_sw0001.png": {
+        "right": 66, 
+        "orig_h": 95, 
+        "bottom": 86, 
+        "top": 22, 
+        "orig_w": 95, 
+        "left": 26
+    }, 
+    "swordskel_l%E4uft_s0008.png": {
+        "right": 68, 
+        "orig_h": 95, 
+        "bottom": 86, 
+        "top": 22, 
+        "orig_w": 95, 
+        "left": 36
+    }, 
+    "swordskel_l%E4uft_w0000.png": {
+        "right": 68, 
+        "orig_h": 95, 
+        "bottom": 81, 
+        "top": 24, 
+        "orig_w": 95, 
+        "left": 26
+    }, 
+    "swordskel_spricht_ne0003.png": {
+        "right": 77, 
+        "orig_h": 95, 
+        "bottom": 80, 
+        "top": 17, 
+        "orig_w": 95, 
+        "left": 33
+    }, 
+    "strickt_se0003.png": {
+        "right": 75, 
+        "orig_h": 95, 
+        "bottom": 89, 
+        "top": 23, 
+        "orig_w": 95, 
+        "left": 32
+    }, 
+    "zerf%E4llt_sw0006.png": {
+        "right": 72, 
+        "orig_h": 95, 
+        "bottom": 87, 
+        "top": 50, 
+        "orig_w": 95, 
+        "left": 19
+    }, 
+    "swordskel_l%E4uft_ne0007.png": {
+        "right": 76, 
+        "orig_h": 95, 
+        "bottom": 85, 
+        "top": 21, 
+        "orig_w": 95, 
+        "left": 32
+    }, 
+    "strickt_sw0006.png": {
+        "right": 66, 
+        "orig_h": 95, 
+        "bottom": 82, 
+        "top": 22, 
+        "orig_w": 95, 
+        "left": 27
+    }, 
+    "zerf%E4llt_w0005.png": {
+        "right": 73, 
+        "orig_h": 95, 
+        "bottom": 88, 
+        "top": 47, 
+        "orig_w": 95, 
+        "left": 24
+    }, 
+    "strickt_nw0005.png": {
+        "right": 66, 
+        "orig_h": 95, 
+        "bottom": 83, 
+        "top": 24, 
+        "orig_w": 95, 
+        "left": 29
+    }, 
+    "swordskel_l%E4uft_w0007.png": {
+        "right": 67, 
+        "orig_h": 95, 
+        "bottom": 81, 
+        "top": 24, 
+        "orig_w": 95, 
+        "left": 19
+    }, 
+    "swordskel_l%E4uft_sw0003.png": {
+        "right": 66, 
+        "orig_h": 95, 
+        "bottom": 84, 
+        "top": 22, 
+        "orig_w": 95, 
+        "left": 20
+    }, 
+    "swordskel_steht0000.png": {
+        "right": 67, 
+        "orig_h": 95, 
+        "bottom": 80, 
+        "top": 22, 
+        "orig_w": 95, 
+        "left": 35
+    }, 
+    "zerf%E4llt_e0008.png": {
+        "right": 79, 
+        "orig_h": 95, 
+        "bottom": 88, 
+        "top": 43, 
+        "orig_w": 95, 
+        "left": 28
+    }, 
+    "swordskel_treffer_s0005.png": {
+        "right": 68, 
+        "orig_h": 95, 
+        "bottom": 86, 
+        "top": 19, 
+        "orig_w": 95, 
+        "left": 27
+    }, 
+    "swordskel_l%E4uft_sw0005.png": {
+        "right": 66, 
+        "orig_h": 95, 
+        "bottom": 84, 
+        "top": 22, 
+        "orig_w": 95, 
+        "left": 20
+    }, 
+    "zerf%E4llt_w0007.png": {
+        "right": 71, 
+        "orig_h": 95, 
+        "bottom": 91, 
+        "top": 53, 
+        "orig_w": 95, 
+        "left": 21
+    }, 
+    "swordskel_spricht_se0000.png": {
+        "right": 64, 
+        "orig_h": 95, 
+        "bottom": 90, 
+        "top": 22, 
+        "orig_w": 95, 
+        "left": 36
+    }, 
+    "swordskel_treffer_w0006.png": {
+        "right": 67, 
+        "orig_h": 95, 
+        "bottom": 81, 
+        "top": 24, 
+        "orig_w": 95, 
+        "left": 24
+    }, 
+    "swordskel_treffer_se0001.png": {
+        "right": 67, 
+        "orig_h": 95, 
+        "bottom": 91, 
+        "top": 20, 
+        "orig_w": 95, 
+        "left": 32
+    }, 
+    "swordskel_spricht_w0004.png": {
+        "right": 69, 
+        "orig_h": 95, 
+        "bottom": 84, 
+        "top": 24, 
+        "orig_w": 95, 
+        "left": 23
+    }, 
+    "swordskel_attack_n0003.png": {
+        "right": 84, 
+        "orig_h": 95, 
+        "bottom": 80, 
+        "top": 19, 
+        "orig_w": 95, 
+        "left": 36
+    }, 
+    "zerf%E4llt_ne0003.png": {
+        "right": 80, 
+        "orig_h": 95, 
+        "bottom": 77, 
+        "top": 32, 
+        "orig_w": 95, 
+        "left": 31
+    }, 
+    "swordskel_rennt_s0001.png": {
+        "right": 69, 
+        "orig_h": 95, 
+        "bottom": 86, 
+        "top": 22, 
+        "orig_w": 95, 
+        "left": 26
+    }, 
+    "swordskel_attack_w0000.png": {
+        "right": 67, 
+        "orig_h": 95, 
+        "bottom": 81, 
+        "top": 24, 
+        "orig_w": 95, 
+        "left": 23
+    }, 
+    "swordskel_steht0005.png": {
+        "right": 64, 
+        "orig_h": 95, 
+        "bottom": 80, 
+        "top": 24, 
+        "orig_w": 95, 
+        "left": 33
+    }, 
+    "swordskel_treffer_ne0003.png": {
+        "right": 83, 
+        "orig_h": 95, 
+        "bottom": 87, 
+        "top": 29, 
+        "orig_w": 95, 
+        "left": 27
+    }, 
+    "swordskel_spricht_n0005.png": {
+        "right": 65, 
+        "orig_h": 95, 
+        "bottom": 81, 
+        "top": 25, 
+        "orig_w": 95, 
+        "left": 33
+    }, 
+    "strickt_se0001.png": {
+        "right": 72, 
+        "orig_h": 95, 
+        "bottom": 89, 
+        "top": 22, 
+        "orig_w": 95, 
+        "left": 32
+    }, 
+    "zerf%E4llt_e0000.png": {
+        "right": 68, 
+        "orig_h": 95, 
+        "bottom": 78, 
+        "top": 18, 
+        "orig_w": 95, 
+        "left": 40
+    }, 
+    "swordskel_l%E4uft_se0003.png": {
+        "right": 75, 
+        "orig_h": 95, 
+        "bottom": 88, 
+        "top": 22, 
+        "orig_w": 95, 
+        "left": 35
+    }, 
+    "swordskel_l%E4uft_nw0003.png": {
+        "right": 66, 
+        "orig_h": 95, 
+        "bottom": 85, 
+        "top": 24, 
+        "orig_w": 95, 
+        "left": 25
+    }, 
+    "swordskel_treffer_sw0006.png": {
+        "right": 67, 
+        "orig_h": 95, 
+        "bottom": 82, 
+        "top": 22, 
+        "orig_w": 95, 
+        "left": 25
+    }, 
+    "swordskel_treffer_ne0001.png": {
+        "right": 78, 
+        "orig_h": 95, 
+        "bottom": 81, 
+        "top": 25, 
+        "orig_w": 95, 
+        "left": 32
+    }, 
+    "swordskel_attack_sw0009.png": {
+        "right": 72, 
+        "orig_h": 95, 
+        "bottom": 82, 
+        "top": 21, 
+        "orig_w": 95, 
+        "left": 14
+    }, 
+    "zerf%E4llt_e0006.png": {
+        "right": 78, 
+        "orig_h": 95, 
+        "bottom": 86, 
+        "top": 40, 
+        "orig_w": 95, 
+        "left": 30
+    }, 
+    "swordskel_attack_w0008.png": {
+        "right": 75, 
+        "orig_h": 95, 
+        "bottom": 84, 
+        "top": 22, 
+        "orig_w": 95, 
+        "left": 11
+    }, 
+    "swordskel_rennt_se0008.png": {
+        "right": 75, 
+        "orig_h": 95, 
+        "bottom": 85, 
+        "top": 20, 
+        "orig_w": 95, 
+        "left": 23
+    }, 
+    "swordskel_rennt_n0004.png": {
+        "right": 75, 
+        "orig_h": 95, 
+        "bottom": 93, 
+        "top": 12, 
+        "orig_w": 95, 
+        "left": 34
+    }, 
+    "swordskel_l%E4uft_w0008.png": {
+        "right": 68, 
+        "orig_h": 95, 
+        "bottom": 81, 
+        "top": 24, 
+        "orig_w": 95, 
+        "left": 26
+    }, 
+    "swordskel_l%E4uft_nw0005.png": {
+        "right": 66, 
+        "orig_h": 95, 
+        "bottom": 85, 
+        "top": 24, 
+        "orig_w": 95, 
+        "left": 26
+    }, 
+    "zerf%E4llt_w0003.png": {
+        "right": 71, 
+        "orig_h": 95, 
+        "bottom": 84, 
+        "top": 35, 
+        "orig_w": 95, 
+        "left": 27
+    }, 
+    "strickt_e0000.png": {
+        "right": 72, 
+        "orig_h": 95, 
+        "bottom": 87, 
+        "top": 23, 
+        "orig_w": 95, 
+        "left": 35
+    }, 
+    "swordskel_attack_nw0003.png": {
+        "right": 72, 
+        "orig_h": 95, 
+        "bottom": 80, 
+        "top": 14, 
+        "orig_w": 95, 
+        "left": 24
+    }, 
+    "swordskel_attack_se0004.png": {
+        "right": 81, 
+        "orig_h": 95, 
+        "bottom": 80, 
+        "top": 21, 
+        "orig_w": 95, 
+        "left": 31
+    }, 
+    "zerf%E4llt_sw0001.png": {
+        "right": 73, 
+        "orig_h": 95, 
+        "bottom": 79, 
+        "top": 23, 
+        "orig_w": 95, 
+        "left": 25
+    }, 
+    "swordskel_l%E4uft_ne0006.png": {
+        "right": 75, 
+        "orig_h": 95, 
+        "bottom": 80, 
+        "top": 24, 
+        "orig_w": 95, 
+        "left": 35
+    }, 
+    "swordskel_attack_w0004.png": {
+        "right": 69, 
+        "orig_h": 95, 
+        "bottom": 82, 
+        "top": 12, 
+        "orig_w": 95, 
+        "left": 19
+    }, 
+    "swordskel_treffer_e0003.png": {
+        "right": 56, 
+        "orig_h": 95, 
+        "bottom": 95, 
+        "top": 23, 
+        "orig_w": 95, 
+        "left": 30
+    }, 
+    "zerf%E4llt_sw0004.png": {
+        "right": 72, 
+        "orig_h": 95, 
+        "bottom": 83, 
+        "top": 39, 
+        "orig_w": 95, 
+        "left": 20
+    }, 
+    "strickt_nw0002.png": {
+        "right": 67, 
+        "orig_h": 95, 
+        "bottom": 83, 
+        "top": 24, 
+        "orig_w": 95, 
+        "left": 27
+    }, 
+    "swordskel_rennt_sw0008.png": {
+        "right": 68, 
+        "orig_h": 95, 
+        "bottom": 88, 
+        "top": 20, 
+        "orig_w": 95, 
+        "left": 22
+    }, 
+    "swordskel_attack_s0009.png": {
+        "right": 71, 
+        "orig_h": 95, 
+        "bottom": 86, 
+        "top": 20, 
+        "orig_w": 95, 
+        "left": 30
+    }, 
+    "swordskel_rennt_nw0001.png": {
+        "right": 67, 
+        "orig_h": 95, 
+        "bottom": 79, 
+        "top": 20, 
+        "orig_w": 95, 
+        "left": 28
+    }, 
+    "zerf%E4llt_ne0000.png": {
+        "right": 75, 
+        "orig_h": 95, 
+        "bottom": 75, 
+        "top": 19, 
+        "orig_w": 95, 
+        "left": 32
+    }, 
+    "swordskel_rennt_w0005.png": {
+        "right": 71, 
+        "orig_h": 95, 
+        "bottom": 81, 
+        "top": 21, 
+        "orig_w": 95, 
+        "left": 24
+    }, 
+    "zerf%E4llt_sw0000.png": {
+        "right": 73, 
+        "orig_h": 95, 
+        "bottom": 79, 
+        "top": 20, 
+        "orig_w": 95, 
+        "left": 26
+    }, 
+    "zerf%E4llt_s0007.png": {
+        "right": 79, 
+        "orig_h": 95, 
+        "bottom": 94, 
+        "top": 51, 
+        "orig_w": 95, 
+        "left": 24
+    }, 
+    "swordskel_attack_w0002.png": {
+        "right": 67, 
+        "orig_h": 95, 
+        "bottom": 81, 
+        "top": 14, 
+        "orig_w": 95, 
+        "left": 23
+    }, 
+    "swordskel_treffer_ne0000.png": {
+        "right": 72, 
+        "orig_h": 95, 
+        "bottom": 80, 
+        "top": 24, 
+        "orig_w": 95, 
+        "left": 33
+    }, 
+    "zerf%E4llt_e0005.png": {
+        "right": 77, 
+        "orig_h": 95, 
+        "bottom": 84, 
+        "top": 38, 
+        "orig_w": 95, 
+        "left": 30
+    }, 
+    "strickt_ne0001.png": {
+        "right": 71, 
+        "orig_h": 95, 
+        "bottom": 85, 
+        "top": 24, 
+        "orig_w": 95, 
+        "left": 34
+    }, 
+    "strickt_w0001.png": {
+        "right": 67, 
+        "orig_h": 95, 
+        "bottom": 83, 
+        "top": 23, 
+        "orig_w": 95, 
+        "left": 29
+    }, 
+    "strickt_sw0000.png": {
+        "right": 66, 
+        "orig_h": 95, 
+        "bottom": 82, 
+        "top": 22, 
+        "orig_w": 95, 
+        "left": 27
+    }, 
+    "zerf%E4llt_n0000.png": {
+        "right": 69, 
+        "orig_h": 95, 
+        "bottom": 74, 
+        "top": 20, 
+        "orig_w": 95, 
+        "left": 31
+    }, 
+    "swordskel_l%E4uft_w0004.png": {
+        "right": 67, 
+        "orig_h": 95, 
+        "bottom": 82, 
+        "top": 23, 
+        "orig_w": 95, 
+        "left": 26
+    }, 
+    "strickt_e0002.png": {
+        "right": 73, 
+        "orig_h": 95, 
+        "bottom": 87, 
+        "top": 24, 
+        "orig_w": 95, 
+        "left": 35
+    }, 
+    "swordskel_rennt_ne0006.png": {
+        "right": 74, 
+        "orig_h": 95, 
+        "bottom": 82, 
+        "top": 21, 
+        "orig_w": 95, 
+        "left": 35
+    }, 
+    "swordskel_spricht_sw0004.png": {
+        "right": 68, 
+        "orig_h": 95, 
+        "bottom": 83, 
+        "top": 21, 
+        "orig_w": 95, 
+        "left": 21
+    }, 
+    "strickt_ne0006.png": {
+        "right": 71, 
+        "orig_h": 95, 
+        "bottom": 85, 
+        "top": 24, 
+        "orig_w": 95, 
+        "left": 34
+    }, 
+    "zerf%E4llt_se0008.png": {
+        "right": 77, 
+        "orig_h": 95, 
+        "bottom": 92, 
+        "top": 50, 
+        "orig_w": 95, 
+        "left": 28
+    }, 
+    "zerf%E4llt_ne0008.png": {
+        "right": 81, 
+        "orig_h": 95, 
+        "bottom": 85, 
+        "top": 45, 
+        "orig_w": 95, 
+        "left": 28
+    }, 
+    "swordskel_l%E4uft_sw0008.png": {
+        "right": 70, 
+        "orig_h": 95, 
+        "bottom": 86, 
+        "top": 22, 
+        "orig_w": 95, 
+        "left": 27
+    }, 
+    "swordskel_spricht_se0006.png": {
+        "right": 64, 
+        "orig_h": 95, 
+        "bottom": 90, 
+        "top": 22, 
+        "orig_w": 95, 
+        "left": 36
+    }, 
+    "swordskel_l%E4uft_nw0007.png": {
+        "right": 66, 
+        "orig_h": 95, 
+        "bottom": 80, 
+        "top": 21, 
+        "orig_w": 95, 
+        "left": 27
+    }, 
+    "swordskel_treffer_s0001.png": {
+        "right": 68, 
+        "orig_h": 95, 
+        "bottom": 86, 
+        "top": 19, 
+        "orig_w": 95, 
+        "left": 27
+    }, 
+    "swordskel_l%E4uft_w0006.png": {
+        "right": 67, 
+        "orig_h": 95, 
+        "bottom": 81, 
+        "top": 24, 
+        "orig_w": 95, 
+        "left": 16
+    }, 
+    "strickt_ne0004.png": {
+        "right": 71, 
+        "orig_h": 95, 
+        "bottom": 85, 
+        "top": 25, 
+        "orig_w": 95, 
+        "left": 34
+    }, 
+    "swordskel_attack_n0007.png": {
+        "right": 64, 
+        "orig_h": 95, 
+        "bottom": 87, 
+        "top": 4, 
+        "orig_w": 95, 
+        "left": 28
+    }, 
+    "swordskel_l%E4uft_n0003.png": {
+        "right": 65, 
+        "orig_h": 95, 
+        "bottom": 86, 
+        "top": 25, 
+        "orig_w": 95, 
+        "left": 30
+    }, 
+    "swordskel_rennt_s0005.png": {
+        "right": 71, 
+        "orig_h": 95, 
+        "bottom": 88, 
+        "top": 22, 
+        "orig_w": 95, 
+        "left": 26
+    }, 
+    "swordskel_spricht_ne0000.png": {
+        "right": 77, 
+        "orig_h": 95, 
+        "bottom": 80, 
+        "top": 24, 
+        "orig_w": 95, 
+        "left": 33
+    }, 
+    "strickt_nw0006.png": {
+        "right": 66, 
+        "orig_h": 95, 
+        "bottom": 83, 
+        "top": 24, 
+        "orig_w": 95, 
+        "left": 30
+    }, 
+    "swordskel_rennt_n0001.png": {
+        "right": 74, 
+        "orig_h": 95, 
+        "bottom": 84, 
+        "top": 20, 
+        "orig_w": 95, 
+        "left": 33
+    }, 
+    "swordskel_rennt_w0008.png": {
+        "right": 77, 
+        "orig_h": 95, 
+        "bottom": 77, 
+        "top": 20, 
+        "orig_w": 95, 
+        "left": 20
+    }, 
+    "zerf%E4llt_se0006.png": {
+        "right": 76, 
+        "orig_h": 95, 
+        "bottom": 91, 
+        "top": 44, 
+        "orig_w": 95, 
+        "left": 30
+    }, 
+    "swordskel_rennt_ne0008.png": {
+        "right": 81, 
+        "orig_h": 95, 
+        "bottom": 89, 
+        "top": 18, 
+        "orig_w": 95, 
+        "left": 32
+    }, 
+    "strickt_w0005.png": {
+        "right": 67, 
+        "orig_h": 95, 
+        "bottom": 83, 
+        "top": 23, 
+        "orig_w": 95, 
+        "left": 29
+    }, 
+    "strickt_nw0004.png": {
+        "right": 67, 
+        "orig_h": 95, 
+        "bottom": 83, 
+        "top": 24, 
+        "orig_w": 95, 
+        "left": 27
+    }, 
+    "swordskel_rennt_e0001.png": {
+        "right": 76, 
+        "orig_h": 95, 
+        "bottom": 83, 
+        "top": 22, 
+        "orig_w": 95, 
+        "left": 29
+    }, 
+    "strickt_se0005.png": {
+        "right": 72, 
+        "orig_h": 95, 
+        "bottom": 89, 
+        "top": 22, 
+        "orig_w": 95, 
+        "left": 32
+    }, 
+    "zerf%E4llt_se0000.png": {
+        "right": 70, 
+        "orig_h": 95, 
+        "bottom": 84, 
+        "top": 16, 
+        "orig_w": 95, 
+        "left": 39
+    }, 
+    "zerf%E4llt_nw0000.png": {
+        "right": 70, 
+        "orig_h": 95, 
+        "bottom": 76, 
+        "top": 19, 
+        "orig_w": 95, 
+        "left": 35
+    }, 
+    "swordskel_spricht_s0002.png": {
+        "right": 71, 
+        "orig_h": 95, 
+        "bottom": 88, 
+        "top": 20, 
+        "orig_w": 95, 
+        "left": 34
+    }, 
+    "swordskel_treffer_w0000.png": {
+        "right": 67, 
+        "orig_h": 95, 
+        "bottom": 81, 
+        "top": 24, 
+        "orig_w": 95, 
+        "left": 24
+    }, 
+    "swordskel_treffer_w0001.png": {
+        "right": 70, 
+        "orig_h": 95, 
+        "bottom": 81, 
+        "top": 24, 
+        "orig_w": 95, 
+        "left": 27
+    }, 
+    "swordskel_treffer_sw0002.png": {
+        "right": 71, 
+        "orig_h": 95, 
+        "bottom": 81, 
+        "top": 20, 
+        "orig_w": 95, 
+        "left": 15
+    }, 
+    "swordskel_rennt_sw0000.png": {
+        "right": 68, 
+        "orig_h": 95, 
+        "bottom": 88, 
+        "top": 20, 
+        "orig_w": 95, 
+        "left": 21
+    }, 
+    "swordskel_spricht_s0004.png": {
+        "right": 71, 
+        "orig_h": 95, 
+        "bottom": 88, 
+        "top": 20, 
+        "orig_w": 95, 
+        "left": 34
+    }, 
+    "swordskel_l%E4uft_ne0005.png": {
+        "right": 78, 
+        "orig_h": 95, 
+        "bottom": 80, 
+        "top": 24, 
+        "orig_w": 95, 
+        "left": 32
+    }, 
+    "swordskel_attack_sw0001.png": {
+        "right": 67, 
+        "orig_h": 95, 
+        "bottom": 83, 
+        "top": 22, 
+        "orig_w": 95, 
+        "left": 17
+    }, 
+    "swordskel_treffer_sw0000.png": {
+        "right": 67, 
+        "orig_h": 95, 
+        "bottom": 82, 
+        "top": 22, 
+        "orig_w": 95, 
+        "left": 25
+    }, 
+    "swordskel_spricht_se0004.png": {
+        "right": 80, 
+        "orig_h": 95, 
+        "bottom": 90, 
+        "top": 21, 
+        "orig_w": 95, 
+        "left": 36
+    }, 
+    "swordskel_spricht_ne0002.png": {
+        "right": 77, 
+        "orig_h": 95, 
+        "bottom": 80, 
+        "top": 19, 
+        "orig_w": 95, 
+        "left": 33
+    }, 
+    "swordskel_rennt_ne0002.png": {
+        "right": 73, 
+        "orig_h": 95, 
+        "bottom": 82, 
+        "top": 22, 
+        "orig_w": 95, 
+        "left": 35
+    }, 
+    "swordskel_treffer_se0005.png": {
+        "right": 67, 
+        "orig_h": 95, 
+        "bottom": 91, 
+        "top": 20, 
+        "orig_w": 95, 
+        "left": 32
+    }, 
+    "swordskel_rennt_nw0005.png": {
+        "right": 79, 
+        "orig_h": 95, 
+        "bottom": 89, 
+        "top": 20, 
+        "orig_w": 95, 
+        "left": 26
+    }, 
+    "swordskel_rennt_w0001.png": {
+        "right": 68, 
+        "orig_h": 95, 
+        "bottom": 80, 
+        "top": 22, 
+        "orig_w": 95, 
+        "left": 28
+    }, 
+    "swordskel_rennt_se0004.png": {
+        "right": 78, 
+        "orig_h": 95, 
+        "bottom": 89, 
+        "top": 20, 
+        "orig_w": 95, 
+        "left": 18
+    }, 
+    "swordskel_l%E4uft_s0004.png": {
+        "right": 72, 
+        "orig_h": 95, 
+        "bottom": 87, 
+        "top": 22, 
+        "orig_w": 95, 
+        "left": 31
+    }, 
+    "swordskel_l%E4uft_nw0006.png": {
+        "right": 66, 
+        "orig_h": 95, 
+        "bottom": 81, 
+        "top": 24, 
+        "orig_w": 95, 
+        "left": 29
+    }, 
+    "strickt_n0006.png": {
+        "right": 67, 
+        "orig_h": 95, 
+        "bottom": 82, 
+        "top": 25, 
+        "orig_w": 95, 
+        "left": 34
+    }, 
+    "swordskel_rennt_ne0000.png": {
+        "right": 81, 
+        "orig_h": 95, 
+        "bottom": 89, 
+        "top": 18, 
+        "orig_w": 95, 
+        "left": 33
+    }, 
+    "swordskel_spricht_nw0005.png": {
+        "right": 67, 
+        "orig_h": 95, 
+        "bottom": 84, 
+        "top": 24, 
+        "orig_w": 95, 
+        "left": 26
+    }, 
+    "swordskel_l%E4uft_e0005.png": {
+        "right": 74, 
+        "orig_h": 95, 
+        "bottom": 80, 
+        "top": 24, 
+        "orig_w": 95, 
+        "left": 32
+    }, 
+    "swordskel_l%E4uft_nw0008.png": {
+        "right": 66, 
+        "orig_h": 95, 
+        "bottom": 83, 
+        "top": 21, 
+        "orig_w": 95, 
+        "left": 29
+    }, 
+    "swordskel_rennt_se0005.png": {
+        "right": 78, 
+        "orig_h": 95, 
+        "bottom": 87, 
+        "top": 21, 
+        "orig_w": 95, 
+        "left": 20
+    }, 
+    "swordskel_rennt_e0003.png": {
+        "right": 81, 
+        "orig_h": 95, 
+        "bottom": 81, 
+        "top": 21, 
+        "orig_w": 95, 
+        "left": 25
+    }, 
+    "swordskel_treffer_se0000.png": {
+        "right": 67, 
+        "orig_h": 95, 
+        "bottom": 87, 
+        "top": 22, 
+        "orig_w": 95, 
+        "left": 34
+    }, 
+    "swordskel_spricht_sw0000.png": {
+        "right": 66, 
+        "orig_h": 95, 
+        "bottom": 83, 
+        "top": 22, 
+        "orig_w": 95, 
+        "left": 21
+    }, 
+    "swordskel_treffer_w0002.png": {
+        "right": 74, 
+        "orig_h": 95, 
+        "bottom": 83, 
+        "top": 24, 
+        "orig_w": 95, 
+        "left": 36
+    }, 
+    "swordskel_attack_ne0007.png": {
+        "right": 81, 
+        "orig_h": 95, 
+        "bottom": 86, 
+        "top": 7, 
+        "orig_w": 95, 
+        "left": 21
+    }, 
+    "zerf%E4llt_n0004.png": {
+        "right": 73, 
+        "orig_h": 95, 
+        "bottom": 79, 
+        "top": 39, 
+        "orig_w": 95, 
+        "left": 28
+    }, 
+    "zerf%E4llt_e0004.png": {
+        "right": 75, 
+        "orig_h": 95, 
+        "bottom": 82, 
+        "top": 35, 
+        "orig_w": 95, 
+        "left": 31
+    }, 
+    "swordskel_attack_ne0002.png": {
+        "right": 85, 
+        "orig_h": 95, 
+        "bottom": 81, 
+        "top": 24, 
+        "orig_w": 95, 
+        "left": 39
+    }, 
+    "swordskel_l%E4uft_nw0001.png": {
+        "right": 66, 
+        "orig_h": 95, 
+        "bottom": 80, 
+        "top": 22, 
+        "orig_w": 95, 
+        "left": 28
+    }, 
+    "zerf%E4llt_ne0004.png": {
+        "right": 81, 
+        "orig_h": 95, 
+        "bottom": 79, 
+        "top": 38, 
+        "orig_w": 95, 
+        "left": 31
+    }, 
+    "swordskel_spricht_sw0005.png": {
+        "right": 67, 
+        "orig_h": 95, 
+        "bottom": 83, 
+        "top": 22, 
+        "orig_w": 95, 
+        "left": 21
+    }, 
+    "zerf%E4llt_e0001.png": {
+        "right": 69, 
+        "orig_h": 95, 
+        "bottom": 79, 
+        "top": 21, 
+        "orig_w": 95, 
+        "left": 39
+    }, 
+    "swordskel_attack_ne0005.png": {
+        "right": 77, 
+        "orig_h": 95, 
+        "bottom": 81, 
+        "top": 22, 
+        "orig_w": 95, 
+        "left": 38
+    }, 
+    "swordskel_spricht_se0005.png": {
+        "right": 74, 
+        "orig_h": 95, 
+        "bottom": 90, 
+        "top": 22, 
+        "orig_w": 95, 
+        "left": 36
+    }, 
+    "swordskel_steht0007.png": {
+        "right": 65, 
+        "orig_h": 95, 
+        "bottom": 82, 
+        "top": 22, 
+        "orig_w": 95, 
+        "left": 33
+    }, 
+    "swordskel_rennt_e0007.png": {
+        "right": 76, 
+        "orig_h": 95, 
+        "bottom": 83, 
+        "top": 21, 
+        "orig_w": 95, 
+        "left": 30
+    }, 
+    "swordskel_treffer_s0002.png": {
+        "right": 71, 
+        "orig_h": 95, 
+        "bottom": 79, 
+        "top": 17, 
+        "orig_w": 95, 
+        "left": 13
+    }, 
+    "swordskel_l%E4uft_ne0002.png": {
+        "right": 79, 
+        "orig_h": 95, 
+        "bottom": 82, 
+        "top": 24, 
+        "orig_w": 95, 
+        "left": 35
+    }, 
+    "swordskel_attack_e0000.png": {
+        "right": 74, 
+        "orig_h": 95, 
+        "bottom": 81, 
+        "top": 23, 
+        "orig_w": 95, 
+        "left": 36
+    }, 
+    "swordskel_l%E4uft_e0007.png": {
+        "right": 84, 
+        "orig_h": 95, 
+        "bottom": 81, 
+        "top": 23, 
+        "orig_w": 95, 
+        "left": 34
+    }, 
+    "swordskel_spricht_nw0003.png": {
+        "right": 68, 
+        "orig_h": 95, 
+        "bottom": 84, 
+        "top": 25, 
+        "orig_w": 95, 
+        "left": 30
+    }, 
+    "swordskel_treffer_nw0000.png": {
+        "right": 66, 
+        "orig_h": 95, 
+        "bottom": 80, 
+        "top": 24, 
+        "orig_w": 95, 
+        "left": 33
+    }, 
+    "swordskel_spricht_nw0002.png": {
+        "right": 68, 
+        "orig_h": 95, 
+        "bottom": 84, 
+        "top": 25, 
+        "orig_w": 95, 
+        "left": 25
+    }, 
+    "swordskel_spricht_se0003.png": {
+        "right": 76, 
+        "orig_h": 95, 
+        "bottom": 90, 
+        "top": 21, 
+        "orig_w": 95, 
+        "left": 36
+    }, 
+    "swordskel_steht0001.png": {
+        "right": 67, 
+        "orig_h": 95, 
+        "bottom": 82, 
+        "top": 22, 
+        "orig_w": 95, 
+        "left": 36
+    }, 
+    "swordskel_spricht_s0006.png": {
+        "right": 65, 
+        "orig_h": 95, 
+        "bottom": 88, 
+        "top": 22, 
+        "orig_w": 95, 
+        "left": 34
+    }, 
+    "swordskel_attack_sw0005.png": {
+        "right": 68, 
+        "orig_h": 95, 
+        "bottom": 89, 
+        "top": 9, 
+        "orig_w": 95, 
+        "left": 28
+    }, 
+    "strickt_s0006.png": {
+        "right": 65, 
+        "orig_h": 95, 
+        "bottom": 83, 
+        "top": 22, 
+        "orig_w": 95, 
+        "left": 30
+    }, 
+    "swordskel_attack_e0008.png": {
+        "right": 91, 
+        "orig_h": 95, 
+        "bottom": 79, 
+        "top": 29, 
+        "orig_w": 95, 
+        "left": 25
+    }, 
+    "swordskel_attack_s0004.png": {
+        "right": 69, 
+        "orig_h": 95, 
+        "bottom": 86, 
+        "top": 14, 
+        "orig_w": 95, 
+        "left": 26
+    }, 
+    "swordskel_spricht_e0005.png": {
+        "right": 75, 
+        "orig_h": 95, 
+        "bottom": 81, 
+        "top": 23, 
+        "orig_w": 95, 
+        "left": 36
+    }, 
+    "swordskel_attack_w0005.png": {
+        "right": 80, 
+        "orig_h": 95, 
+        "bottom": 84, 
+        "top": 15, 
+        "orig_w": 95, 
+        "left": 23
+    }, 
+    "swordskel_attack_sw0000.png": {
+        "right": 70, 
+        "orig_h": 95, 
+        "bottom": 82, 
+        "top": 22, 
+        "orig_w": 95, 
+        "left": 26
+    }, 
+    "swordskel_treffer_sw0004.png": {
+        "right": 71, 
+        "orig_h": 95, 
+        "bottom": 81, 
+        "top": 20, 
+        "orig_w": 95, 
+        "left": 15
+    }, 
+    "strickt_w0000.png": {
+        "right": 67, 
+        "orig_h": 95, 
+        "bottom": 83, 
+        "top": 24, 
+        "orig_w": 95, 
+        "left": 30
+    }, 
+    "strickt_sw0001.png": {
+        "right": 66, 
+        "orig_h": 95, 
+        "bottom": 82, 
+        "top": 22, 
+        "orig_w": 95, 
+        "left": 27
+    }, 
+    "swordskel_attack_s0002.png": {
+        "right": 67, 
+        "orig_h": 95, 
+        "bottom": 86, 
+        "top": 21, 
+        "orig_w": 95, 
+        "left": 19
+    }, 
+    "swordskel_spricht_e0003.png": {
+        "right": 75, 
+        "orig_h": 95, 
+        "bottom": 81, 
+        "top": 21, 
+        "orig_w": 95, 
+        "left": 36
+    }, 
+    "swordskel_spricht_ne0006.png": {
+        "right": 77, 
+        "orig_h": 95, 
+        "bottom": 80, 
+        "top": 24, 
+        "orig_w": 95, 
+        "left": 33
+    }, 
+    "swordskel_rennt_sw0003.png": {
+        "right": 71, 
+        "orig_h": 95, 
+        "bottom": 80, 
+        "top": 22, 
+        "orig_w": 95, 
+        "left": 32
+    }, 
+    "swordskel_spricht_n0002.png": {
+        "right": 65, 
+        "orig_h": 95, 
+        "bottom": 81, 
+        "top": 21, 
+        "orig_w": 95, 
+        "left": 33
+    }, 
+    "swordskel_treffer_ne0004.png": {
+        "right": 84, 
+        "orig_h": 95, 
+        "bottom": 84, 
+        "top": 27, 
+        "orig_w": 95, 
+        "left": 29
+    }, 
+    "swordskel_attack_e0006.png": {
+        "right": 79, 
+        "orig_h": 95, 
+        "bottom": 82, 
+        "top": 24, 
+        "orig_w": 95, 
+        "left": 37
+    }, 
+    "swordskel_l%E4uft_e0001.png": {
+        "right": 85, 
+        "orig_h": 95, 
+        "bottom": 82, 
+        "top": 23, 
+        "orig_w": 95, 
+        "left": 32
+    }, 
+    "swordskel_attack_sw0002.png": {
+        "right": 67, 
+        "orig_h": 95, 
+        "bottom": 84, 
+        "top": 22, 
+        "orig_w": 95, 
+        "left": 20
+    }, 
+    "swordskel_attack_se0005.png": {
+        "right": 83, 
+        "orig_h": 95, 
+        "bottom": 83, 
+        "top": 18, 
+        "orig_w": 95, 
+        "left": 26
+    }, 
+    "swordskel_rennt_n0002.png": {
+        "right": 74, 
+        "orig_h": 95, 
+        "bottom": 80, 
+        "top": 21, 
+        "orig_w": 95, 
+        "left": 33
+    }, 
+    "zerf%E4llt_w0001.png": {
+        "right": 70, 
+        "orig_h": 95, 
+        "bottom": 81, 
+        "top": 25, 
+        "orig_w": 95, 
+        "left": 30
+    }, 
+    "swordskel_attack_nw0006.png": {
+        "right": 67, 
+        "orig_h": 95, 
+        "bottom": 85, 
+        "top": 14, 
+        "orig_w": 95, 
+        "left": 23
+    }, 
+    "zerf%E4llt_se0002.png": {
+        "right": 71, 
+        "orig_h": 95, 
+        "bottom": 87, 
+        "top": 23, 
+        "orig_w": 95, 
+        "left": 37
+    }, 
+    "swordskel_treffer_n0003.png": {
+        "right": 92, 
+        "orig_h": 95, 
+        "bottom": 80, 
+        "top": 32, 
+        "orig_w": 95, 
+        "left": 27
+    }, 
+    "zerf%E4llt_e0007.png": {
+        "right": 79, 
+        "orig_h": 95, 
+        "bottom": 87, 
+        "top": 42, 
+        "orig_w": 95, 
+        "left": 29
+    }, 
+    "strickt_ne0000.png": {
+        "right": 71, 
+        "orig_h": 95, 
+        "bottom": 85, 
+        "top": 24, 
+        "orig_w": 95, 
+        "left": 34
+    }, 
+    "swordskel_rennt_ne0004.png": {
+        "right": 73, 
+        "orig_h": 95, 
+        "bottom": 86, 
+        "top": 13, 
+        "orig_w": 95, 
+        "left": 19
+    }, 
+    "swordskel_l%E4uft_se0006.png": {
+        "right": 72, 
+        "orig_h": 95, 
+        "bottom": 85, 
+        "top": 22, 
+        "orig_w": 95, 
+        "left": 37
+    }, 
+    "strickt_ne0002.png": {
+        "right": 71, 
+        "orig_h": 95, 
+        "bottom": 85, 
+        "top": 25, 
+        "orig_w": 95, 
+        "left": 34
+    }, 
+    "swordskel_l%E4uft_w0005.png": {
+        "right": 67, 
+        "orig_h": 95, 
+        "bottom": 81, 
+        "top": 23, 
+        "orig_w": 95, 
+        "left": 21
+    }, 
+    "zerf%E4llt_ne0006.png": {
+        "right": 82, 
+        "orig_h": 95, 
+        "bottom": 82, 
+        "top": 42, 
+        "orig_w": 95, 
+        "left": 30
+    }, 
+    "swordskel_attack_s0000.png": {
+        "right": 69, 
+        "orig_h": 95, 
+        "bottom": 86, 
+        "top": 22, 
+        "orig_w": 95, 
+        "left": 35
+    }, 
+    "swordskel_spricht_e0001.png": {
+        "right": 75, 
+        "orig_h": 95, 
+        "bottom": 81, 
+        "top": 23, 
+        "orig_w": 95, 
+        "left": 36
+    }, 
+    "swordskel_attack_n0009.png": {
+        "right": 70, 
+        "orig_h": 95, 
+        "bottom": 78, 
+        "top": 25, 
+        "orig_w": 95, 
+        "left": 28
+    }, 
+    "zerf%E4llt_nw0007.png": {
+        "right": 71, 
+        "orig_h": 95, 
+        "bottom": 83, 
+        "top": 46, 
+        "orig_w": 95, 
+        "left": 25
+    }, 
+    "swordskel_spricht_n0000.png": {
+        "right": 65, 
+        "orig_h": 95, 
+        "bottom": 81, 
+        "top": 25, 
+        "orig_w": 95, 
+        "left": 33
+    }, 
+    "swordskel_treffer_ne0006.png": {
+        "right": 72, 
+        "orig_h": 95, 
+        "bottom": 80, 
+        "top": 24, 
+        "orig_w": 95, 
+        "left": 33
+    }, 
+    "swordskel_spricht_w0002.png": {
+        "right": 69, 
+        "orig_h": 95, 
+        "bottom": 84, 
+        "top": 24, 
+        "orig_w": 95, 
+        "left": 23
+    }, 
+    "swordskel_spricht_sw0003.png": {
+        "right": 68, 
+        "orig_h": 95, 
+        "bottom": 83, 
+        "top": 21, 
+        "orig_w": 95, 
+        "left": 21
+    }, 
+    "swordskel_rennt_se0006.png": {
+        "right": 77, 
+        "orig_h": 95, 
+        "bottom": 82, 
+        "top": 23, 
+        "orig_w": 95, 
+        "left": 28
+    }, 
+    "zerf%E4llt_sw0003.png": {
+        "right": 73, 
+        "orig_h": 95, 
+        "bottom": 81, 
+        "top": 33, 
+        "orig_w": 95, 
+        "left": 22
+    }, 
+    "swordskel_l%E4uft_s0007.png": {
+        "right": 69, 
+        "orig_h": 95, 
+        "bottom": 84, 
+        "top": 22, 
+        "orig_w": 95, 
+        "left": 36
+    }, 
+    "strickt_n0004.png": {
+        "right": 68, 
+        "orig_h": 95, 
+        "bottom": 82, 
+        "top": 25, 
+        "orig_w": 95, 
+        "left": 33
+    }, 
+    "strickt_se0006.png": {
+        "right": 71, 
+        "orig_h": 95, 
+        "bottom": 88, 
+        "top": 22, 
+        "orig_w": 95, 
+        "left": 32
+    }, 
+    "zerf%E4llt_nw0001.png": {
+        "right": 70, 
+        "orig_h": 95, 
+        "bottom": 77, 
+        "top": 22, 
+        "orig_w": 95, 
+        "left": 35
+    }, 
+    "swordskel_rennt_s0003.png": {
+        "right": 71, 
+        "orig_h": 95, 
+        "bottom": 84, 
+        "top": 22, 
+        "orig_w": 95, 
+        "left": 27
+    }, 
+    "swordskel_attack_n0001.png": {
+        "right": 76, 
+        "orig_h": 95, 
+        "bottom": 80, 
+        "top": 24, 
+        "orig_w": 95, 
+        "left": 31
+    }, 
+    "swordskel_spricht_nw0001.png": {
+        "right": 67, 
+        "orig_h": 95, 
+        "bottom": 84, 
+        "top": 24, 
+        "orig_w": 95, 
+        "left": 26
+    }, 
+    "zerf%E4llt_se0005.png": {
+        "right": 75, 
+        "orig_h": 95, 
+        "bottom": 91, 
+        "top": 39, 
+        "orig_w": 95, 
+        "left": 32
+    }, 
+    "strickt_s0002.png": {
+        "right": 68, 
+        "orig_h": 95, 
+        "bottom": 83, 
+        "top": 22, 
+        "orig_w": 95, 
+        "left": 30
+    }, 
+    "swordskel_attack_w0006.png": {
+        "right": 63, 
+        "orig_h": 95, 
+        "bottom": 90, 
+        "top": 14, 
+        "orig_w": 95, 
+        "left": 25
+    }, 
+    "swordskel_attack_se0007.png": {
+        "right": 89, 
+        "orig_h": 95, 
+        "bottom": 86, 
+        "top": 27, 
+        "orig_w": 95, 
+        "left": 31
+    }, 
+    "swordskel_rennt_e0002.png": {
+        "right": 79, 
+        "orig_h": 95, 
+        "bottom": 83, 
+        "top": 23, 
+        "orig_w": 95, 
+        "left": 39
+    }, 
+    "zerf%E4llt_s0003.png": {
+        "right": 75, 
+        "orig_h": 95, 
+        "bottom": 89, 
+        "top": 32, 
+        "orig_w": 95, 
+        "left": 31
+    }, 
+    "zerf%E4llt_nw0002.png": {
+        "right": 69, 
+        "orig_h": 95, 
+        "bottom": 77, 
+        "top": 27, 
+        "orig_w": 95, 
+        "left": 34
+    }, 
+    "swordskel_spricht_nw0004.png": {
+        "right": 68, 
+        "orig_h": 95, 
+        "bottom": 84, 
+        "top": 25, 
+        "orig_w": 95, 
+        "left": 25
+    }, 
+    "swordskel_spricht_sw0001.png": {
+        "right": 67, 
+        "orig_h": 95, 
+        "bottom": 83, 
+        "top": 22, 
+        "orig_w": 95, 
+        "left": 21
+    }, 
+    "strickt_sw0005.png": {
+        "right": 66, 
+        "orig_h": 95, 
+        "bottom": 82, 
+        "top": 22, 
+        "orig_w": 95, 
+        "left": 27
+    }, 
+    "strickt_s0000.png": {
+        "right": 65, 
+        "orig_h": 95, 
+        "bottom": 83, 
+        "top": 22, 
+        "orig_w": 95, 
+        "left": 30
+    }, 
+    "swordskel_attack_w0009.png": {
+        "right": 68, 
+        "orig_h": 95, 
+        "bottom": 83, 
+        "top": 23, 
+        "orig_w": 95, 
+        "left": 18
+    }, 
+    "swordskel_l%E4uft_nw0000.png": {
+        "right": 66, 
+        "orig_h": 95, 
+        "bottom": 83, 
+        "top": 21, 
+        "orig_w": 95, 
+        "left": 29
+    }, 
+    "swordskel_attack_nw0000.png": {
+        "right": 66, 
+        "orig_h": 95, 
+        "bottom": 82, 
+        "top": 24, 
+        "orig_w": 95, 
+        "left": 34
+    }, 
+    "zerf%E4llt_nw0006.png": {
+        "right": 71, 
+        "orig_h": 95, 
+        "bottom": 82, 
+        "top": 45, 
+        "orig_w": 95, 
+        "left": 27
+    }, 
+    "swordskel_attack_sw0006.png": {
+        "right": 74, 
+        "orig_h": 95, 
+        "bottom": 86, 
+        "top": 17, 
+        "orig_w": 95, 
+        "left": 20
+    }, 
+    "swordskel_l%E4uft_e0003.png": {
+        "right": 76, 
+        "orig_h": 95, 
+        "bottom": 81, 
+        "top": 24, 
+        "orig_w": 95, 
+        "left": 32
+    }, 
+    "swordskel_spricht_w0005.png": {
+        "right": 67, 
+        "orig_h": 95, 
+        "bottom": 84, 
+        "top": 24, 
+        "orig_w": 95, 
+        "left": 23
+    }, 
+    "swordskel_rennt_s0007.png": {
+        "right": 69, 
+        "orig_h": 95, 
+        "bottom": 86, 
+        "top": 22, 
+        "orig_w": 95, 
+        "left": 26
+    }, 
+    "swordskel_attack_n0005.png": {
+        "right": 75, 
+        "orig_h": 95, 
+        "bottom": 77, 
+        "top": 22, 
+        "orig_w": 95, 
+        "left": 25
+    }, 
+    "swordskel_l%E4uft_se0000.png": {
+        "right": 76, 
+        "orig_h": 95, 
+        "bottom": 82, 
+        "top": 22, 
+        "orig_w": 95, 
+        "left": 29
+    }, 
+    "swordskel_rennt_se0007.png": {
+        "right": 75, 
+        "orig_h": 95, 
+        "bottom": 82, 
+        "top": 22, 
+        "orig_w": 95, 
+        "left": 29
+    }, 
+    "swordskel_spricht_e0000.png": {
+        "right": 75, 
+        "orig_h": 95, 
+        "bottom": 81, 
+        "top": 23, 
+        "orig_w": 95, 
+        "left": 36
+    }, 
+    "swordskel_attack_s0001.png": {
+        "right": 70, 
+        "orig_h": 95, 
+        "bottom": 83, 
+        "top": 21, 
+        "orig_w": 95, 
+        "left": 27
+    }, 
+    "strickt_n0005.png": {
+        "right": 68, 
+        "orig_h": 95, 
+        "bottom": 82, 
+        "top": 25, 
+        "orig_w": 95, 
+        "left": 34
+    }, 
+    "swordskel_attack_ne0008.png": {
+        "right": 75, 
+        "orig_h": 95, 
+        "bottom": 82, 
+        "top": 22, 
+        "orig_w": 95, 
+        "left": 22
+    }, 
+    "swordskel_steht0003.png": {
+        "right": 66, 
+        "orig_h": 95, 
+        "bottom": 80, 
+        "top": 24, 
+        "orig_w": 95, 
+        "left": 34
+    }, 
+    "swordskel_treffer_se0002.png": {
+        "right": 68, 
+        "orig_h": 95, 
+        "bottom": 93, 
+        "top": 19, 
+        "orig_w": 95, 
+        "left": 27
+    }, 
+    "zerf%E4llt_se0001.png": {
+        "right": 70, 
+        "orig_h": 95, 
+        "bottom": 85, 
+        "top": 19, 
+        "orig_w": 95, 
+        "left": 39
+    }, 
+    "swordskel_attack_nw0009.png": {
+        "right": 68, 
+        "orig_h": 95, 
+        "bottom": 83, 
+        "top": 24, 
+        "orig_w": 95, 
+        "left": 33
+    }, 
+    "zerf%E4llt_n0006.png": {
+        "right": 75, 
+        "orig_h": 95, 
+        "bottom": 81, 
+        "top": 48, 
+        "orig_w": 95, 
+        "left": 24
+    }, 
+    "swordskel_rennt_w0007.png": {
+        "right": 66, 
+        "orig_h": 95, 
+        "bottom": 81, 
+        "top": 21, 
+        "orig_w": 95, 
+        "left": 28
+    }, 
+    "swordskel_rennt_nw0003.png": {
+        "right": 81, 
+        "orig_h": 95, 
+        "bottom": 89, 
+        "top": 20, 
+        "orig_w": 95, 
+        "left": 26
+    }, 
+    "zerf%E4llt_n0002.png": {
+        "right": 69, 
+        "orig_h": 95, 
+        "bottom": 74, 
+        "top": 28, 
+        "orig_w": 95, 
+        "left": 31
+    }, 
+    "swordskel_attack_se0003.png": {
+        "right": 77, 
+        "orig_h": 95, 
+        "bottom": 83, 
+        "top": 21, 
+        "orig_w": 95, 
+        "left": 31
+    }, 
+    "swordskel_treffer_sw0005.png": {
+        "right": 69, 
+        "orig_h": 95, 
+        "bottom": 82, 
+        "top": 21, 
+        "orig_w": 95, 
+        "left": 20
+    }, 
+    "swordskel_l%E4uft_e0006.png": {
+        "right": 83, 
+        "orig_h": 95, 
+        "bottom": 81, 
+        "top": 23, 
+        "orig_w": 95, 
+        "left": 39
+    }, 
+    "swordskel_attack_e0001.png": {
+        "right": 79, 
+        "orig_h": 95, 
+        "bottom": 84, 
+        "top": 23, 
+        "orig_w": 95, 
+        "left": 39
+    }, 
+    "swordskel_treffer_se0004.png": {
+        "right": 68, 
+        "orig_h": 95, 
+        "bottom": 93, 
+        "top": 19, 
+        "orig_w": 95, 
+        "left": 27
+    }, 
+    "swordskel_attack_ne0001.png": {
+        "right": 86, 
+        "orig_h": 95, 
+        "bottom": 81, 
+        "top": 24, 
+        "orig_w": 95, 
+        "left": 36
+    }, 
+    "swordskel_l%E4uft_sw0004.png": {
+        "right": 66, 
+        "orig_h": 95, 
+        "bottom": 84, 
+        "top": 22, 
+        "orig_w": 95, 
+        "left": 22
+    }, 
+    "zerf%E4llt_s0002.png": {
+        "right": 74, 
+        "orig_h": 95, 
+        "bottom": 87, 
+        "top": 26, 
+        "orig_w": 95, 
+        "left": 33
+    }, 
+    "swordskel_attack_s0006.png": {
+        "right": 79, 
+        "orig_h": 95, 
+        "bottom": 82, 
+        "top": 24, 
+        "orig_w": 95, 
+        "left": 30
+    }, 
+    "swordskel_treffer_s0006.png": {
+        "right": 66, 
+        "orig_h": 95, 
+        "bottom": 87, 
+        "top": 22, 
+        "orig_w": 95, 
+        "left": 35
+    }, 
+    "swordskel_treffer_n0006.png": {
+        "right": 65, 
+        "orig_h": 95, 
+        "bottom": 78, 
+        "top": 25, 
+        "orig_w": 95, 
+        "left": 33
+    }, 
+    "swordskel_spricht_n0006.png": {
+        "right": 65, 
+        "orig_h": 95, 
+        "bottom": 81, 
+        "top": 25, 
+        "orig_w": 95, 
+        "left": 33
+    }, 
+    "swordskel_attack_sw0004.png": {
+        "right": 67, 
+        "orig_h": 95, 
+        "bottom": 86, 
+        "top": 10, 
+        "orig_w": 95, 
+        "left": 27
+    }, 
+    "zerf%E4llt_sw0005.png": {
+        "right": 72, 
+        "orig_h": 95, 
+        "bottom": 85, 
+        "top": 44, 
+        "orig_w": 95, 
+        "left": 18
+    }, 
+    "zerf%E4llt_s0005.png": {
+        "right": 77, 
+        "orig_h": 95, 
+        "bottom": 92, 
+        "top": 43, 
+        "orig_w": 95, 
+        "left": 26
+    }, 
+    "swordskel_l%E4uft_sw0002.png": {
+        "right": 66, 
+        "orig_h": 95, 
+        "bottom": 82, 
+        "top": 22, 
+        "orig_w": 95, 
+        "left": 21
+    }, 
+    "swordskel_treffer_nw0004.png": {
+        "right": 72, 
+        "orig_h": 95, 
+        "bottom": 82, 
+        "top": 27, 
+        "orig_w": 95, 
+        "left": 32
+    }, 
+    "swordskel_rennt_e0006.png": {
+        "right": 78, 
+        "orig_h": 95, 
+        "bottom": 84, 
+        "top": 23, 
+        "orig_w": 95, 
+        "left": 41
+    }, 
+    "swordskel_attack_nw0002.png": {
+        "right": 72, 
+        "orig_h": 95, 
+        "bottom": 80, 
+        "top": 13, 
+        "orig_w": 95, 
+        "left": 26
+    }, 
+    "swordskel_rennt_w0003.png": {
+        "right": 72, 
+        "orig_h": 95, 
+        "bottom": 82, 
+        "top": 21, 
+        "orig_w": 95, 
+        "left": 24
+    }, 
+    "swordskel_rennt_nw0007.png": {
+        "right": 66, 
+        "orig_h": 95, 
+        "bottom": 79, 
+        "top": 20, 
+        "orig_w": 95, 
+        "left": 28
+    }, 
+    "swordskel_rennt_n0008.png": {
+        "right": 75, 
+        "orig_h": 95, 
+        "bottom": 89, 
+        "top": 16, 
+        "orig_w": 95, 
+        "left": 33
+    }, 
+    "strickt_nw0003.png": {
+        "right": 67, 
+        "orig_h": 95, 
+        "bottom": 83, 
+        "top": 24, 
+        "orig_w": 95, 
+        "left": 26
+    }, 
+    "swordskel_rennt_s0008.png": {
+        "right": 69, 
+        "orig_h": 95, 
+        "bottom": 90, 
+        "top": 20, 
+        "orig_w": 95, 
+        "left": 27
+    }, 
+    "swordskel_spricht_se0001.png": {
+        "right": 74, 
+        "orig_h": 95, 
+        "bottom": 90, 
+        "top": 22, 
+        "orig_w": 95, 
+        "left": 36
+    }, 
+    "swordskel_attack_nw0004.png": {
+        "right": 75, 
+        "orig_h": 95, 
+        "bottom": 80, 
+        "top": 18, 
+        "orig_w": 95, 
+        "left": 21
+    }, 
+    "zerf%E4llt_nw0005.png": {
+        "right": 71, 
+        "orig_h": 95, 
+        "bottom": 81, 
+        "top": 44, 
+        "orig_w": 95, 
+        "left": 28
+    }, 
+    "swordskel_rennt_e0004.png": {
+        "right": 81, 
+        "orig_h": 95, 
+        "bottom": 79, 
+        "top": 19, 
+        "orig_w": 95, 
+        "left": 17
+    }, 
+    "swordskel_rennt_sw0007.png": {
+        "right": 66, 
+        "orig_h": 95, 
+        "bottom": 87, 
+        "top": 22, 
+        "orig_w": 95, 
+        "left": 26
+    }, 
+    "swordskel_rennt_ne0001.png": {
+        "right": 77, 
+        "orig_h": 95, 
+        "bottom": 84, 
+        "top": 20, 
+        "orig_w": 95, 
+        "left": 37
+    }, 
+    "swordskel_spricht_s0005.png": {
+        "right": 67, 
+        "orig_h": 95, 
+        "bottom": 88, 
+        "top": 21, 
+        "orig_w": 95, 
+        "left": 34
+    }, 
+    "zerf%E4llt_n0001.png": {
+        "right": 69, 
+        "orig_h": 95, 
+        "bottom": 74, 
+        "top": 23, 
+        "orig_w": 95, 
+        "left": 31
+    }, 
+    "zerf%E4llt_ne0002.png": {
+        "right": 78, 
+        "orig_h": 95, 
+        "bottom": 75, 
+        "top": 27, 
+        "orig_w": 95, 
+        "left": 32
+    }, 
+    "swordskel_treffer_sw0001.png": {
+        "right": 69, 
+        "orig_h": 95, 
+        "bottom": 82, 
+        "top": 21, 
+        "orig_w": 95, 
+        "left": 20
+    }, 
+    "swordskel_attack_se0001.png": {
+        "right": 72, 
+        "orig_h": 95, 
+        "bottom": 88, 
+        "top": 22, 
+        "orig_w": 95, 
+        "left": 32
+    }, 
+    "swordskel_attack_n0008.png": {
+        "right": 69, 
+        "orig_h": 95, 
+        "bottom": 85, 
+        "top": 17, 
+        "orig_w": 95, 
+        "left": 27
+    }, 
+    "strickt_e0001.png": {
+        "right": 73, 
+        "orig_h": 95, 
+        "bottom": 87, 
+        "top": 24, 
+        "orig_w": 95, 
+        "left": 35
+    }, 
+    "strickt_se0000.png": {
+        "right": 71, 
+        "orig_h": 95, 
+        "bottom": 88, 
+        "top": 22, 
+        "orig_w": 95, 
+        "left": 32
+    }, 
+    "swordskel_rennt_sw0005.png": {
+        "right": 72, 
+        "orig_h": 95, 
+        "bottom": 82, 
+        "top": 22, 
+        "orig_w": 95, 
+        "left": 27
+    }, 
+    "swordskel_treffer_e0005.png": {
+        "right": 68, 
+        "orig_h": 95, 
+        "bottom": 85, 
+        "top": 23, 
+        "orig_w": 95, 
+        "left": 36
+    }, 
+    "strickt_w0003.png": {
+        "right": 67, 
+        "orig_h": 95, 
+        "bottom": 83, 
+        "top": 23, 
+        "orig_w": 95, 
+        "left": 28
+    }, 
+    "zerf%E4llt_w0008.png": {
+        "right": 72, 
+        "orig_h": 95, 
+        "bottom": 92, 
+        "top": 54, 
+        "orig_w": 95, 
+        "left": 21
+    }, 
+    "swordskel_attack_n0002.png": {
+        "right": 83, 
+        "orig_h": 95, 
+        "bottom": 80, 
+        "top": 21, 
+        "orig_w": 95, 
+        "left": 34
+    }, 
+    "swordskel_rennt_s0000.png": {
+        "right": 69, 
+        "orig_h": 95, 
+        "bottom": 90, 
+        "top": 21, 
+        "orig_w": 95, 
+        "left": 27
+    }, 
+    "swordskel_attack_w0007.png": {
+        "right": 77, 
+        "orig_h": 95, 
+        "bottom": 84, 
+        "top": 27, 
+        "orig_w": 95, 
+        "left": 11
+    }, 
+    "swordskel_treffer_e0002.png": {
+        "right": 63, 
+        "orig_h": 95, 
+        "bottom": 95, 
+        "top": 23, 
+        "orig_w": 95, 
+        "left": 32
+    }, 
+    "swordskel_l%E4uft_se0008.png": {
+        "right": 76, 
+        "orig_h": 95, 
+        "bottom": 82, 
+        "top": 22, 
+        "orig_w": 95, 
+        "left": 29
+    }, 
+    "zerf%E4llt_sw0007.png": {
+        "right": 72, 
+        "orig_h": 95, 
+        "bottom": 89, 
+        "top": 54, 
+        "orig_w": 95, 
+        "left": 18
+    }, 
+    "swordskel_l%E4uft_n0004.png": {
+        "right": 66, 
+        "orig_h": 95, 
+        "bottom": 88, 
+        "top": 25, 
+        "orig_w": 95, 
+        "left": 30
+    }, 
+    "swordskel_treffer_e0004.png": {
+        "right": 63, 
+        "orig_h": 95, 
+        "bottom": 95, 
+        "top": 23, 
+        "orig_w": 95, 
+        "left": 32
+    }, 
+    "swordskel_l%E4uft_sw0000.png": {
+        "right": 70, 
+        "orig_h": 95, 
+        "bottom": 86, 
+        "top": 22, 
+        "orig_w": 95, 
+        "left": 27
+    }, 
+    "swordskel_l%E4uft_nw0004.png": {
+        "right": 67, 
+        "orig_h": 95, 
+        "bottom": 87, 
+        "top": 24, 
+        "orig_w": 95, 
+        "left": 24
+    }
+}

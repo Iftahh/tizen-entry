@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Isometric</title>
+
+    <style type="text/css">
+
+        #debug {
+            padding:5px;
+            position: absolute;
+            left: 20px;
+            top: 20px;
+            bottom: 20px;
+            width: 180px;
+
+            border: 3px inset #bbb;
+            background-color: #ddd;
+        }
+        #debug_text {
+            padding:3px;
+            font-family: monospace;
+            white-space: pre;
+        }
+
+        #container{
+            position: absolute;
+            left: 220px;
+            top: 20px;
+            bottom: 20px;
+            right: 20px;
+            border: 3px inset #bbb;
+            cursor: default;
+            overflow: hidden;
+
+            background: white;
+
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            -o-user-select: none;
+            user-select: none;
+        }
+
+        #content{
+            background: #000;
+
+            -webkit-transform-origin: left top;
+            -webkit-transform: translateZ(0);
+            -moz-transform-origin: left top;
+            -moz-transform: translateZ(0);
+            -ms-transform-origin: left top;
+            -ms-transform: translateZ(0);
+            -o-transform-origin: left top;
+            -o-transform: translateZ(0);
+            transform-origin: left top;
+            transform: translateZ(0);
+        }
+        #permutations-list > li {
+
+        }
+        #permutations-list > li:hover {
+            background-color: #ffd;
+            cursor: pointer;
+        }
+
+    </style>
+</head>
+<body>
+<div id="debug">
+    <div id="debug_text">
+
+    </div>
+    Figure out which vertex permutation is used by Tiled...
+    <input type="text" id="permutation">
+    <ul id="permutations-list"></ul>
+</div>
+<div id="container">
+    <canvas id="content"></canvas>
+</div>
+
+</body>
+
+<script type="text/javascript" src="/js/libs/zepto.min.js"></script>
+<script type="text/javascript" src="/js/core/core.js"></script>
+<script type="text/javascript" src="/js/scroller/Animate.js"></script>
+<script type="text/javascript" src="/js/scroller/Scroller.js"></script>
+<script type="text/javascript" src="/js/isometric/FlatLayer.js"></script>
+<script type="text/javascript" src="/js/isometric/IsometricMap.js"></script>
+<script type="text/javascript" src="/js/isometric/Topology.js"></script>
+<script type="text/javascript" src="/js/isometric/IsometricGenerator.js"></script>
+<script type="text/javascript" src="/tests/js/isometric_generated_test.js"></script>
+</html>

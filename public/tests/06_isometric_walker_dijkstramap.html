@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Isometric</title>
+
+    <style type="text/css">
+
+        #debug {
+            padding:5px;
+            position: absolute;
+            left: 20px;
+            top: 20px;
+            bottom: 20px;
+            width: 280px;
+
+            border: 3px inset #bbb;
+            background-color: #ddd;
+        }
+        #debug_text {
+            padding:3px;
+            font-family: monospace;
+            white-space: pre;
+        }
+
+        #container{
+            position: absolute;
+            left: 320px;
+            top: 20px;
+            bottom: 20px;
+            right: 20px;
+            border: 3px inset #bbb;
+            cursor: default;
+            overflow: hidden;
+
+            background: white;
+
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            -o-user-select: none;
+            user-select: none;
+        }
+
+        #content{
+            background: #000;
+
+            -webkit-transform-origin: left top;
+            -webkit-transform: translateZ(0);
+            -moz-transform-origin: left top;
+            -moz-transform: translateZ(0);
+            -ms-transform-origin: left top;
+            -ms-transform: translateZ(0);
+            -o-transform-origin: left top;
+            -o-transform: translateZ(0);
+            transform-origin: left top;
+            transform: translateZ(0);
+        }
+    </style>
+</head>
+<body>
+<div id="debug">
+    <div id="properties">
+        <table>
+            <tbody>
+            <tr>
+                <td colspan="3">Use right mouse clicks to start dijkstra searches</td>
+            </tr>
+            <tr> <td>Seed:</td><td><input id="mazeSeed" type="number" value=123></td><td></td>
+            </tr>
+            <tr>
+                <td>Size</td>
+                <td>Width: <input id="mazeWidth" type="number" value=50> </td>
+                <td>Height: <input id="mazeHeight" type="number" value=80></td>
+            </tr>
+            <tr><td>Percent Done</td>
+                <td colspan><input type="number" id="min-percent-done" value=30 max=100 min=0/></td>
+                <td colspan><input type="number" id="max-percent-done" value=35 max=100 min=0/></td>
+            </tr>
+            <tr>
+                <td>Iterations</td>
+                <td><input type="number" id="iterations" value="4"/></td>
+            </tr>
+            <tr>
+                <td>Create</td>
+                <td colspan=2><input type="text" id="cell-create" value="3,4"/></td>
+            </tr>
+            <tr>
+                <td>Survive</td>
+                <td colspan=2><input type="text" id="cell-survive" value="2,3,4" /></td>
+            </tr>
+            </tbody>
+        </table>
+        <div id="debug_text"></div>
+    </div>
+</div>
+<div id="container">
+    <canvas id="content"></canvas>
+</div>
+
+</body>
+
+<script type="text/javascript" src="/js/libs/zepto.min.js"></script>
+<script type="text/javascript" src="/js/core/core.js"></script>
+<script type="text/javascript" src="/js/scroller/Animate.js"></script>
+<script type="text/javascript" src="/js/scroller/Scroller.js"></script>
+<script type="text/javascript" src="/js/algorithms/BinaryHeap.js"></script>
+<script type="text/javascript" src="/js/isometric/IsometricMap.js"></script>
+<script type="text/javascript" src="/js/isometric/Topology.js"></script>
+<script type="text/javascript" src="/js/isometric/IsometricGeometry.js"></script>
+<script type="text/javascript" src="/js/isometric/IsometricGenerator.js"></script>
+<script type="text/javascript" src="/js/mazegen/walker_maze_gen.js"></script>
+<script type="text/javascript" src="/js/mazegen/cellular_maze_gen.js"></script>
+<script type="text/javascript" src="/js/algorithms/DijkstraMap.js"></script>
+<script type="text/javascript" src="/tests/js/isometric_walker_gen_test.js"></script>
+<script type="text/javascript" src="/tests/js/isometric_dijkstra_test.js"></script>
+</html>

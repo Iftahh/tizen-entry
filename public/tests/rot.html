@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rot</title>
+
+    <style type="text/css">
+
+        input {
+            margin-right: 25px;
+            width: 45px;
+        }
+
+        #container{
+            position: absolute;
+            left: 20px;
+            top: 20px;
+            bottom: 20px;
+            right: 20px;
+            border: 3px inset #bbb;
+            cursor: default;
+            overflow: hidden;
+
+            background: white;
+
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            -o-user-select: none;
+            user-select: none;
+        }
+
+        #content{
+            background: #000;
+
+            -webkit-transform-origin: left top;
+            -webkit-transform: translateZ(0);
+            -moz-transform-origin: left top;
+            -moz-transform: translateZ(0);
+            -ms-transform-origin: left top;
+            -ms-transform: translateZ(0);
+            -o-transform-origin: left top;
+            -o-transform: translateZ(0);
+            transform-origin: left top;
+            transform: translateZ(0);
+        }
+    </style>
+</head>
+<body>
+<div id="container">
+    <canvas id="content"></canvas>
+</div>
+
+</body>
+
+<script type="text/javascript" src="/js/libs/zepto.min.js"></script>
+<script type="text/javascript" src="/js/core/core.js"></script>
+<script type="text/javascript" src="/js/scroller/Animate.js"></script>
+<script type="text/javascript" src="/js/scroller/Scroller.js"></script>
+<script type="text/javascript" src="/js/isometric/IsometricMap.js"></script>
+<script type="text/javascript" src="/js/libs/rot.js"></script>
+<script type="text/javascript" src="/tests/js/rot_test.js"></script>
+</html>

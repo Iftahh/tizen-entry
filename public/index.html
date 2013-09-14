@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Pages Of Knowledge</title>
+<meta name="description" content="Game Pages Of Knowledge - Learn as you play">
+<meta name="viewport" content="width=device-width">
+
+<!-- TODO: favicon -->
+
+<link rel="stylesheet" href="/css/main.css">
+<link href='http://fonts.googleapis.com/css?family=Fondamento' rel='stylesheet' type='text/css'>
+</head>
+<body>
+<!--[if IE ]>
+<h1>Sorry...</h1>
+<p>This game only works in Chrome for now...</p>
+</body>
+<![endif]-->
+
+<![if !IE]>
+<div id="container">
+    <canvas id="content"></canvas>
+</div>
+
+<div id="backstory">
+    <h2>Welcome to the Cursed Mines</h2>
+    <p>
+        As you enter the mines the ground shakes violently and all around you huge chunks of rocks fall down.
+        After a few seconds it is all over, but as the dust settles you find out that the entrance is completely blocked by huge boulders.
+    </p>
+    <p>But all is not lost, for somewhere in this most foul place, the lost pages from the legendary <strong><i>Book of Knowledge</i></strong> are hidden.
+    </p>
+    <p>
+        Many adventurers tried to find them and gain the magical powers from their forgotten secrets... but they all failed and their dusty bones now litter the ground of the abandoned mines...
+    </p>
+    <p>One of the pages will surely be powerful enough to crush the boulders and allow you to escape.</p>
+    <br>
+    <strong>Before you begin please answer -</strong><br>
+    <div style="text-align:center">
+        <span style="font-size:22px;">What would you like to learn?</span>
+        <div style="text-align:left; width: 200px; margin:auto">
+            <label style="color:#777"><input type="radio" value="spanish" disabled />Spanish - coming soon!</label><br>
+            <label><input type="radio" value="math" checked />Mental Math</label><br>
+        </div>
+
+        <div id="loading">
+            <div id="progress">
+            </div>
+            <div id="progress-text">
+                Loading...
+            </div>
+        </div>
+        <br>
+            <a href="#" class="start-button hidden">Begin the Adventure !</a>
+        <br>
+        <!--<input type="button" id="generate" value="Generate new Map">-->
+        <div id="bottom-bar" style="margin-top:-15px">
+            <a href="/about.html">About</a>
+            <a href="/how_to_play.html" style="margin-left:50px">How to Play</a>
+        </div>
+    </div>
+</div>
+
+
+</body>
+
+<script type="text/javascript" src="/js/libs/zepto.min.js"></script>
+<script type="text/javascript" src="/js/core/core.js"></script>
+<script type="text/javascript" src="/js/core/AssetLoader.js"></script>
+<script type="text/javascript" src="/js/loader.js"></script>
+</html>
+<![endif]-->

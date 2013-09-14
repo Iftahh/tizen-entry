@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Particles</title>
+
+    <style type="text/css">
+
+        #debug {
+            padding:5px;
+            position: absolute;
+            left: 20px;
+            top: 20px;
+            bottom: 20px;
+            width: 280px;
+
+            border: 3px inset #bbb;
+            background-color: #ddd;
+        }
+        #debug_text {
+            padding:3px;
+            font-family: monospace;
+            white-space: pre;
+        }
+
+        #container{
+            position: absolute;
+            left: 320px;
+            top: 20px;
+            bottom: 20px;
+            right: 20px;
+            border: 3px inset #bbb;
+            cursor: default;
+            overflow: hidden;
+
+            background: white;
+
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            -o-user-select: none;
+            user-select: none;
+        }
+
+        #content{
+            background: #000;
+
+            -webkit-transform-origin: left top;
+            -webkit-transform: translateZ(0);
+            -moz-transform-origin: left top;
+            -moz-transform: translateZ(0);
+            -ms-transform-origin: left top;
+            -ms-transform: translateZ(0);
+            -o-transform-origin: left top;
+            -o-transform: translateZ(0);
+            transform-origin: left top;
+            transform: translateZ(0);
+        }
+    </style>
+</head>
+<body>
+<div id="debug">
+    <div id="properties">
+        <table>
+            <tbody>
+            <tr> <td>Seed:</td><td><input id="seed" type="number" value=123></td><td></td>
+            </tr>
+            <tr>
+                <td>Size: <input id="size" value="30" type="number"/></td>
+                <td>+- <input id="sizeRandom" value="12" type="number"/></td>
+            </tr>
+            <tr>
+                <td>Speed: <input id="speed" type="number" value=6 /></td>
+                <td>+- <input id="speedRandom" value="2" type="number"/></td>
+            </tr>
+            <tr>
+                <td>Life Span: <input id="lifeSpan" value="8" type="number"/></td>
+                <td>+- <input id="lifeSpanRandom" value="6" type="number"/></td>
+            </tr>
+            <tr>
+                <td>Angle:<input id="angle" type="number" value="0" /></td>
+                <td>+-<input id="angleRandom" value="180" type="number"/></td>
+            </tr>
+            <tr>
+                <td>Start Color: <input id="startColor" value="220, 208, 88, 1" type="text"/></td>
+                <td>+-<input id="startColorRandom" value="52, 55, 58, 0" type="text"/></td>
+            </tr>
+            <tr>
+                <td>Finish Color: <input id="finishColor" value="255, 45, 10, 0" type="text"/></td>
+                <td>+-<input id="finishColorRandom" value="40, 40, 40, 0 " type="text"/></td>
+            </tr>
+            <tr>
+                <td>Sharpness<input id="sharpness" value="35" type="number"/></td>
+                <td>+-<input id="sharpnessRandom" value="12" type="number"/></td>
+            </tr>
+            <tr>
+                <td>Position: <input id="position" value="100, 100" type="text"/></td>
+                <td>+-<input id="positionRandom" value="20, 20" type="text"/></td>
+            </tr>
+            <tr>
+                <td>Gravity<input id="gravity" type="text" value="0.5, 0.3"/></td>
+            </tr>
+            <tr>
+                <td colspan="2"><button id="update">Update</button></td>
+            </tr>
+            </tbody>
+        </table>
+        <div id="debug_text"></div>
+    </div>
+</div>
+<div id="container">
+    <canvas id="content"></canvas>
+</div>
+
+</body>
+
+<script type="text/javascript" src="/js/libs/zepto.min.js"></script>
+<script type="text/javascript" src="/js/core/core.js"></script>
+<script type="text/javascript" src="/js/algorithms/MinArray.js"></script>
+<script type="text/javascript" src="/js/core/particle.js"></script>
+<script type="text/javascript" src="/tests/js/particles_test.js"></script>
+</html>

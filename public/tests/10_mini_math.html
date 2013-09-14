@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mini Math</title>
+
+    <style type="text/css">
+
+        #left-pane {
+            padding:5px;
+            position: absolute;
+            left: 20px;
+            top: 20px;
+            bottom: 20px;
+            width: 280px;
+
+            border: 3px inset #bbb;
+            background-color: #ddd;
+        }
+        #debug_text {
+            padding:3px;
+            font-family: monospace;
+            white-space: pre;
+        }
+
+        #container{
+            position: absolute;
+            left: 320px;
+            top: 20px;
+            bottom: 20px;
+            right: 20px;
+            border: 3px inset #bbb;
+            cursor: default;
+            overflow: hidden;
+
+            background: white;
+
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            -o-user-select: none;
+            user-select: none;
+        }
+
+        #content{
+            background: #000;
+
+            -webkit-transform-origin: left top;
+            -webkit-transform: translateZ(0);
+            -moz-transform-origin: left top;
+            -moz-transform: translateZ(0);
+            -ms-transform-origin: left top;
+            -ms-transform: translateZ(0);
+            -o-transform-origin: left top;
+            -o-transform: translateZ(0);
+            transform-origin: left top;
+            transform: translateZ(0);
+        }
+    </style>
+</head>
+<body>
+<div id="left-pane">
+    <div style="text-align:center">
+        <label for="level-1"><input id="level-1" class="level-choose" value="1" name="level" type="radio"/>Level 1</label><br>
+        <label for="level-2"><input id="level-2" class="level-choose" value="2" name="level" type="radio" checked />Level 2</label><br>
+        <label for="level-3"><input id="level-3" class="level-choose" value="3" name="level" type="radio"/>Level 3</label><br>
+        <label for="level-4"><input id="level-4" class="level-choose" value="4" name="level" type="radio" disabled/>Level 4</label><br>
+        <label for="level-5"><input id="level-5" class="level-choose" value="5" name="level" type="radio" disabled/>Level 5</label><br>
+        <label for="level-6"><input id="level-6" class="level-choose" value="6" name="level" type="radio" disabled/>Level 6</label><br>
+        <label for="level-7"><input id="level-7" class="level-choose" value="7" name="level" type="radio" disabled/>Level 7</label><br>
+        <label for="level-8"><input id="level-8" class="level-choose" value="8" name="level" type="radio" disabled/>Level 8</label><br>
+        <label for="level-9"><input id="level-9" class="level-choose" value="9" name="level" type="radio" disabled/>Level 9</label><br>
+        <label for="level-10"><input id="level-10" class="level-choose" value="10" name="level" type="radio" disabled/>Level 10</label><br>
+        <hr>
+        <div id="debug_text"></div>
+    </div>
+</div>
+<div id="container">
+    <canvas id="content"></canvas>
+</div>
+
+</body>
+
+<script type="text/javascript" src="/js/libs/zepto.min.js"></script>
+<script type="text/javascript" src="/js/core/core.js"></script>
+<script type="text/javascript" src="/js/core/Sprite.js"></script>
+<script type="text/javascript" src="/js/core/InputEngine.js"></script>
+<script type="text/javascript" src="/js/minigames/math/which_smaller.js"></script>
+<script type="text/javascript" src="/tests/js/math_mini_test.js"></script>
+</html>

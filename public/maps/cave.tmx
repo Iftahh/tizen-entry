@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="staggered" width="100" height="100" tilewidth="64" tileheight="32">
+ <tileset firstgid="1" name="tiled_cave_1" tilewidth="64" tileheight="128">
+  <image source="../imgs/tiled_cave_1.png" width="1024" height="1920"/>
+  <terraintypes>
+   <terrain name="Water" tile="201"/>
+   <terrain name="Wall" tile="58"/>
+   <terrain name="Ground" tile="1"/>
+   <terrain name="Ground-Layer" tile="1"/>
+  </terraintypes>
+  <tile id="0" terrain="3,3,3,3"/>
+  <tile id="1" terrain="3,3,3,3"/>
+  <tile id="2" terrain="3,3,3,3"/>
+  <tile id="3" terrain="3,3,3,3"/>
+  <tile id="4" terrain="3,3,3,3"/>
+  <tile id="5" terrain="3,3,3,3"/>
+  <tile id="6" terrain="3,3,3,3"/>
+  <tile id="7" terrain="3,3,3,3"/>
+  <tile id="8" terrain="3,3,3,3"/>
+  <tile id="9" terrain="3,3,3,3"/>
+  <tile id="10" terrain="3,3,3,3"/>
+  <tile id="11" terrain="3,3,3,3"/>
+  <tile id="12" terrain="3,3,3,3"/>
+  <tile id="13" terrain="3,3,3,3"/>
+  <tile id="14" terrain="3,3,3,3"/>
+  <tile id="15" terrain="3,3,3,3"/>
+  <tile id="32" terrain="3,3,3,3"/>
+  <tile id="33" terrain="3,3,3,3"/>
+  <tile id="34" terrain="3,3,3,3"/>
+  <tile id="35" terrain="3,3,3,3"/>
+  <tile id="36" terrain="3,3,3,3"/>
+  <tile id="37" terrain="3,3,3,3"/>
+  <tile id="38" terrain="3,3,3,3"/>
+  <tile id="39" terrain="3,3,3,3"/>
+  <tile id="42" terrain="2,2,2,2"/>
+  <tile id="43" terrain="2,2,2,2"/>
+  <tile id="44" terrain="2,2,2,2"/>
+  <tile id="45" terrain="2,2,2,2"/>
+  <tile id="46" terrain="2,2,2,2"/>
+  <tile id="47" terrain="2,2,2,2"/>
+  <tile id="48" terrain="1,2,1,2"/>
+  <tile id="49" terrain="1,1,2,2"/>
+  <tile id="50" terrain="2,1,2,1"/>
+  <tile id="51" terrain="2,2,1,1"/>
+  <tile id="52" terrain="1,2,1,2"/>
+  <tile id="53" terrain="1,1,2,2"/>
+  <tile id="54" terrain="2,1,2,1"/>
+  <tile id="55" terrain="2,2,1,1"/>
+  <tile id="56" terrain="1,1,1,2"/>
+  <tile id="57" terrain="1,1,2,1"/>
+  <tile id="58" terrain=",1,1,1"/>
+  <tile id="59" terrain="1,2,1,1"/>
+  <tile id="60" terrain="1,1,1,2"/>
+  <tile id="61" terrain="1,1,2,1"/>
+  <tile id="62" terrain="2,1,1,1"/>
+  <tile id="63" terrain="1,2,1,1"/>
+  <tile id="64" terrain="1,2,2,2"/>
+  <tile id="65" terrain="2,1,2,2"/>
+  <tile id="66" terrain="2,2,2,1"/>
+  <tile id="67" terrain="2,2,1,2"/>
+  <tile id="68" terrain="1,2,2,2"/>
+  <tile id="69" terrain="2,1,2,2"/>
+  <tile id="70" terrain="2,2,2,1"/>
+  <tile id="71" terrain="2,2,1,2"/>
+  <tile id="72" terrain="2,2,2,2"/>
+  <tile id="73" terrain="2,2,2,2"/>
+  <tile id="74" terrain="2,2,2,2"/>
+  <tile id="75" terrain="2,2,2,2"/>
+  <tile id="76" terrain="2,2,2,2"/>
+  <tile id="77" terrain="2,2,2,2"/>
+  <tile id="78" terrain="2,2,2,2"/>
+  <tile id="79" terrain="2,2,2,2"/>
+  <tile id="80" terrain="1,2,1,2"/>
+  <tile id="81" terrain="1,1,2,2"/>
+  <tile id="82" terrain="1,1,1,2"/>
+  <tile id="83" terrain="1,2,2,2"/>
+  <tile id="84" terrain="1,2,1,2"/>
+  <tile id="85" terrain="1,1,2,2"/>
+  <tile id="86" terrain="1,1,1,2"/>
+  <tile id="87" terrain="1,2,2,2"/>
+  <tile id="88" terrain="1,2,1,2"/>
+  <tile id="89" terrain="1,1,2,2"/>
+  <tile id="90" terrain="2,1,2,1"/>
+  <tile id="91" terrain="2,2,1,1"/>
+  <tile id="92" terrain="1,2,1,2"/>
+  <tile id="93" terrain="1,1,2,2"/>
+  <tile id="94" terrain="2,2,2,2"/>
+  <tile id="95" terrain="2,2,2,2"/>
+  <tile id="96" terrain="1,2,1,2"/>
+  <tile id="97" terrain="1,1,2,2"/>
+  <tile id="98" terrain="1,1,1,2"/>
+  <tile id="99" terrain="1,2,2,2"/>
+  <tile id="100" terrain="2,2,2,2"/>
+  <tile id="101" terrain="2,2,2,2"/>
+  <tile id="102" terrain="2,2,2,2"/>
+  <tile id="103" terrain="2,2,2,2"/>
+  <tile id="104" terrain="2,2,2,2"/>
+  <tile id="105" terrain="2,2,2,2"/>
+  <tile id="106" terrain="2,2,2,2"/>
+  <tile id="107" terrain="2,2,2,2"/>
+  <tile id="108" terrain="2,2,2,2"/>
+  <tile id="109" terrain="2,2,2,2"/>
+  <tile id="110" terrain="2,2,2,2"/>
+  <tile id="111" terrain="2,2,2,2"/>
+  <tile id="116" terrain="2,2,2,2">
+   <properties>
+    <property name="mushroom" value="1"/>
+   </properties>
+  </tile>
+  <tile id="117" terrain="2,2,2,2">
+   <properties>
+    <property name="mushroom" value="2"/>
+   </properties>
+  </tile>
+  <tile id="118" terrain="2,2,2,2">
+   <properties>
+    <property name="mushroom" value="1"/>
+   </properties>
+  </tile>
+  <tile id="119" terrain="2,2,2,2">
+   <properties>
+    <property name="mushroom" value="2"/>
+   </properties>
+  </tile>
+  <tile id="120" terrain="2,2,2,2"/>
+  <tile id="121" terrain="2,2,2,2"/>
+  <tile id="122" terrain="2,2,2,2"/>
+  <tile id="123" terrain="2,2,2,2"/>
+  <tile id="124" terrain="2,2,2,2"/>
+  <tile id="125" terrain="2,2,2,2"/>
+  <tile id="126" terrain="2,2,2,2"/>
+  <tile id="127" terrain="2,2,2,2"/>
+  <tile id="130">
+   <properties>
+    <property name="blocking" value="1"/>
+   </properties>
+  </tile>
+  <tile id="131">
+   <properties>
+    <property name="blocking" value="1"/>
+   </properties>
+  </tile>
+  <tile id="132">
+   <properties>
+    <property name="blocking" value="2"/>
+   </properties>
+  </tile>
+  <tile id="133">
+   <properties>
+    <property name="blocking" value="2"/>
+   </properties>
+  </tile>
+  <tile id="134">
+   <properties>
+    <property name="blocking" value="1"/>
+   </properties>
+  </tile>
+  <tile id="135" terrain="2,2,2,2"/>
+  <tile id="136" terrain="2,2,2,2"/>
+  <tile id="137">
+   <properties>
+    <property name="blocking" value="2"/>
+   </properties>
+  </tile>
+  <tile id="138" terrain="2,2,2,2"/>
+  <tile id="139" terrain="2,2,2,2"/>
+  <tile id="140" terrain="2,2,2,2"/>
+  <tile id="141" terrain="2,2,2,2"/>
+  <tile id="142" terrain="2,2,2,2"/>
+  <tile id="143" terrain="2,2,2,2"/>
+  <tile id="144" terrain="2,2,2,2"/>
+  <tile id="145" terrain="2,2,2,2"/>
+  <tile id="146" terrain="2,2,2,2"/>
+  <tile id="147" terrain="2,2,2,2"/>
+  <tile id="148" terrain="2,2,2,2"/>
+  <tile id="149" terrain="2,2,2,2"/>
+  <tile id="150" terrain="2,2,2,2"/>
+  <tile id="151" terrain="2,2,2,2"/>
+  <tile id="152" terrain="2,2,2,2"/>
+  <tile id="153" terrain="2,2,2,2"/>
+  <tile id="154" terrain="2,2,2,2"/>
+  <tile id="155" terrain="2,2,2,2"/>
+  <tile id="156" terrain="2,2,2,2"/>
+  <tile id="157" terrain="2,2,2,2"/>
+  <tile id="158" terrain="2,2,2,2"/>
+  <tile id="159" terrain="2,2,2,2"/>
+  <tile id="160" terrain="2,2,2,2"/>
+  <tile id="161" terrain="2,2,2,2"/>
+  <tile id="162" terrain="2,2,2,2"/>
+  <tile id="163" terrain="2,2,2,2"/>
+  <tile id="164" terrain="2,2,2,2"/>
+  <tile id="165" terrain="2,2,2,2"/>
+  <tile id="166" terrain="2,2,2,2"/>
+  <tile id="167" terrain="2,2,2,2"/>
+  <tile id="168" terrain="2,2,2,2"/>
+  <tile id="169" terrain="2,2,2,2"/>
+  <tile id="170" terrain="2,2,2,2"/>
+  <tile id="171" terrain="2,2,2,2"/>
+  <tile id="172" terrain="2,2,2,2"/>
+  <tile id="173" terrain="2,2,2,2"/>
+  <tile id="174" terrain="2,2,2,2"/>
+  <tile id="175" terrain="2,2,2,2"/>
+  <tile id="176" terrain="3,0,3,0"/>
+  <tile id="177" terrain="3,3,0,0"/>
+  <tile id="178" terrain="0,3,0,3"/>
+  <tile id="179" terrain="0,0,3,3"/>
+  <tile id="180" terrain="3,0,3,0"/>
+  <tile id="181" terrain="3,3,0,0"/>
+  <tile id="182" terrain="0,3,0,3"/>
+  <tile id="183" terrain="0,0,3,3"/>
+  <tile id="184" terrain="3,0,3,3"/>
+  <tile id="185" terrain="3,3,3,0"/>
+  <tile id="186" terrain="3,3,0,3"/>
+  <tile id="187" terrain="0,3,3,3"/>
+  <tile id="188" terrain="3,0,3,3"/>
+  <tile id="189" terrain="3,3,3,0"/>
+  <tile id="190" terrain="3,3,0,3"/>
+  <tile id="191" terrain="0,3,3,3"/>
+  <tile id="192" terrain="0,0,3,0"/>
+  <tile id="193" terrain="3,0,0,0"/>
+  <tile id="194" terrain="0,3,0,0"/>
+  <tile id="195" terrain="0,0,0,3"/>
+  <tile id="196" terrain="0,0,3,0"/>
+  <tile id="197" terrain="3,0,0,0"/>
+  <tile id="198" terrain="0,3,0,0"/>
+  <tile id="199" terrain="0,0,0,3"/>
+  <tile id="200" terrain="0,0,0,0"/>
+  <tile id="201" terrain="0,0,0,0"/>
+  <tile id="202" terrain="0,0,0,0"/>
+  <tile id="203" terrain="0,0,0,0"/>
+  <tile id="204" terrain="2,2,2,2"/>
+  <tile id="205" terrain="2,2,2,2"/>
+  <tile id="206" terrain="2,2,2,2"/>
+  <tile id="207" terrain="2,2,2,2"/>
+  <tile id="208" terrain="2,2,2,2"/>
+  <tile id="209" terrain="2,2,2,2"/>
+  <tile id="210" terrain="2,2,2,2"/>
+  <tile id="211" terrain="2,2,2,2"/>
+  <tile id="212" terrain="2,2,2,2"/>
+  <tile id="213" terrain="2,2,2,2"/>
+  <tile id="214" terrain="2,2,2,2"/>
+  <tile id="215" terrain="2,2,2,2"/>
+  <tile id="216" terrain="2,2,2,2"/>
+  <tile id="217" terrain="2,2,2,2"/>
+  <tile id="218" terrain="2,2,2,2"/>
+  <tile id="219" terrain="2,2,2,2"/>
+  <tile id="220" terrain="2,2,2,2"/>
+  <tile id="221" terrain="2,2,2,2"/>
+  <tile id="222" terrain="2,2,2,2"/>
+  <tile id="223" terrain="2,2,2,2"/>
+  <tile id="224" terrain="2,2,2,2"/>
+  <tile id="225" terrain="2,2,2,2"/>
+  <tile id="226" terrain="2,2,2,2"/>
+  <tile id="227" terrain="2,2,2,2"/>
+  <tile id="228" terrain="2,2,2,2"/>
+  <tile id="229" terrain="2,2,2,2"/>
+  <tile id="230" terrain="2,2,2,2"/>
+  <tile id="231" terrain="2,2,2,2"/>
+  <tile id="232" terrain="2,2,2,2"/>
+  <tile id="233" terrain="2,2,2,2"/>
+  <tile id="234" terrain="2,2,2,2"/>
+  <tile id="235" terrain="2,2,2,2"/>
+  <tile id="236" terrain="2,2,2,2"/>
+  <tile id="237" terrain="2,2,2,2"/>
+  <tile id="238" terrain="2,2,2,2"/>
+  <tile id="239" terrain="2,2,2,2"/>
+ </tileset>
+ <layer name="Ground" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   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
+  </data>
+ </layer>
+ <layer name="Water" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJztzssJgDAURcH0X44oAT8V2FQeLgIWIHfhDJz9aQ0AAAAAAAAAAADgW3t6gGmrlvQE01Xd1ZEe4bFWPT3By5keAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAfmsAbVwGjA==
+  </data>
+ </layer>
+ <layer name="Stuff" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt2csKwjAURdH+sm+nSq3Vr9aBgoEWpUJPCmvBJSF3sudpGgCY7pgOgIXoXucmWgFQap9zSkdQOKcD+Mk6HQAA/GX1cd/FKgCGbdMBUJnLl/19lgpYjn06gMIhHQCVuQ28XWevYEyfDoDK+EcHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADg7QG1HQja
+  </data>
+ </layer>
+ <layer name="Walls" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T+1lC6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAbnEAAAQ==
+  </data>
+ </layer>
+</map>

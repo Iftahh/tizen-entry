@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Monsters</title>
+
+    <style type="text/css">
+
+        #left-pane {
+            padding:5px;
+            position: absolute;
+            left: 20px;
+            top: 20px;
+            bottom: 20px;
+            width: 280px;
+
+            border: 3px inset #bbb;
+            background-color: #ddd;
+        }
+        #debug_text {
+            padding:3px;
+            font-family: monospace;
+            white-space: pre;
+        }
+
+        #container{
+            position: absolute;
+            left: 320px;
+            top: 20px;
+            bottom: 20px;
+            right: 20px;
+            border: 3px inset #bbb;
+            cursor: default;
+            overflow: hidden;
+
+            background: white;
+
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            -o-user-select: none;
+            user-select: none;
+        }
+
+        #content{
+            background: #000;
+
+            -webkit-transform-origin: left top;
+            -webkit-transform: translateZ(0);
+            -moz-transform-origin: left top;
+            -moz-transform: translateZ(0);
+            -ms-transform-origin: left top;
+            -ms-transform: translateZ(0);
+            -o-transform-origin: left top;
+            -o-transform: translateZ(0);
+            transform-origin: left top;
+            transform: translateZ(0);
+        }
+    </style>
+</head>
+<body>
+<div id="left-pane">
+    <div style="text-align:center">
+        <button id="add-monster">Add Monster</button>
+        <div id="debug_text"></div>
+    </div>
+</div>
+<div id="container">
+    <canvas id="content"></canvas>
+</div>
+
+</body>
+
+<script type="text/javascript" src="/js/libs/zepto.min.js"></script>
+<script type="text/javascript" src="/js/core/core.js"></script>
+<script type="text/javascript" src="/js/algorithms/BinaryHeap.js"></script>
+<script type="text/javascript" src="/js/isometric/IsometricMap.js"></script>
+<script type="text/javascript" src="/js/isometric/Topology.js"></script>
+<script type="text/javascript" src="/js/isometric/IsometricGeometry.js"></script>
+<script type="text/javascript" src="/js/isometric/IsometricGenerator.js"></script>
+<script type="text/javascript" src="/js/mazegen/walker_maze_gen.js"></script>
+<script type="text/javascript" src="/js/mazegen/cellular_maze_gen.js"></script>
+<script type="text/javascript" src="/js/core/Atlas.js"></script>
+<script type="text/javascript" src="/js/algorithms/DijkstraMap.js"></script>
+<script type="text/javascript" src="/js/core/components/Animation.js"></script>
+<script type="text/javascript" src="/js/core/Sprite.js"></script>
+<script type="text/javascript" src="/js/core/InputEngine.js"></script>
+<script type="text/javascript" src="/tests/js/monsters.js"></script>
+<script type="text/javascript" src="/tests/js/monsters_test.js"></script>
+</html>

@@ -1,0 +1,3706 @@
+{
+    "attack_ne0000.png": {
+        "right": 67,
+        "orig_h": 95,
+        "bottom": 80,
+        "top": 22,
+        "orig_w": 95,
+        "left": 33
+    },
+    "lNuft_n0002.png": {
+        "right": 66,
+        "orig_h": 95,
+        "bottom": 83,
+        "top": 20,
+        "orig_w": 95,
+        "left": 32
+    },
+    "kippt_um_sw0003.png": {
+        "right": 73,
+        "orig_h": 95,
+        "bottom": 82,
+        "top": 18,
+        "orig_w": 95,
+        "left": 29
+    },
+    "kippt_um_nw0000.png": {
+        "right": 67,
+        "orig_h": 95,
+        "bottom": 81,
+        "top": 22,
+        "orig_w": 95,
+        "left": 32
+    },
+    "stan_spricht_ne0002.png": {
+        "right": 67,
+        "orig_h": 95,
+        "bottom": 79,
+        "top": 21,
+        "orig_w": 95,
+        "left": 33
+    },
+    "kippt_um_w0005.png": {
+        "right": 83,
+        "orig_h": 95,
+        "bottom": 78,
+        "top": 31,
+        "orig_w": 95,
+        "left": 13
+    },
+    "kippt_um_se0000.png": {
+        "right": 68,
+        "orig_h": 95,
+        "bottom": 78,
+        "top": 22,
+        "orig_w": 95,
+        "left": 33
+    },
+    "stan_strickt_ne0006.png": {
+        "right": 74,
+        "orig_h": 95,
+        "bottom": 80,
+        "top": 21,
+        "orig_w": 95,
+        "left": 32
+    },
+    "rennt_w0000.png": {
+        "right": 85,
+        "orig_h": 95,
+        "bottom": 84,
+        "top": 19,
+        "orig_w": 95,
+        "left": 21
+    },
+    "lNuft_n0000.png": {
+        "right": 66,
+        "orig_h": 95,
+        "bottom": 83,
+        "top": 20,
+        "orig_w": 95,
+        "left": 32
+    },
+    "lNuft_sw0003.png": {
+        "right": 69,
+        "orig_h": 95,
+        "bottom": 78,
+        "top": 20,
+        "orig_w": 95,
+        "left": 36
+    },
+    "kippt_um_nw0001.png": {
+        "right": 68,
+        "orig_h": 95,
+        "bottom": 77,
+        "top": 22,
+        "orig_w": 95,
+        "left": 27
+    },
+    "stan_spricht_e0000.png": {
+        "right": 65,
+        "orig_h": 95,
+        "bottom": 80,
+        "top": 22,
+        "orig_w": 95,
+        "left": 35
+    },
+    "lNuft_w0004.png": {
+        "right": 69,
+        "orig_h": 95,
+        "bottom": 78,
+        "top": 21,
+        "orig_w": 95,
+        "left": 29
+    },
+    "stan_spricht_ne0004.png": {
+        "right": 67,
+        "orig_h": 95,
+        "bottom": 79,
+        "top": 21,
+        "orig_w": 95,
+        "left": 33
+    },
+    "noarmstan_treffer_w0002.png": {
+        "right": 73,
+        "orig_h": 95,
+        "bottom": 82,
+        "top": 24,
+        "orig_w": 95,
+        "left": 37
+    },
+    "stan_spricht_s0005.png": {
+        "right": 68,
+        "orig_h": 95,
+        "bottom": 77,
+        "top": 21,
+        "orig_w": 95,
+        "left": 33
+    },
+    "attack_e0008.png": {
+        "right": 65,
+        "orig_h": 95,
+        "bottom": 80,
+        "top": 22,
+        "orig_w": 95,
+        "left": 36
+    },
+    "kippt_um_nw0008.png": {
+        "right": 67,
+        "orig_h": 95,
+        "bottom": 81,
+        "top": 34,
+        "orig_w": 95,
+        "left": 17
+    },
+    "stan_spricht_nw0005.png": {
+        "right": 66,
+        "orig_h": 95,
+        "bottom": 80,
+        "top": 22,
+        "orig_w": 95,
+        "left": 25
+    },
+    "rennt_nw0006.png": {
+        "right": 78,
+        "orig_h": 95,
+        "bottom": 91,
+        "top": 22,
+        "orig_w": 95,
+        "left": 21
+    },
+    "stan_spricht_e0002.png": {
+        "right": 77,
+        "orig_h": 95,
+        "bottom": 80,
+        "top": 22,
+        "orig_w": 95,
+        "left": 36
+    },
+    "lNuft_ne0008.png": {
+        "right": 71,
+        "orig_h": 95,
+        "bottom": 82,
+        "top": 21,
+        "orig_w": 95,
+        "left": 27
+    },
+    "naormstan_treffer_nw0003.png": {
+        "right": 71,
+        "orig_h": 95,
+        "bottom": 83,
+        "top": 30,
+        "orig_w": 95,
+        "left": 27
+    },
+    "stan_spricht_se0000.png": {
+        "right": 68,
+        "orig_h": 95,
+        "bottom": 78,
+        "top": 22,
+        "orig_w": 95,
+        "left": 33
+    },
+    "attack_s0001.png": {
+        "right": 75,
+        "orig_h": 95,
+        "bottom": 75,
+        "top": 19,
+        "orig_w": 95,
+        "left": 24
+    },
+    "lNuft_e0006.png": {
+        "right": 64,
+        "orig_h": 95,
+        "bottom": 78,
+        "top": 20,
+        "orig_w": 95,
+        "left": 27
+    },
+    "stan_strickt_nw0005.png": {
+        "right": 67,
+        "orig_h": 95,
+        "bottom": 81,
+        "top": 22,
+        "orig_w": 95,
+        "left": 26
+    },
+    "attack_sw0002.png": {
+        "right": 76,
+        "orig_h": 95,
+        "bottom": 76,
+        "top": 21,
+        "orig_w": 95,
+        "left": 18
+    },
+    "rennt_n0000.png": {
+        "right": 71,
+        "orig_h": 95,
+        "bottom": 94,
+        "top": 19,
+        "orig_w": 95,
+        "left": 25
+    },
+    "noarmstan_treffer_s0006.png": {
+        "right": 67,
+        "orig_h": 95,
+        "bottom": 77,
+        "top": 22,
+        "orig_w": 95,
+        "left": 33
+    },
+    "rennt_ne0005.png": {
+        "right": 69,
+        "orig_h": 95,
+        "bottom": 92,
+        "top": 20,
+        "orig_w": 95,
+        "left": 21
+    },
+    "noarmstan_treffer_s0003.png": {
+        "right": 76,
+        "orig_h": 95,
+        "bottom": 77,
+        "top": 16,
+        "orig_w": 95,
+        "left": 25
+    },
+    "stan_strickt_nw0003.png": {
+        "right": 67,
+        "orig_h": 95,
+        "bottom": 81,
+        "top": 22,
+        "orig_w": 95,
+        "left": 27
+    },
+    "rennt_sw0006.png": {
+        "right": 78,
+        "orig_h": 95,
+        "bottom": 84,
+        "top": 24,
+        "orig_w": 95,
+        "left": 24
+    },
+    "lNuft_se0006.png": {
+        "right": 68,
+        "orig_h": 95,
+        "bottom": 76,
+        "top": 20,
+        "orig_w": 95,
+        "left": 28
+    },
+    "stan_spricht_w0005.png": {
+        "right": 66,
+        "orig_h": 95,
+        "bottom": 80,
+        "top": 22,
+        "orig_w": 95,
+        "left": 30
+    },
+    "rennt_se0007.png": {
+        "right": 71,
+        "orig_h": 95,
+        "bottom": 82,
+        "top": 22,
+        "orig_w": 95,
+        "left": 22
+    },
+    "stan_spricht_nw0001.png": {
+        "right": 66,
+        "orig_h": 95,
+        "bottom": 80,
+        "top": 22,
+        "orig_w": 95,
+        "left": 25
+    },
+    "attack_sw0008.png": {
+        "right": 67,
+        "orig_h": 95,
+        "bottom": 78,
+        "top": 22,
+        "orig_w": 95,
+        "left": 32
+    },
+    "lNuft_nw0002.png": {
+        "right": 68,
+        "orig_h": 95,
+        "bottom": 83,
+        "top": 20,
+        "orig_w": 95,
+        "left": 32
+    },
+    "kippt_um_s0004.png": {
+        "right": 70,
+        "orig_h": 95,
+        "bottom": 87,
+        "top": 16,
+        "orig_w": 95,
+        "left": 32
+    },
+    "attack_se0004.png": {
+        "right": 77,
+        "orig_h": 95,
+        "bottom": 87,
+        "top": 15,
+        "orig_w": 95,
+        "left": 23
+    },
+    "kippt_um_e0005.png": {
+        "right": 84,
+        "orig_h": 95,
+        "bottom": 72,
+        "top": 32,
+        "orig_w": 95,
+        "left": 17
+    },
+    "steht0002.png": {
+        "right": 66,
+        "orig_h": 95,
+        "bottom": 79,
+        "top": 21,
+        "orig_w": 95,
+        "left": 40
+    },
+    "lNuft_w0001.png": {
+        "right": 69,
+        "orig_h": 95,
+        "bottom": 79,
+        "top": 20,
+        "orig_w": 95,
+        "left": 34
+    },
+    "stan_spricht_n0005.png": {
+        "right": 66,
+        "orig_h": 95,
+        "bottom": 79,
+        "top": 22,
+        "orig_w": 95,
+        "left": 32
+    },
+    "kippt_um_ne0004.png": {
+        "right": 74,
+        "orig_h": 95,
+        "bottom": 74,
+        "top": 25,
+        "orig_w": 95,
+        "left": 27
+    },
+    "stan_strickt_e0005.png": {
+        "right": 78,
+        "orig_h": 95,
+        "bottom": 83,
+        "top": 22,
+        "orig_w": 95,
+        "left": 35
+    },
+    "lNuft_sw0004.png": {
+        "right": 69,
+        "orig_h": 95,
+        "bottom": 79,
+        "top": 20,
+        "orig_w": 95,
+        "left": 31
+    },
+    "lNuft_nw0008.png": {
+        "right": 68,
+        "orig_h": 95,
+        "bottom": 83,
+        "top": 20,
+        "orig_w": 95,
+        "left": 29
+    },
+    "rennt_sw0002.png": {
+        "right": 79,
+        "orig_h": 95,
+        "bottom": 84,
+        "top": 23,
+        "orig_w": 95,
+        "left": 24
+    },
+    "lNuft_w0007.png": {
+        "right": 69,
+        "orig_h": 95,
+        "bottom": 79,
+        "top": 20,
+        "orig_w": 95,
+        "left": 35
+    },
+    "stan_strickt_e0002.png": {
+        "right": 78,
+        "orig_h": 95,
+        "bottom": 83,
+        "top": 22,
+        "orig_w": 95,
+        "left": 35
+    },
+    "lNuft_e0008.png": {
+        "right": 68,
+        "orig_h": 95,
+        "bottom": 78,
+        "top": 21,
+        "orig_w": 95,
+        "left": 27
+    },
+    "attack_ne0004.png": {
+        "right": 80,
+        "orig_h": 95,
+        "bottom": 83,
+        "top": 15,
+        "orig_w": 95,
+        "left": 20
+    },
+    "rennt_w0006.png": {
+        "right": 83,
+        "orig_h": 95,
+        "bottom": 80,
+        "top": 23,
+        "orig_w": 95,
+        "left": 29
+    },
+    "noarmstan_treffer_s0001.png": {
+        "right": 70,
+        "orig_h": 95,
+        "bottom": 77,
+        "top": 19,
+        "orig_w": 95,
+        "left": 31
+    },
+    "lNuft_e0007.png": {
+        "right": 64,
+        "orig_h": 95,
+        "bottom": 78,
+        "top": 21,
+        "orig_w": 95,
+        "left": 27
+    },
+    "lNuft_nw0006.png": {
+        "right": 68,
+        "orig_h": 95,
+        "bottom": 83,
+        "top": 20,
+        "orig_w": 95,
+        "left": 31
+    },
+    "stan_strickt_sw0003.png": {
+        "right": 67,
+        "orig_h": 95,
+        "bottom": 79,
+        "top": 22,
+        "orig_w": 95,
+        "left": 22
+    },
+    "noarmstan_treffer_sw0004.png": {
+        "right": 69,
+        "orig_h": 95,
+        "bottom": 79,
+        "top": 20,
+        "orig_w": 95,
+        "left": 27
+    },
+    "noarmstan_treffer_ne0004.png": {
+        "right": 73,
+        "orig_h": 95,
+        "bottom": 83,
+        "top": 27,
+        "orig_w": 95,
+        "left": 29
+    },
+    "stan_spricht_nw0003.png": {
+        "right": 67,
+        "orig_h": 95,
+        "bottom": 80,
+        "top": 24,
+        "orig_w": 95,
+        "left": 28
+    },
+    "stan_strickt_sw0002.png": {
+        "right": 67,
+        "orig_h": 95,
+        "bottom": 79,
+        "top": 22,
+        "orig_w": 95,
+        "left": 22
+    },
+    "stan_strickt_ne0000.png": {
+        "right": 74,
+        "orig_h": 95,
+        "bottom": 80,
+        "top": 21,
+        "orig_w": 95,
+        "left": 32
+    },
+    "kippt_um_s0006.png": {
+        "right": 73,
+        "orig_h": 95,
+        "bottom": 83,
+        "top": 23,
+        "orig_w": 95,
+        "left": 29
+    },
+    "lNuft_e0000.png": {
+        "right": 68,
+        "orig_h": 95,
+        "bottom": 77,
+        "top": 21,
+        "orig_w": 95,
+        "left": 27
+    },
+    "attack_se0006.png": {
+        "right": 70,
+        "orig_h": 95,
+        "bottom": 88,
+        "top": 16,
+        "orig_w": 95,
+        "left": 28
+    },
+    "lNuft_n0004.png": {
+        "right": 66,
+        "orig_h": 95,
+        "bottom": 83,
+        "top": 20,
+        "orig_w": 95,
+        "left": 32
+    },
+    "attack_ne0006.png": {
+        "right": 81,
+        "orig_h": 95,
+        "bottom": 83,
+        "top": 24,
+        "orig_w": 95,
+        "left": 25
+    },
+    "naormstan_treffer_nw0002.png": {
+        "right": 70,
+        "orig_h": 95,
+        "bottom": 82,
+        "top": 28,
+        "orig_w": 95,
+        "left": 28
+    },
+    "steht0006.png": {
+        "right": 64,
+        "orig_h": 95,
+        "bottom": 78,
+        "top": 20,
+        "orig_w": 95,
+        "left": 37
+    },
+    "steht0005.png": {
+        "right": 65,
+        "orig_h": 95,
+        "bottom": 77,
+        "top": 20,
+        "orig_w": 95,
+        "left": 34
+    },
+    "rennt_e0000.png": {
+        "right": 76,
+        "orig_h": 95,
+        "bottom": 77,
+        "top": 19,
+        "orig_w": 95,
+        "left": 12
+    },
+    "stan_strickt_s0000.png": {
+        "right": 69,
+        "orig_h": 95,
+        "bottom": 86,
+        "top": 22,
+        "orig_w": 95,
+        "left": 30
+    },
+    "attack_sw0000.png": {
+        "right": 67,
+        "orig_h": 95,
+        "bottom": 78,
+        "top": 22,
+        "orig_w": 95,
+        "left": 32
+    },
+    "stan_strickt_e0001.png": {
+        "right": 78,
+        "orig_h": 95,
+        "bottom": 83,
+        "top": 22,
+        "orig_w": 95,
+        "left": 35
+    },
+    "naormstan_treffer_nw0000.png": {
+        "right": 67,
+        "orig_h": 95,
+        "bottom": 81,
+        "top": 22,
+        "orig_w": 95,
+        "left": 32
+    },
+    "kippt_um_n0000.png": {
+        "right": 66,
+        "orig_h": 95,
+        "bottom": 79,
+        "top": 21,
+        "orig_w": 95,
+        "left": 32
+    },
+    "attack_nw0007.png": {
+        "right": 71,
+        "orig_h": 95,
+        "bottom": 81,
+        "top": 27,
+        "orig_w": 95,
+        "left": 27
+    },
+    "noarmstan_treffer_ne0001.png": {
+        "right": 70,
+        "orig_h": 95,
+        "bottom": 81,
+        "top": 24,
+        "orig_w": 95,
+        "left": 31
+    },
+    "noarmstan_treffer_e0005.png": {
+        "right": 61,
+        "orig_h": 95,
+        "bottom": 80,
+        "top": 22,
+        "orig_w": 95,
+        "left": 34
+    },
+    "rennt_s0008.png": {
+        "right": 73,
+        "orig_h": 95,
+        "bottom": 89,
+        "top": 20,
+        "orig_w": 95,
+        "left": 33
+    },
+    "attack_n0005.png": {
+        "right": 78,
+        "orig_h": 95,
+        "bottom": 80,
+        "top": 16,
+        "orig_w": 95,
+        "left": 24
+    },
+    "stan_spricht_ne0006.png": {
+        "right": 67,
+        "orig_h": 95,
+        "bottom": 80,
+        "top": 21,
+        "orig_w": 95,
+        "left": 32
+    },
+    "noarmstan_treffer_sw0006.png": {
+        "right": 67,
+        "orig_h": 95,
+        "bottom": 78,
+        "top": 22,
+        "orig_w": 95,
+        "left": 32
+    },
+    "stan_strickt_e0003.png": {
+        "right": 78,
+        "orig_h": 95,
+        "bottom": 83,
+        "top": 22,
+        "orig_w": 95,
+        "left": 35
+    },
+    "kippt_um_w0008.png": {
+        "right": 80,
+        "orig_h": 95,
+        "bottom": 71,
+        "top": 40,
+        "orig_w": 95,
+        "left": 15
+    },
+    "attack_se0002.png": {
+        "right": 70,
+        "orig_h": 95,
+        "bottom": 88,
+        "top": 16,
+        "orig_w": 95,
+        "left": 28
+    },
+    "steht0000.png": {
+        "right": 66,
+        "orig_h": 95,
+        "bottom": 74,
+        "top": 19,
+        "orig_w": 95,
+        "left": 33
+    },
+    "noarmstan_treffer_e0003.png": {
+        "right": 62,
+        "orig_h": 95,
+        "bottom": 82,
+        "top": 24,
+        "orig_w": 95,
+        "left": 29
+    },
+    "kippt_um_nw0002.png": {
+        "right": 69,
+        "orig_h": 95,
+        "bottom": 73,
+        "top": 26,
+        "orig_w": 95,
+        "left": 25
+    },
+    "stan_strickt_ne0002.png": {
+        "right": 74,
+        "orig_h": 95,
+        "bottom": 80,
+        "top": 21,
+        "orig_w": 95,
+        "left": 32
+    },
+    "noarmstan_treffer_n0002.png": {
+        "right": 73,
+        "orig_h": 95,
+        "bottom": 82,
+        "top": 29,
+        "orig_w": 95,
+        "left": 25
+    },
+    "attack_w0004.png": {
+        "right": 85,
+        "orig_h": 95,
+        "bottom": 76,
+        "top": 21,
+        "orig_w": 95,
+        "left": 23
+    },
+    "kippt_um_ne0002.png": {
+        "right": 74,
+        "orig_h": 95,
+        "bottom": 72,
+        "top": 25,
+        "orig_w": 95,
+        "left": 33
+    },
+    "kippt_um_e0001.png": {
+        "right": 67,
+        "orig_h": 95,
+        "bottom": 77,
+        "top": 20,
+        "orig_w": 95,
+        "left": 36
+    },
+    "stan_strickt_n0005.png": {
+        "right": 69,
+        "orig_h": 95,
+        "bottom": 79,
+        "top": 20,
+        "orig_w": 95,
+        "left": 32
+    },
+    "attack_sw0006.png": {
+        "right": 76,
+        "orig_h": 95,
+        "bottom": 76,
+        "top": 21,
+        "orig_w": 95,
+        "left": 18
+    },
+    "noarmstan_treffer_se0002.png": {
+        "right": 72,
+        "orig_h": 95,
+        "bottom": 80,
+        "top": 19,
+        "orig_w": 95,
+        "left": 31
+    },
+    "lNuft_w0005.png": {
+        "right": 69,
+        "orig_h": 95,
+        "bottom": 78,
+        "top": 21,
+        "orig_w": 95,
+        "left": 33
+    },
+    "lNuft_nw0001.png": {
+        "right": 68,
+        "orig_h": 95,
+        "bottom": 83,
+        "top": 20,
+        "orig_w": 95,
+        "left": 34
+    },
+    "rennt_s0002.png": {
+        "right": 73,
+        "orig_h": 95,
+        "bottom": 79,
+        "top": 23,
+        "orig_w": 95,
+        "left": 29
+    },
+    "kippt_um_ne0005.png": {
+        "right": 79,
+        "orig_h": 95,
+        "bottom": 76,
+        "top": 30,
+        "orig_w": 95,
+        "left": 25
+    },
+    "lNuft_ne0002.png": {
+        "right": 66,
+        "orig_h": 95,
+        "bottom": 82,
+        "top": 20,
+        "orig_w": 95,
+        "left": 27
+    },
+    "stan_spricht_nw0004.png": {
+        "right": 66,
+        "orig_h": 95,
+        "bottom": 80,
+        "top": 23,
+        "orig_w": 95,
+        "left": 24
+    },
+    "kippt_um_e0003.png": {
+        "right": 71,
+        "orig_h": 95,
+        "bottom": 75,
+        "top": 24,
+        "orig_w": 95,
+        "left": 25
+    },
+    "stan_strickt_w0000.png": {
+        "right": 65,
+        "orig_h": 95,
+        "bottom": 81,
+        "top": 22,
+        "orig_w": 95,
+        "left": 25
+    },
+    "stan_strickt_s0002.png": {
+        "right": 68,
+        "orig_h": 95,
+        "bottom": 86,
+        "top": 22,
+        "orig_w": 95,
+        "left": 30
+    },
+    "stan_spricht_n0003.png": {
+        "right": 66,
+        "orig_h": 95,
+        "bottom": 78,
+        "top": 19,
+        "orig_w": 95,
+        "left": 32
+    },
+    "attack_w0001.png": {
+        "right": 68,
+        "orig_h": 95,
+        "bottom": 82,
+        "top": 27,
+        "orig_w": 95,
+        "left": 35
+    },
+    "lNuft_ne0005.png": {
+        "right": 64,
+        "orig_h": 95,
+        "bottom": 82,
+        "top": 20,
+        "orig_w": 95,
+        "left": 27
+    },
+    "noarmstan_treffer_sw0000.png": {
+        "right": 67,
+        "orig_h": 95,
+        "bottom": 78,
+        "top": 22,
+        "orig_w": 95,
+        "left": 32
+    },
+    "attack_e0002.png": {
+        "right": 75,
+        "orig_h": 95,
+        "bottom": 90,
+        "top": 19,
+        "orig_w": 95,
+        "left": 29
+    },
+    "kippt_um_nw0003.png": {
+        "right": 71,
+        "orig_h": 95,
+        "bottom": 73,
+        "top": 24,
+        "orig_w": 95,
+        "left": 27
+    },
+    "stan_spricht_sw0006.png": {
+        "right": 67,
+        "orig_h": 95,
+        "bottom": 78,
+        "top": 22,
+        "orig_w": 95,
+        "left": 32
+    },
+    "noarmstan_treffer_w0001.png": {
+        "right": 69,
+        "orig_h": 95,
+        "bottom": 81,
+        "top": 23,
+        "orig_w": 95,
+        "left": 38
+    },
+    "stan_strickt_n0001.png": {
+        "right": 69,
+        "orig_h": 95,
+        "bottom": 79,
+        "top": 20,
+        "orig_w": 95,
+        "left": 32
+    },
+    "stan_spricht_s0002.png": {
+        "right": 68,
+        "orig_h": 95,
+        "bottom": 78,
+        "top": 20,
+        "orig_w": 95,
+        "left": 33
+    },
+    "noarmstan_treffer_se0006.png": {
+        "right": 68,
+        "orig_h": 95,
+        "bottom": 78,
+        "top": 22,
+        "orig_w": 95,
+        "left": 33
+    },
+    "noarmstan_treffer_n0000.png": {
+        "right": 66,
+        "orig_h": 95,
+        "bottom": 79,
+        "top": 21,
+        "orig_w": 95,
+        "left": 32
+    },
+    "stan_strickt_se0003.png": {
+        "right": 75,
+        "orig_h": 95,
+        "bottom": 89,
+        "top": 22,
+        "orig_w": 95,
+        "left": 33
+    },
+    "attack_ne0008.png": {
+        "right": 67,
+        "orig_h": 95,
+        "bottom": 80,
+        "top": 22,
+        "orig_w": 95,
+        "left": 33
+    },
+    "stan_spricht_se0005.png": {
+        "right": 75,
+        "orig_h": 95,
+        "bottom": 78,
+        "top": 21,
+        "orig_w": 95,
+        "left": 34
+    },
+    "attack_sw0004.png": {
+        "right": 82,
+        "orig_h": 95,
+        "bottom": 74,
+        "top": 12,
+        "orig_w": 95,
+        "left": 21
+    },
+    "stan_spricht_sw0002.png": {
+        "right": 67,
+        "orig_h": 95,
+        "bottom": 79,
+        "top": 21,
+        "orig_w": 95,
+        "left": 32
+    },
+    "attack_s0008.png": {
+        "right": 67,
+        "orig_h": 95,
+        "bottom": 77,
+        "top": 22,
+        "orig_w": 95,
+        "left": 33
+    },
+    "stan_spricht_n0001.png": {
+        "right": 66,
+        "orig_h": 95,
+        "bottom": 79,
+        "top": 22,
+        "orig_w": 95,
+        "left": 32
+    },
+    "stan_spricht_s0006.png": {
+        "right": 67,
+        "orig_h": 95,
+        "bottom": 77,
+        "top": 22,
+        "orig_w": 95,
+        "left": 33
+    },
+    "attack_nw0001.png": {
+        "right": 71,
+        "orig_h": 95,
+        "bottom": 81,
+        "top": 27,
+        "orig_w": 95,
+        "left": 27
+    },
+    "lNuft_s0006.png": {
+        "right": 67,
+        "orig_h": 95,
+        "bottom": 75,
+        "top": 19,
+        "orig_w": 95,
+        "left": 34
+    },
+    "rennt_s0003.png": {
+        "right": 71,
+        "orig_h": 95,
+        "bottom": 79,
+        "top": 21,
+        "orig_w": 95,
+        "left": 29
+    },
+    "attack_w0003.png": {
+        "right": 81,
+        "orig_h": 95,
+        "bottom": 80,
+        "top": 23,
+        "orig_w": 95,
+        "left": 16
+    },
+    "naormstan_treffer_nw0004.png": {
+        "right": 69,
+        "orig_h": 95,
+        "bottom": 83,
+        "top": 27,
+        "orig_w": 95,
+        "left": 28
+    },
+    "rennt_se0008.png": {
+        "right": 75,
+        "orig_h": 95,
+        "bottom": 80,
+        "top": 20,
+        "orig_w": 95,
+        "left": 24
+    },
+    "kippt_um_sw0001.png": {
+        "right": 68,
+        "orig_h": 95,
+        "bottom": 78,
+        "top": 18,
+        "orig_w": 95,
+        "left": 29
+    },
+    "rennt_e0007.png": {
+        "right": 77,
+        "orig_h": 95,
+        "bottom": 78,
+        "top": 22,
+        "orig_w": 95,
+        "left": 14
+    },
+    "stan_strickt_sw0001.png": {
+        "right": 67,
+        "orig_h": 95,
+        "bottom": 80,
+        "top": 22,
+        "orig_w": 95,
+        "left": 22
+    },
+    "stan_strickt_s0003.png": {
+        "right": 68,
+        "orig_h": 95,
+        "bottom": 86,
+        "top": 22,
+        "orig_w": 95,
+        "left": 30
+    },
+    "noarmstan_treffer_n0004.png": {
+        "right": 73,
+        "orig_h": 95,
+        "bottom": 83,
+        "top": 28,
+        "orig_w": 95,
+        "left": 25
+    },
+    "kippt_um_w0000.png": {
+        "right": 65,
+        "orig_h": 95,
+        "bottom": 81,
+        "top": 22,
+        "orig_w": 95,
+        "left": 39
+    },
+    "rennt_ne0000.png": {
+        "right": 75,
+        "orig_h": 95,
+        "bottom": 87,
+        "top": 19,
+        "orig_w": 95,
+        "left": 13
+    },
+    "rennt_s0001.png": {
+        "right": 71,
+        "orig_h": 95,
+        "bottom": 84,
+        "top": 20,
+        "orig_w": 95,
+        "left": 31
+    },
+    "rennt_s0005.png": {
+        "right": 71,
+        "orig_h": 95,
+        "bottom": 87,
+        "top": 22,
+        "orig_w": 95,
+        "left": 29
+    },
+    "stan_strickt_n0003.png": {
+        "right": 69,
+        "orig_h": 95,
+        "bottom": 79,
+        "top": 20,
+        "orig_w": 95,
+        "left": 32
+    },
+    "kippt_um_sw0007.png": {
+        "right": 76,
+        "orig_h": 95,
+        "bottom": 84,
+        "top": 34,
+        "orig_w": 95,
+        "left": 20
+    },
+    "lNuft_n0001.png": {
+        "right": 66,
+        "orig_h": 95,
+        "bottom": 83,
+        "top": 20,
+        "orig_w": 95,
+        "left": 32
+    },
+    "stan_spricht_e0005.png": {
+        "right": 70,
+        "orig_h": 95,
+        "bottom": 80,
+        "top": 22,
+        "orig_w": 95,
+        "left": 36
+    },
+    "noarmstan_treffer_se0004.png": {
+        "right": 71,
+        "orig_h": 95,
+        "bottom": 80,
+        "top": 20,
+        "orig_w": 95,
+        "left": 30
+    },
+    "rennt_e0001.png": {
+        "right": 75,
+        "orig_h": 95,
+        "bottom": 76,
+        "top": 21,
+        "orig_w": 95,
+        "left": 13
+    },
+    "lNuft_nw0003.png": {
+        "right": 68,
+        "orig_h": 95,
+        "bottom": 83,
+        "top": 21,
+        "orig_w": 95,
+        "left": 29
+    },
+    "stan_strickt_s0001.png": {
+        "right": 68,
+        "orig_h": 95,
+        "bottom": 86,
+        "top": 22,
+        "orig_w": 95,
+        "left": 30
+    },
+    "lNuft_sw0007.png": {
+        "right": 69,
+        "orig_h": 95,
+        "bottom": 77,
+        "top": 20,
+        "orig_w": 95,
+        "left": 32
+    },
+    "stan_spricht_sw0001.png": {
+        "right": 67,
+        "orig_h": 95,
+        "bottom": 81,
+        "top": 22,
+        "orig_w": 95,
+        "left": 32
+    },
+    "kippt_um_w0002.png": {
+        "right": 73,
+        "orig_h": 95,
+        "bottom": 79,
+        "top": 22,
+        "orig_w": 95,
+        "left": 29
+    },
+    "noarmstan_treffer_e0000.png": {
+        "right": 65,
+        "orig_h": 95,
+        "bottom": 80,
+        "top": 22,
+        "orig_w": 95,
+        "left": 35
+    },
+    "lNuft_s0002.png": {
+        "right": 66,
+        "orig_h": 95,
+        "bottom": 74,
+        "top": 19,
+        "orig_w": 95,
+        "left": 34
+    },
+    "kippt_um_sw0008.png": {
+        "right": 73,
+        "orig_h": 95,
+        "bottom": 83,
+        "top": 40,
+        "orig_w": 95,
+        "left": 20
+    },
+    "attack_se0008.png": {
+        "right": 68,
+        "orig_h": 95,
+        "bottom": 78,
+        "top": 22,
+        "orig_w": 95,
+        "left": 33
+    },
+    "rennt_ne0008.png": {
+        "right": 76,
+        "orig_h": 95,
+        "bottom": 86,
+        "top": 19,
+        "orig_w": 95,
+        "left": 15
+    },
+    "rennt_n0005.png": {
+        "right": 69,
+        "orig_h": 95,
+        "bottom": 94,
+        "top": 20,
+        "orig_w": 95,
+        "left": 32
+    },
+    "kippt_um_s0007.png": {
+        "right": 70,
+        "orig_h": 95,
+        "bottom": 82,
+        "top": 27,
+        "orig_w": 95,
+        "left": 28
+    },
+    "lNuft_e0001.png": {
+        "right": 65,
+        "orig_h": 95,
+        "bottom": 78,
+        "top": 20,
+        "orig_w": 95,
+        "left": 27
+    },
+    "stan_spricht_se0002.png": {
+        "right": 78,
+        "orig_h": 95,
+        "bottom": 77,
+        "top": 21,
+        "orig_w": 95,
+        "left": 34
+    },
+    "attack_se0007.png": {
+        "right": 72,
+        "orig_h": 95,
+        "bottom": 82,
+        "top": 17,
+        "orig_w": 95,
+        "left": 26
+    },
+    "kippt_um_se0008.png": {
+        "right": 79,
+        "orig_h": 95,
+        "bottom": 81,
+        "top": 36,
+        "orig_w": 95,
+        "left": 26
+    },
+    "naormstan_treffer_nw0006.png": {
+        "right": 67,
+        "orig_h": 95,
+        "bottom": 81,
+        "top": 22,
+        "orig_w": 95,
+        "left": 32
+    },
+    "attack_s0003.png": {
+        "right": 78,
+        "orig_h": 95,
+        "bottom": 85,
+        "top": 12,
+        "orig_w": 95,
+        "left": 24
+    },
+    "rennt_sw0004.png": {
+        "right": 75,
+        "orig_h": 95,
+        "bottom": 81,
+        "top": 20,
+        "orig_w": 95,
+        "left": 25
+    },
+    "attack_nw0003.png": {
+        "right": 75,
+        "orig_h": 95,
+        "bottom": 83,
+        "top": 14,
+        "orig_w": 95,
+        "left": 35
+    },
+    "stan_strickt_w0002.png": {
+        "right": 65,
+        "orig_h": 95,
+        "bottom": 81,
+        "top": 22,
+        "orig_w": 95,
+        "left": 25
+    },
+    "lNuft_sw0008.png": {
+        "right": 69,
+        "orig_h": 95,
+        "bottom": 82,
+        "top": 19,
+        "orig_w": 95,
+        "left": 29
+    },
+    "rennt_e0002.png": {
+        "right": 74,
+        "orig_h": 95,
+        "bottom": 80,
+        "top": 23,
+        "orig_w": 95,
+        "left": 14
+    },
+    "kippt_um_se0006.png": {
+        "right": 78,
+        "orig_h": 95,
+        "bottom": 79,
+        "top": 27,
+        "orig_w": 95,
+        "left": 24
+    },
+    "stan_spricht_s0000.png": {
+        "right": 67,
+        "orig_h": 95,
+        "bottom": 77,
+        "top": 22,
+        "orig_w": 95,
+        "left": 33
+    },
+    "kippt_um_se0003.png": {
+        "right": 74,
+        "orig_h": 95,
+        "bottom": 81,
+        "top": 17,
+        "orig_w": 95,
+        "left": 31
+    },
+    "attack_s0004.png": {
+        "right": 73,
+        "orig_h": 95,
+        "bottom": 81,
+        "top": 9,
+        "orig_w": 95,
+        "left": 23
+    },
+    "noarmstan_treffer_sw0002.png": {
+        "right": 70,
+        "orig_h": 95,
+        "bottom": 80,
+        "top": 19,
+        "orig_w": 95,
+        "left": 27
+    },
+    "rennt_sw0000.png": {
+        "right": 85,
+        "orig_h": 95,
+        "bottom": 85,
+        "top": 18,
+        "orig_w": 95,
+        "left": 29
+    },
+    "stan_strickt_sw0000.png": {
+        "right": 67,
+        "orig_h": 95,
+        "bottom": 80,
+        "top": 22,
+        "orig_w": 95,
+        "left": 22
+    },
+    "attack_n0001.png": {
+        "right": 72,
+        "orig_h": 95,
+        "bottom": 81,
+        "top": 23,
+        "orig_w": 95,
+        "left": 25
+    },
+    "lNuft_se0003.png": {
+        "right": 71,
+        "orig_h": 95,
+        "bottom": 77,
+        "top": 20,
+        "orig_w": 95,
+        "left": 28
+    },
+    "lNuft_ne0007.png": {
+        "right": 68,
+        "orig_h": 95,
+        "bottom": 82,
+        "top": 20,
+        "orig_w": 95,
+        "left": 27
+    },
+    "lNuft_nw0005.png": {
+        "right": 68,
+        "orig_h": 95,
+        "bottom": 83,
+        "top": 21,
+        "orig_w": 95,
+        "left": 28
+    },
+    "rennt_se0003.png": {
+        "right": 80,
+        "orig_h": 95,
+        "bottom": 80,
+        "top": 21,
+        "orig_w": 95,
+        "left": 16
+    },
+    "rennt_s0007.png": {
+        "right": 70,
+        "orig_h": 95,
+        "bottom": 81,
+        "top": 22,
+        "orig_w": 95,
+        "left": 32
+    },
+    "stan_strickt_s0004.png": {
+        "right": 68,
+        "orig_h": 95,
+        "bottom": 86,
+        "top": 22,
+        "orig_w": 95,
+        "left": 30
+    },
+    "stan_spricht_w0001.png": {
+        "right": 66,
+        "orig_h": 95,
+        "bottom": 80,
+        "top": 22,
+        "orig_w": 95,
+        "left": 30
+    },
+    "rennt_s0006.png": {
+        "right": 73,
+        "orig_h": 95,
+        "bottom": 80,
+        "top": 24,
+        "orig_w": 95,
+        "left": 29
+    },
+    "lNuft_nw0007.png": {
+        "right": 68,
+        "orig_h": 95,
+        "bottom": 83,
+        "top": 20,
+        "orig_w": 95,
+        "left": 35
+    },
+    "stan_strickt_w0004.png": {
+        "right": 65,
+        "orig_h": 95,
+        "bottom": 81,
+        "top": 22,
+        "orig_w": 95,
+        "left": 25
+    },
+    "stan_strickt_ne0003.png": {
+        "right": 74,
+        "orig_h": 95,
+        "bottom": 80,
+        "top": 21,
+        "orig_w": 95,
+        "left": 32
+    },
+    "noarmstan_treffer_s0005.png": {
+        "right": 70,
+        "orig_h": 95,
+        "bottom": 77,
+        "top": 20,
+        "orig_w": 95,
+        "left": 31
+    },
+    "attack_w0005.png": {
+        "right": 81,
+        "orig_h": 95,
+        "bottom": 80,
+        "top": 23,
+        "orig_w": 95,
+        "left": 16
+    },
+    "stan_strickt_n0004.png": {
+        "right": 69,
+        "orig_h": 95,
+        "bottom": 79,
+        "top": 20,
+        "orig_w": 95,
+        "left": 32
+    },
+    "attack_sw0003.png": {
+        "right": 83,
+        "orig_h": 95,
+        "bottom": 72,
+        "top": 16,
+        "orig_w": 95,
+        "left": 14
+    },
+    "noarmstan_treffer_se0003.png": {
+        "right": 73,
+        "orig_h": 95,
+        "bottom": 81,
+        "top": 19,
+        "orig_w": 95,
+        "left": 31
+    },
+    "kippt_um_w0004.png": {
+        "right": 81,
+        "orig_h": 95,
+        "bottom": 78,
+        "top": 29,
+        "orig_w": 95,
+        "left": 15
+    },
+    "kippt_um_se0001.png": {
+        "right": 73,
+        "orig_h": 95,
+        "bottom": 77,
+        "top": 18,
+        "orig_w": 95,
+        "left": 35
+    },
+    "kippt_um_n0008.png": {
+        "right": 69,
+        "orig_h": 95,
+        "bottom": 83,
+        "top": 35,
+        "orig_w": 95,
+        "left": 30
+    },
+    "rennt_w0004.png": {
+        "right": 84,
+        "orig_h": 95,
+        "bottom": 77,
+        "top": 20,
+        "orig_w": 95,
+        "left": 20
+    },
+    "rennt_ne0006.png": {
+        "right": 77,
+        "orig_h": 95,
+        "bottom": 91,
+        "top": 22,
+        "orig_w": 95,
+        "left": 18
+    },
+    "steht0004.png": {
+        "right": 66,
+        "orig_h": 95,
+        "bottom": 76,
+        "top": 20,
+        "orig_w": 95,
+        "left": 32
+    },
+    "stan_strickt_se0006.png": {
+        "right": 76,
+        "orig_h": 95,
+        "bottom": 89,
+        "top": 22,
+        "orig_w": 95,
+        "left": 33
+    },
+    "attack_nw0002.png": {
+        "right": 72,
+        "orig_h": 95,
+        "bottom": 81,
+        "top": 24,
+        "orig_w": 95,
+        "left": 31
+    },
+    "stan_spricht_e0001.png": {
+        "right": 70,
+        "orig_h": 95,
+        "bottom": 80,
+        "top": 22,
+        "orig_w": 95,
+        "left": 36
+    },
+    "attack_sw0001.png": {
+        "right": 72,
+        "orig_h": 95,
+        "bottom": 80,
+        "top": 24,
+        "orig_w": 95,
+        "left": 28
+    },
+    "lNuft_se0001.png": {
+        "right": 64,
+        "orig_h": 95,
+        "bottom": 76,
+        "top": 20,
+        "orig_w": 95,
+        "left": 28
+    },
+    "kippt_um_n0005.png": {
+        "right": 68,
+        "orig_h": 95,
+        "bottom": 81,
+        "top": 26,
+        "orig_w": 95,
+        "left": 26
+    },
+    "kippt_um_ne0003.png": {
+        "right": 73,
+        "orig_h": 95,
+        "bottom": 72,
+        "top": 22,
+        "orig_w": 95,
+        "left": 30
+    },
+    "rennt_w0002.png": {
+        "right": 83,
+        "orig_h": 95,
+        "bottom": 80,
+        "top": 23,
+        "orig_w": 95,
+        "left": 28
+    },
+    "attack_nw0004.png": {
+        "right": 82,
+        "orig_h": 95,
+        "bottom": 82,
+        "top": 13,
+        "orig_w": 95,
+        "left": 28
+    },
+    "attack_nw0000.png": {
+        "right": 67,
+        "orig_h": 95,
+        "bottom": 80,
+        "top": 22,
+        "orig_w": 95,
+        "left": 32
+    },
+    "rennt_e0005.png": {
+        "right": 78,
+        "orig_h": 95,
+        "bottom": 82,
+        "top": 22,
+        "orig_w": 95,
+        "left": 13
+    },
+    "stan_spricht_sw0003.png": {
+        "right": 67,
+        "orig_h": 95,
+        "bottom": 78,
+        "top": 21,
+        "orig_w": 95,
+        "left": 32
+    },
+    "noarmstan_treffer_ne0002.png": {
+        "right": 73,
+        "orig_h": 95,
+        "bottom": 82,
+        "top": 27,
+        "orig_w": 95,
+        "left": 30
+    },
+    "noarmstan_treffer_e0006.png": {
+        "right": 65,
+        "orig_h": 95,
+        "bottom": 80,
+        "top": 22,
+        "orig_w": 95,
+        "left": 35
+    },
+    "lNuft_w0006.png": {
+        "right": 69,
+        "orig_h": 95,
+        "bottom": 79,
+        "top": 20,
+        "orig_w": 95,
+        "left": 37
+    },
+    "rennt_se0001.png": {
+        "right": 71,
+        "orig_h": 95,
+        "bottom": 81,
+        "top": 21,
+        "orig_w": 95,
+        "left": 21
+    },
+    "stan_spricht_w0003.png": {
+        "right": 68,
+        "orig_h": 95,
+        "bottom": 81,
+        "top": 22,
+        "orig_w": 95,
+        "left": 27
+    },
+    "noarmstan_treffer_w0005.png": {
+        "right": 68,
+        "orig_h": 95,
+        "bottom": 81,
+        "top": 23,
+        "orig_w": 95,
+        "left": 38
+    },
+    "kippt_um_ne0001.png": {
+        "right": 71,
+        "orig_h": 95,
+        "bottom": 75,
+        "top": 22,
+        "orig_w": 95,
+        "left": 34
+    },
+    "lNuft_ne0003.png": {
+        "right": 64,
+        "orig_h": 95,
+        "bottom": 82,
+        "top": 20,
+        "orig_w": 95,
+        "left": 27
+    },
+    "kippt_um_sw0004.png": {
+        "right": 75,
+        "orig_h": 95,
+        "bottom": 84,
+        "top": 20,
+        "orig_w": 95,
+        "left": 20
+    },
+    "lNuft_sw0006.png": {
+        "right": 69,
+        "orig_h": 95,
+        "bottom": 76,
+        "top": 20,
+        "orig_w": 95,
+        "left": 34
+    },
+    "noarmstan_treffer_ne0000.png": {
+        "right": 67,
+        "orig_h": 95,
+        "bottom": 80,
+        "top": 21,
+        "orig_w": 95,
+        "left": 32
+    },
+    "rennt_nw0001.png": {
+        "right": 76,
+        "orig_h": 95,
+        "bottom": 92,
+        "top": 21,
+        "orig_w": 95,
+        "left": 29
+    },
+    "stan_strickt_w0006.png": {
+        "right": 65,
+        "orig_h": 95,
+        "bottom": 81,
+        "top": 22,
+        "orig_w": 95,
+        "left": 25
+    },
+    "rennt_nw0004.png": {
+        "right": 84,
+        "orig_h": 95,
+        "bottom": 87,
+        "top": 19,
+        "orig_w": 95,
+        "left": 27
+    },
+    "noarmstan_treffer_n0001.png": {
+        "right": 68,
+        "orig_h": 95,
+        "bottom": 80,
+        "top": 24,
+        "orig_w": 95,
+        "left": 29
+    },
+    "rennt_n0007.png": {
+        "right": 71,
+        "orig_h": 95,
+        "bottom": 93,
+        "top": 20,
+        "orig_w": 95,
+        "left": 28
+    },
+    "stan_strickt_ne0004.png": {
+        "right": 74,
+        "orig_h": 95,
+        "bottom": 80,
+        "top": 21,
+        "orig_w": 95,
+        "left": 32
+    },
+    "lNuft_e0005.png": {
+        "right": 67,
+        "orig_h": 95,
+        "bottom": 78,
+        "top": 20,
+        "orig_w": 95,
+        "left": 27
+    },
+    "lNuft_ne0001.png": {
+        "right": 68,
+        "orig_h": 95,
+        "bottom": 82,
+        "top": 20,
+        "orig_w": 95,
+        "left": 27
+    },
+    "rennt_n0008.png": {
+        "right": 71,
+        "orig_h": 95,
+        "bottom": 92,
+        "top": 18,
+        "orig_w": 95,
+        "left": 25
+    },
+    "rennt_nw0003.png": {
+        "right": 82,
+        "orig_h": 95,
+        "bottom": 89,
+        "top": 20,
+        "orig_w": 95,
+        "left": 22
+    },
+    "attack_sw0005.png": {
+        "right": 83,
+        "orig_h": 95,
+        "bottom": 72,
+        "top": 16,
+        "orig_w": 95,
+        "left": 14
+    },
+    "kippt_um_nw0006.png": {
+        "right": 72,
+        "orig_h": 95,
+        "bottom": 79,
+        "top": 24,
+        "orig_w": 95,
+        "left": 17
+    },
+    "lNuft_se0007.png": {
+        "right": 64,
+        "orig_h": 95,
+        "bottom": 76,
+        "top": 20,
+        "orig_w": 95,
+        "left": 28
+    },
+    "lNuft_e0003.png": {
+        "right": 66,
+        "orig_h": 95,
+        "bottom": 78,
+        "top": 20,
+        "orig_w": 95,
+        "left": 27
+    },
+    "rennt_ne0004.png": {
+        "right": 73,
+        "orig_h": 95,
+        "bottom": 92,
+        "top": 19,
+        "orig_w": 95,
+        "left": 23
+    },
+    "kippt_um_s0000.png": {
+        "right": 67,
+        "orig_h": 95,
+        "bottom": 77,
+        "top": 22,
+        "orig_w": 95,
+        "left": 33
+    },
+    "stan_spricht_ne0003.png": {
+        "right": 67,
+        "orig_h": 95,
+        "bottom": 79,
+        "top": 20,
+        "orig_w": 95,
+        "left": 33
+    },
+    "rennt_ne0002.png": {
+        "right": 76,
+        "orig_h": 95,
+        "bottom": 90,
+        "top": 22,
+        "orig_w": 95,
+        "left": 18
+    },
+    "attack_s0006.png": {
+        "right": 80,
+        "orig_h": 95,
+        "bottom": 78,
+        "top": 16,
+        "orig_w": 95,
+        "left": 15
+    },
+    "rennt_se0005.png": {
+        "right": 81,
+        "orig_h": 95,
+        "bottom": 85,
+        "top": 22,
+        "orig_w": 95,
+        "left": 16
+    },
+    "kippt_um_ne0007.png": {
+        "right": 75,
+        "orig_h": 95,
+        "bottom": 78,
+        "top": 30,
+        "orig_w": 95,
+        "left": 23
+    },
+    "rennt_e0008.png": {
+        "right": 79,
+        "orig_h": 95,
+        "bottom": 77,
+        "top": 20,
+        "orig_w": 95,
+        "left": 15
+    },
+    "stan_spricht_w0006.png": {
+        "right": 65,
+        "orig_h": 95,
+        "bottom": 81,
+        "top": 22,
+        "orig_w": 95,
+        "left": 39
+    },
+    "stan_spricht_sw0005.png": {
+        "right": 67,
+        "orig_h": 95,
+        "bottom": 81,
+        "top": 22,
+        "orig_w": 95,
+        "left": 32
+    },
+    "rennt_n0001.png": {
+        "right": 71,
+        "orig_h": 95,
+        "bottom": 94,
+        "top": 20,
+        "orig_w": 95,
+        "left": 28
+    },
+    "stan_spricht_s0004.png": {
+        "right": 68,
+        "orig_h": 95,
+        "bottom": 78,
+        "top": 20,
+        "orig_w": 95,
+        "left": 33
+    },
+    "kippt_um_e0006.png": {
+        "right": 82,
+        "orig_h": 95,
+        "bottom": 73,
+        "top": 35,
+        "orig_w": 95,
+        "left": 15
+    },
+    "stan_strickt_nw0002.png": {
+        "right": 67,
+        "orig_h": 95,
+        "bottom": 81,
+        "top": 22,
+        "orig_w": 95,
+        "left": 27
+    },
+    "rennt_se0004.png": {
+        "right": 77,
+        "orig_h": 95,
+        "bottom": 85,
+        "top": 20,
+        "orig_w": 95,
+        "left": 15
+    },
+    "attack_ne0001.png": {
+        "right": 72,
+        "orig_h": 95,
+        "bottom": 85,
+        "top": 19,
+        "orig_w": 95,
+        "left": 31
+    },
+    "stan_strickt_nw0004.png": {
+        "right": 67,
+        "orig_h": 95,
+        "bottom": 81,
+        "top": 22,
+        "orig_w": 95,
+        "left": 27
+    },
+    "kippt_um_nw0004.png": {
+        "right": 72,
+        "orig_h": 95,
+        "bottom": 75,
+        "top": 26,
+        "orig_w": 95,
+        "left": 22
+    },
+    "attack_e0007.png": {
+        "right": 66,
+        "orig_h": 95,
+        "bottom": 87,
+        "top": 17,
+        "orig_w": 95,
+        "left": 33
+    },
+    "kippt_um_w0006.png": {
+        "right": 83,
+        "orig_h": 95,
+        "bottom": 77,
+        "top": 34,
+        "orig_w": 95,
+        "left": 16
+    },
+    "noarmstan_treffer_n0005.png": {
+        "right": 68,
+        "orig_h": 95,
+        "bottom": 80,
+        "top": 24,
+        "orig_w": 95,
+        "left": 29
+    },
+    "kippt_um_n0003.png": {
+        "right": 67,
+        "orig_h": 95,
+        "bottom": 74,
+        "top": 25,
+        "orig_w": 95,
+        "left": 29
+    },
+    "noarmstan_treffer_s0002.png": {
+        "right": 74,
+        "orig_h": 95,
+        "bottom": 77,
+        "top": 17,
+        "orig_w": 95,
+        "left": 27
+    },
+    "lNuft_s0007.png": {
+        "right": 66,
+        "orig_h": 95,
+        "bottom": 76,
+        "top": 19,
+        "orig_w": 95,
+        "left": 34
+    },
+    "kippt_um_w0003.png": {
+        "right": 78,
+        "orig_h": 95,
+        "bottom": 79,
+        "top": 26,
+        "orig_w": 95,
+        "left": 24
+    },
+    "stan_spricht_ne0001.png": {
+        "right": 67,
+        "orig_h": 95,
+        "bottom": 80,
+        "top": 22,
+        "orig_w": 95,
+        "left": 33
+    },
+    "stan_spricht_n0000.png": {
+        "right": 66,
+        "orig_h": 95,
+        "bottom": 79,
+        "top": 21,
+        "orig_w": 95,
+        "left": 32
+    },
+    "rennt_w0008.png": {
+        "right": 83,
+        "orig_h": 95,
+        "bottom": 84,
+        "top": 20,
+        "orig_w": 95,
+        "left": 19
+    },
+    "noarmstan_treffer_s0004.png": {
+        "right": 74,
+        "orig_h": 95,
+        "bottom": 76,
+        "top": 18,
+        "orig_w": 95,
+        "left": 27
+    },
+    "kippt_um_ne0008.png": {
+        "right": 73,
+        "orig_h": 95,
+        "bottom": 79,
+        "top": 35,
+        "orig_w": 95,
+        "left": 24
+    },
+    "stan_spricht_se0003.png": {
+        "right": 75,
+        "orig_h": 95,
+        "bottom": 78,
+        "top": 21,
+        "orig_w": 95,
+        "left": 34
+    },
+    "kippt_um_sw0002.png": {
+        "right": 70,
+        "orig_h": 95,
+        "bottom": 80,
+        "top": 17,
+        "orig_w": 95,
+        "left": 27
+    },
+    "kippt_um_e0002.png": {
+        "right": 72,
+        "orig_h": 95,
+        "bottom": 76,
+        "top": 22,
+        "orig_w": 95,
+        "left": 31
+    },
+    "attack_nw0008.png": {
+        "right": 67,
+        "orig_h": 95,
+        "bottom": 80,
+        "top": 22,
+        "orig_w": 95,
+        "left": 32
+    },
+    "attack_ne0005.png": {
+        "right": 89,
+        "orig_h": 95,
+        "bottom": 84,
+        "top": 21,
+        "orig_w": 95,
+        "left": 19
+    },
+    "rennt_n0003.png": {
+        "right": 69,
+        "orig_h": 95,
+        "bottom": 94,
+        "top": 20,
+        "orig_w": 95,
+        "left": 32
+    },
+    "kippt_um_s0005.png": {
+        "right": 72,
+        "orig_h": 95,
+        "bottom": 84,
+        "top": 19,
+        "orig_w": 95,
+        "left": 30
+    },
+    "attack_se0005.png": {
+        "right": 70,
+        "orig_h": 95,
+        "bottom": 87,
+        "top": 15,
+        "orig_w": 95,
+        "left": 28
+    },
+    "rennt_w0001.png": {
+        "right": 84,
+        "orig_h": 95,
+        "bottom": 82,
+        "top": 21,
+        "orig_w": 95,
+        "left": 27
+    },
+    "attack_s0002.png": {
+        "right": 80,
+        "orig_h": 95,
+        "bottom": 78,
+        "top": 16,
+        "orig_w": 95,
+        "left": 15
+    },
+    "stan_spricht_nw0006.png": {
+        "right": 67,
+        "orig_h": 95,
+        "bottom": 81,
+        "top": 22,
+        "orig_w": 95,
+        "left": 32
+    },
+    "kippt_um_sw0000.png": {
+        "right": 67,
+        "orig_h": 95,
+        "bottom": 78,
+        "top": 22,
+        "orig_w": 95,
+        "left": 32
+    },
+    "lNuft_sw0002.png": {
+        "right": 69,
+        "orig_h": 95,
+        "bottom": 76,
+        "top": 20,
+        "orig_w": 95,
+        "left": 33
+    },
+    "lNuft_w0000.png": {
+        "right": 69,
+        "orig_h": 95,
+        "bottom": 79,
+        "top": 20,
+        "orig_w": 95,
+        "left": 28
+    },
+    "kippt_um_s0003.png": {
+        "right": 68,
+        "orig_h": 95,
+        "bottom": 84,
+        "top": 14,
+        "orig_w": 95,
+        "left": 34
+    },
+    "kippt_um_s0008.png": {
+        "right": 69,
+        "orig_h": 95,
+        "bottom": 84,
+        "top": 33,
+        "orig_w": 95,
+        "left": 28
+    },
+    "attack_s0000.png": {
+        "right": 67,
+        "orig_h": 95,
+        "bottom": 77,
+        "top": 22,
+        "orig_w": 95,
+        "left": 33
+    },
+    "lNuft_sw0000.png": {
+        "right": 70,
+        "orig_h": 95,
+        "bottom": 82,
+        "top": 20,
+        "orig_w": 95,
+        "left": 29
+    },
+    "stan_strickt_nw0006.png": {
+        "right": 67,
+        "orig_h": 95,
+        "bottom": 81,
+        "top": 22,
+        "orig_w": 95,
+        "left": 25
+    },
+    "lNuft_s0004.png": {
+        "right": 68,
+        "orig_h": 95,
+        "bottom": 82,
+        "top": 19,
+        "orig_w": 95,
+        "left": 33
+    },
+    "stan_strickt_sw0005.png": {
+        "right": 67,
+        "orig_h": 95,
+        "bottom": 80,
+        "top": 22,
+        "orig_w": 95,
+        "left": 22
+    },
+    "lNuft_se0005.png": {
+        "right": 72,
+        "orig_h": 95,
+        "bottom": 79,
+        "top": 20,
+        "orig_w": 95,
+        "left": 28
+    },
+    "kippt_um_n0001.png": {
+        "right": 66,
+        "orig_h": 95,
+        "bottom": 74,
+        "top": 22,
+        "orig_w": 95,
+        "left": 31
+    },
+    "rennt_se0006.png": {
+        "right": 80,
+        "orig_h": 95,
+        "bottom": 83,
+        "top": 24,
+        "orig_w": 95,
+        "left": 19
+    },
+    "kippt_um_nw0005.png": {
+        "right": 72,
+        "orig_h": 95,
+        "bottom": 77,
+        "top": 26,
+        "orig_w": 95,
+        "left": 20
+    },
+    "stan_strickt_w0003.png": {
+        "right": 65,
+        "orig_h": 95,
+        "bottom": 81,
+        "top": 22,
+        "orig_w": 95,
+        "left": 25
+    },
+    "kippt_um_n0007.png": {
+        "right": 69,
+        "orig_h": 95,
+        "bottom": 84,
+        "top": 30,
+        "orig_w": 95,
+        "left": 28
+    },
+    "noarmstan_treffer_sw0005.png": {
+        "right": 67,
+        "orig_h": 95,
+        "bottom": 79,
+        "top": 21,
+        "orig_w": 95,
+        "left": 29
+    },
+    "kippt_um_e0000.png": {
+        "right": 65,
+        "orig_h": 95,
+        "bottom": 80,
+        "top": 22,
+        "orig_w": 95,
+        "left": 35
+    },
+    "kippt_um_nw0007.png": {
+        "right": 70,
+        "orig_h": 95,
+        "bottom": 81,
+        "top": 31,
+        "orig_w": 95,
+        "left": 18
+    },
+    "stan_strickt_ne0001.png": {
+        "right": 74,
+        "orig_h": 95,
+        "bottom": 80,
+        "top": 21,
+        "orig_w": 95,
+        "left": 32
+    },
+    "lNuft_se0000.png": {
+        "right": 66,
+        "orig_h": 95,
+        "bottom": 77,
+        "top": 20,
+        "orig_w": 95,
+        "left": 28
+    },
+    "noarmstan_treffer_sw0003.png": {
+        "right": 72,
+        "orig_h": 95,
+        "bottom": 80,
+        "top": 19,
+        "orig_w": 95,
+        "left": 25
+    },
+    "attack_se0003.png": {
+        "right": 70,
+        "orig_h": 95,
+        "bottom": 87,
+        "top": 15,
+        "orig_w": 95,
+        "left": 28
+    },
+    "lNuft_n0005.png": {
+        "right": 66,
+        "orig_h": 95,
+        "bottom": 83,
+        "top": 20,
+        "orig_w": 95,
+        "left": 32
+    },
+    "lNuft_w0002.png": {
+        "right": 69,
+        "orig_h": 95,
+        "bottom": 79,
+        "top": 21,
+        "orig_w": 95,
+        "left": 38
+    },
+    "noarmstan_treffer_se0000.png": {
+        "right": 68,
+        "orig_h": 95,
+        "bottom": 78,
+        "top": 22,
+        "orig_w": 95,
+        "left": 33
+    },
+    "stan_spricht_n0006.png": {
+        "right": 66,
+        "orig_h": 95,
+        "bottom": 79,
+        "top": 21,
+        "orig_w": 95,
+        "left": 32
+    },
+    "rennt_se0000.png": {
+        "right": 74,
+        "orig_h": 95,
+        "bottom": 79,
+        "top": 18,
+        "orig_w": 95,
+        "left": 22
+    },
+    "noarmstan_treffer_w0004.png": {
+        "right": 72,
+        "orig_h": 95,
+        "bottom": 82,
+        "top": 23,
+        "orig_w": 95,
+        "left": 38
+    },
+    "stan_spricht_w0002.png": {
+        "right": 68,
+        "orig_h": 95,
+        "bottom": 81,
+        "top": 22,
+        "orig_w": 95,
+        "left": 26
+    },
+    "rennt_sw0005.png": {
+        "right": 76,
+        "orig_h": 95,
+        "bottom": 82,
+        "top": 22,
+        "orig_w": 95,
+        "left": 28
+    },
+    "stan_spricht_se0001.png": {
+        "right": 75,
+        "orig_h": 95,
+        "bottom": 78,
+        "top": 21,
+        "orig_w": 95,
+        "left": 34
+    },
+    "attack_e0005.png": {
+        "right": 86,
+        "orig_h": 95,
+        "bottom": 86,
+        "top": 23,
+        "orig_w": 95,
+        "left": 25
+    },
+    "attack_nw0006.png": {
+        "right": 72,
+        "orig_h": 95,
+        "bottom": 81,
+        "top": 24,
+        "orig_w": 95,
+        "left": 31
+    },
+    "stan_strickt_s0006.png": {
+        "right": 69,
+        "orig_h": 95,
+        "bottom": 86,
+        "top": 22,
+        "orig_w": 95,
+        "left": 30
+    },
+    "attack_n0004.png": {
+        "right": 73,
+        "orig_h": 95,
+        "bottom": 83,
+        "top": 11,
+        "orig_w": 95,
+        "left": 30
+    },
+    "rennt_w0007.png": {
+        "right": 83,
+        "orig_h": 95,
+        "bottom": 82,
+        "top": 22,
+        "orig_w": 95,
+        "left": 26
+    },
+    "stan_spricht_s0001.png": {
+        "right": 68,
+        "orig_h": 95,
+        "bottom": 77,
+        "top": 21,
+        "orig_w": 95,
+        "left": 33
+    },
+    "noarmstan_treffer_s0000.png": {
+        "right": 67,
+        "orig_h": 95,
+        "bottom": 77,
+        "top": 22,
+        "orig_w": 95,
+        "left": 33
+    },
+    "rennt_nw0008.png": {
+        "right": 74,
+        "orig_h": 95,
+        "bottom": 91,
+        "top": 19,
+        "orig_w": 95,
+        "left": 22
+    },
+    "steht0001.png": {
+        "right": 68,
+        "orig_h": 95,
+        "bottom": 75,
+        "top": 20,
+        "orig_w": 95,
+        "left": 34
+    },
+    "noarmstan_treffer_e0002.png": {
+        "right": 62,
+        "orig_h": 95,
+        "bottom": 81,
+        "top": 23,
+        "orig_w": 95,
+        "left": 31
+    },
+    "stan_strickt_w0005.png": {
+        "right": 65,
+        "orig_h": 95,
+        "bottom": 81,
+        "top": 22,
+        "orig_w": 95,
+        "left": 25
+    },
+    "lNuft_nw0000.png": {
+        "right": 68,
+        "orig_h": 95,
+        "bottom": 83,
+        "top": 20,
+        "orig_w": 95,
+        "left": 29
+    },
+    "noarmstan_treffer_ne0006.png": {
+        "right": 67,
+        "orig_h": 95,
+        "bottom": 80,
+        "top": 21,
+        "orig_w": 95,
+        "left": 32
+    },
+    "noarmstan_treffer_n0003.png": {
+        "right": 75,
+        "orig_h": 95,
+        "bottom": 82,
+        "top": 32,
+        "orig_w": 95,
+        "left": 23
+    },
+    "kippt_um_s0001.png": {
+        "right": 67,
+        "orig_h": 95,
+        "bottom": 78,
+        "top": 17,
+        "orig_w": 95,
+        "left": 34
+    },
+    "stan_spricht_n0002.png": {
+        "right": 66,
+        "orig_h": 95,
+        "bottom": 78,
+        "top": 22,
+        "orig_w": 95,
+        "left": 32
+    },
+    "stan_strickt_se0001.png": {
+        "right": 75,
+        "orig_h": 95,
+        "bottom": 89,
+        "top": 22,
+        "orig_w": 95,
+        "left": 33
+    },
+    "rennt_w0005.png": {
+        "right": 84,
+        "orig_h": 95,
+        "bottom": 77,
+        "top": 22,
+        "orig_w": 95,
+        "left": 25
+    },
+    "rennt_ne0003.png": {
+        "right": 69,
+        "orig_h": 95,
+        "bottom": 92,
+        "top": 20,
+        "orig_w": 95,
+        "left": 21
+    },
+    "stan_spricht_nw0002.png": {
+        "right": 66,
+        "orig_h": 95,
+        "bottom": 80,
+        "top": 23,
+        "orig_w": 95,
+        "left": 24
+    },
+    "stan_strickt_nw0000.png": {
+        "right": 67,
+        "orig_h": 95,
+        "bottom": 81,
+        "top": 22,
+        "orig_w": 95,
+        "left": 25
+    },
+    "lNuft_n0007.png": {
+        "right": 66,
+        "orig_h": 95,
+        "bottom": 83,
+        "top": 20,
+        "orig_w": 95,
+        "left": 32
+    },
+    "attack_e0003.png": {
+        "right": 86,
+        "orig_h": 95,
+        "bottom": 86,
+        "top": 23,
+        "orig_w": 95,
+        "left": 25
+    },
+    "rennt_nw0007.png": {
+        "right": 75,
+        "orig_h": 95,
+        "bottom": 92,
+        "top": 21,
+        "orig_w": 95,
+        "left": 28
+    },
+    "lNuft_s0000.png": {
+        "right": 66,
+        "orig_h": 95,
+        "bottom": 83,
+        "top": 19,
+        "orig_w": 95,
+        "left": 34
+    },
+    "kippt_um_se0005.png": {
+        "right": 77,
+        "orig_h": 95,
+        "bottom": 83,
+        "top": 22,
+        "orig_w": 95,
+        "left": 26
+    },
+    "rennt_n0004.png": {
+        "right": 72,
+        "orig_h": 95,
+        "bottom": 93,
+        "top": 18,
+        "orig_w": 95,
+        "left": 34
+    },
+    "stan_strickt_w0001.png": {
+        "right": 65,
+        "orig_h": 95,
+        "bottom": 81,
+        "top": 22,
+        "orig_w": 95,
+        "left": 25
+    },
+    "naormstan_treffer_nw0001.png": {
+        "right": 67,
+        "orig_h": 95,
+        "bottom": 81,
+        "top": 24,
+        "orig_w": 95,
+        "left": 29
+    },
+    "attack_w0007.png": {
+        "right": 68,
+        "orig_h": 95,
+        "bottom": 82,
+        "top": 27,
+        "orig_w": 95,
+        "left": 35
+    },
+    "stan_strickt_se0000.png": {
+        "right": 76,
+        "orig_h": 95,
+        "bottom": 89,
+        "top": 22,
+        "orig_w": 95,
+        "left": 33
+    },
+    "stan_spricht_nw0000.png": {
+        "right": 67,
+        "orig_h": 95,
+        "bottom": 81,
+        "top": 22,
+        "orig_w": 95,
+        "left": 32
+    },
+    "kippt_um_e0007.png": {
+        "right": 81,
+        "orig_h": 95,
+        "bottom": 75,
+        "top": 40,
+        "orig_w": 95,
+        "left": 14
+    },
+    "lNuft_s0005.png": {
+        "right": 68,
+        "orig_h": 95,
+        "bottom": 80,
+        "top": 19,
+        "orig_w": 95,
+        "left": 33
+    },
+    "kippt_um_e0008.png": {
+        "right": 80,
+        "orig_h": 95,
+        "bottom": 75,
+        "top": 42,
+        "orig_w": 95,
+        "left": 15
+    },
+    "rennt_n0006.png": {
+        "right": 71,
+        "orig_h": 95,
+        "bottom": 94,
+        "top": 22,
+        "orig_w": 95,
+        "left": 28
+    },
+    "stan_spricht_ne0005.png": {
+        "right": 67,
+        "orig_h": 95,
+        "bottom": 80,
+        "top": 22,
+        "orig_w": 95,
+        "left": 33
+    },
+    "lNuft_ne0004.png": {
+        "right": 64,
+        "orig_h": 95,
+        "bottom": 82,
+        "top": 20,
+        "orig_w": 95,
+        "left": 27
+    },
+    "attack_w0000.png": {
+        "right": 65,
+        "orig_h": 95,
+        "bottom": 81,
+        "top": 22,
+        "orig_w": 95,
+        "left": 39
+    },
+    "stan_strickt_se0004.png": {
+        "right": 75,
+        "orig_h": 95,
+        "bottom": 89,
+        "top": 22,
+        "orig_w": 95,
+        "left": 33
+    },
+    "rennt_s0004.png": {
+        "right": 70,
+        "orig_h": 95,
+        "bottom": 88,
+        "top": 20,
+        "orig_w": 95,
+        "left": 27
+    },
+    "attack_sw0007.png": {
+        "right": 72,
+        "orig_h": 95,
+        "bottom": 80,
+        "top": 24,
+        "orig_w": 95,
+        "left": 28
+    },
+    "stan_strickt_sw0006.png": {
+        "right": 67,
+        "orig_h": 95,
+        "bottom": 80,
+        "top": 22,
+        "orig_w": 95,
+        "left": 22
+    },
+    "stan_spricht_e0003.png": {
+        "right": 77,
+        "orig_h": 95,
+        "bottom": 80,
+        "top": 23,
+        "orig_w": 95,
+        "left": 36
+    },
+    "attack_n0006.png": {
+        "right": 83,
+        "orig_h": 95,
+        "bottom": 82,
+        "top": 27,
+        "orig_w": 95,
+        "left": 20
+    },
+    "stan_spricht_w0004.png": {
+        "right": 68,
+        "orig_h": 95,
+        "bottom": 81,
+        "top": 22,
+        "orig_w": 95,
+        "left": 26
+    },
+    "attack_se0000.png": {
+        "right": 68,
+        "orig_h": 95,
+        "bottom": 78,
+        "top": 22,
+        "orig_w": 95,
+        "left": 33
+    },
+    "lNuft_n0003.png": {
+        "right": 66,
+        "orig_h": 95,
+        "bottom": 83,
+        "top": 20,
+        "orig_w": 95,
+        "left": 32
+    },
+    "noarmstan_treffer_e0001.png": {
+        "right": 61,
+        "orig_h": 95,
+        "bottom": 80,
+        "top": 22,
+        "orig_w": 95,
+        "left": 34
+    },
+    "noarmstan_treffer_ne0005.png": {
+        "right": 70,
+        "orig_h": 95,
+        "bottom": 81,
+        "top": 24,
+        "orig_w": 95,
+        "left": 31
+    },
+    "stan_strickt_sw0004.png": {
+        "right": 67,
+        "orig_h": 95,
+        "bottom": 79,
+        "top": 22,
+        "orig_w": 95,
+        "left": 22
+    },
+    "stan_spricht_ne0000.png": {
+        "right": 67,
+        "orig_h": 95,
+        "bottom": 80,
+        "top": 21,
+        "orig_w": 95,
+        "left": 32
+    },
+    "stan_strickt_ne0005.png": {
+        "right": 74,
+        "orig_h": 95,
+        "bottom": 80,
+        "top": 21,
+        "orig_w": 95,
+        "left": 32
+    },
+    "naormstan_treffer_nw0005.png": {
+        "right": 67,
+        "orig_h": 95,
+        "bottom": 81,
+        "top": 24,
+        "orig_w": 95,
+        "left": 30
+    },
+    "kippt_um_ne0000.png": {
+        "right": 67,
+        "orig_h": 95,
+        "bottom": 80,
+        "top": 21,
+        "orig_w": 95,
+        "left": 32
+    },
+    "lNuft_w0008.png": {
+        "right": 69,
+        "orig_h": 95,
+        "bottom": 79,
+        "top": 20,
+        "orig_w": 95,
+        "left": 28
+    },
+    "stan_strickt_n0006.png": {
+        "right": 68,
+        "orig_h": 95,
+        "bottom": 79,
+        "top": 21,
+        "orig_w": 95,
+        "left": 32
+    },
+    "attack_e0001.png": {
+        "right": 66,
+        "orig_h": 95,
+        "bottom": 87,
+        "top": 17,
+        "orig_w": 95,
+        "left": 33
+    },
+    "noarmstan_treffer_se0001.png": {
+        "right": 70,
+        "orig_h": 95,
+        "bottom": 79,
+        "top": 20,
+        "orig_w": 95,
+        "left": 32
+    },
+    "rennt_n0002.png": {
+        "right": 71,
+        "orig_h": 95,
+        "bottom": 94,
+        "top": 21,
+        "orig_w": 95,
+        "left": 28
+    },
+    "kippt_um_ne0006.png": {
+        "right": 78,
+        "orig_h": 95,
+        "bottom": 78,
+        "top": 26,
+        "orig_w": 95,
+        "left": 24
+    },
+    "rennt_ne0007.png": {
+        "right": 79,
+        "orig_h": 95,
+        "bottom": 88,
+        "top": 21,
+        "orig_w": 95,
+        "left": 16
+    },
+    "rennt_sw0008.png": {
+        "right": 83,
+        "orig_h": 95,
+        "bottom": 87,
+        "top": 20,
+        "orig_w": 95,
+        "left": 28
+    },
+    "rennt_sw0007.png": {
+        "right": 81,
+        "orig_h": 95,
+        "bottom": 82,
+        "top": 22,
+        "orig_w": 95,
+        "left": 23
+    },
+    "attack_n0000.png": {
+        "right": 66,
+        "orig_h": 95,
+        "bottom": 79,
+        "top": 21,
+        "orig_w": 95,
+        "left": 32
+    },
+    "lNuft_ne0006.png": {
+        "right": 65,
+        "orig_h": 95,
+        "bottom": 82,
+        "top": 20,
+        "orig_w": 95,
+        "left": 27
+    },
+    "stan_strickt_se0005.png": {
+        "right": 75,
+        "orig_h": 95,
+        "bottom": 89,
+        "top": 22,
+        "orig_w": 95,
+        "left": 33
+    },
+    "steht0007.png": {
+        "right": 64,
+        "orig_h": 95,
+        "bottom": 75,
+        "top": 20,
+        "orig_w": 95,
+        "left": 34
+    },
+    "lNuft_nw0004.png": {
+        "right": 68,
+        "orig_h": 95,
+        "bottom": 83,
+        "top": 21,
+        "orig_w": 95,
+        "left": 26
+    },
+    "rennt_e0006.png": {
+        "right": 72,
+        "orig_h": 95,
+        "bottom": 80,
+        "top": 23,
+        "orig_w": 95,
+        "left": 14
+    },
+    "rennt_e0003.png": {
+        "right": 79,
+        "orig_h": 95,
+        "bottom": 82,
+        "top": 21,
+        "orig_w": 95,
+        "left": 13
+    },
+    "kippt_um_w0001.png": {
+        "right": 68,
+        "orig_h": 95,
+        "bottom": 79,
+        "top": 21,
+        "orig_w": 95,
+        "left": 33
+    },
+    "rennt_ne0001.png": {
+        "right": 79,
+        "orig_h": 95,
+        "bottom": 89,
+        "top": 21,
+        "orig_w": 95,
+        "left": 15
+    },
+    "noarmstan_treffer_w0003.png": {
+        "right": 75,
+        "orig_h": 95,
+        "bottom": 83,
+        "top": 24,
+        "orig_w": 95,
+        "left": 38
+    },
+    "noarmstan_treffer_sw0001.png": {
+        "right": 67,
+        "orig_h": 95,
+        "bottom": 79,
+        "top": 20,
+        "orig_w": 95,
+        "left": 30
+    },
+    "kippt_um_sw0006.png": {
+        "right": 75,
+        "orig_h": 95,
+        "bottom": 84,
+        "top": 28,
+        "orig_w": 95,
+        "left": 19
+    },
+    "rennt_nw0002.png": {
+        "right": 78,
+        "orig_h": 95,
+        "bottom": 91,
+        "top": 22,
+        "orig_w": 95,
+        "left": 21
+    },
+    "stan_spricht_sw0000.png": {
+        "right": 67,
+        "orig_h": 95,
+        "bottom": 78,
+        "top": 22,
+        "orig_w": 95,
+        "left": 32
+    },
+    "kippt_um_w0007.png": {
+        "right": 82,
+        "orig_h": 95,
+        "bottom": 74,
+        "top": 38,
+        "orig_w": 95,
+        "left": 15
+    },
+    "kippt_um_n0006.png": {
+        "right": 68,
+        "orig_h": 95,
+        "bottom": 83,
+        "top": 24,
+        "orig_w": 95,
+        "left": 25
+    },
+    "stan_strickt_e0006.png": {
+        "right": 77,
+        "orig_h": 95,
+        "bottom": 83,
+        "top": 22,
+        "orig_w": 95,
+        "left": 35
+    },
+    "rennt_sw0001.png": {
+        "right": 82,
+        "orig_h": 95,
+        "bottom": 84,
+        "top": 21,
+        "orig_w": 95,
+        "left": 24
+    },
+    "stan_spricht_e0004.png": {
+        "right": 77,
+        "orig_h": 95,
+        "bottom": 80,
+        "top": 22,
+        "orig_w": 95,
+        "left": 37
+    },
+    "attack_w0008.png": {
+        "right": 65,
+        "orig_h": 95,
+        "bottom": 81,
+        "top": 22,
+        "orig_w": 95,
+        "left": 39
+    },
+    "attack_ne0003.png": {
+        "right": 89,
+        "orig_h": 95,
+        "bottom": 84,
+        "top": 21,
+        "orig_w": 95,
+        "left": 19
+    },
+    "stan_spricht_s0003.png": {
+        "right": 67,
+        "orig_h": 95,
+        "bottom": 77,
+        "top": 20,
+        "orig_w": 95,
+        "left": 33
+    },
+    "lNuft_w0003.png": {
+        "right": 69,
+        "orig_h": 95,
+        "bottom": 79,
+        "top": 21,
+        "orig_w": 95,
+        "left": 34
+    },
+    "rennt_nw0005.png": {
+        "right": 82,
+        "orig_h": 95,
+        "bottom": 89,
+        "top": 21,
+        "orig_w": 95,
+        "left": 22
+    },
+    "kippt_um_se0002.png": {
+        "right": 75,
+        "orig_h": 95,
+        "bottom": 78,
+        "top": 17,
+        "orig_w": 95,
+        "left": 33
+    },
+    "attack_s0005.png": {
+        "right": 78,
+        "orig_h": 95,
+        "bottom": 85,
+        "top": 12,
+        "orig_w": 95,
+        "left": 24
+    },
+    "stan_spricht_se0004.png": {
+        "right": 78,
+        "orig_h": 95,
+        "bottom": 78,
+        "top": 21,
+        "orig_w": 95,
+        "left": 34
+    },
+    "attack_nw0005.png": {
+        "right": 75,
+        "orig_h": 95,
+        "bottom": 83,
+        "top": 14,
+        "orig_w": 95,
+        "left": 35
+    },
+    "rennt_e0004.png": {
+        "right": 79,
+        "orig_h": 95,
+        "bottom": 83,
+        "top": 20,
+        "orig_w": 95,
+        "left": 13
+    },
+    "noarmstan_treffer_ne0003.png": {
+        "right": 74,
+        "orig_h": 95,
+        "bottom": 83,
+        "top": 30,
+        "orig_w": 95,
+        "left": 30
+    },
+    "lNuft_s0003.png": {
+        "right": 67,
+        "orig_h": 95,
+        "bottom": 76,
+        "top": 19,
+        "orig_w": 95,
+        "left": 33
+    },
+    "kippt_um_se0004.png": {
+        "right": 74,
+        "orig_h": 95,
+        "bottom": 84,
+        "top": 19,
+        "orig_w": 95,
+        "left": 28
+    },
+    "lNuft_se0002.png": {
+        "right": 67,
+        "orig_h": 95,
+        "bottom": 75,
+        "top": 20,
+        "orig_w": 95,
+        "left": 28
+    },
+    "noarmstan_treffer_n0006.png": {
+        "right": 66,
+        "orig_h": 95,
+        "bottom": 79,
+        "top": 21,
+        "orig_w": 95,
+        "left": 32
+    },
+    "attack_w0002.png": {
+        "right": 74,
+        "orig_h": 95,
+        "bottom": 84,
+        "top": 27,
+        "orig_w": 95,
+        "left": 27
+    },
+    "attack_n0003.png": {
+        "right": 78,
+        "orig_h": 95,
+        "bottom": 80,
+        "top": 16,
+        "orig_w": 95,
+        "left": 24
+    },
+    "kippt_um_sw0005.png": {
+        "right": 76,
+        "orig_h": 95,
+        "bottom": 84,
+        "top": 23,
+        "orig_w": 95,
+        "left": 17
+    },
+    "noarmstan_treffer_e0004.png": {
+        "right": 62,
+        "orig_h": 95,
+        "bottom": 81,
+        "top": 23,
+        "orig_w": 95,
+        "left": 31
+    },
+    "steht0003.png": {
+        "right": 66,
+        "orig_h": 95,
+        "bottom": 78,
+        "top": 20,
+        "orig_w": 95,
+        "left": 35
+    },
+    "rennt_nw0000.png": {
+        "right": 75,
+        "orig_h": 95,
+        "bottom": 93,
+        "top": 19,
+        "orig_w": 95,
+        "left": 24
+    },
+    "lNuft_se0004.png": {
+        "right": 73,
+        "orig_h": 95,
+        "bottom": 81,
+        "top": 19,
+        "orig_w": 95,
+        "left": 28
+    },
+    "attack_n0008.png": {
+        "right": 66,
+        "orig_h": 95,
+        "bottom": 79,
+        "top": 21,
+        "orig_w": 95,
+        "left": 32
+    },
+    "rennt_se0002.png": {
+        "right": 81,
+        "orig_h": 95,
+        "bottom": 83,
+        "top": 23,
+        "orig_w": 95,
+        "left": 19
+    },
+    "stan_strickt_e0004.png": {
+        "right": 78,
+        "orig_h": 95,
+        "bottom": 83,
+        "top": 22,
+        "orig_w": 95,
+        "left": 35
+    },
+    "noarmstan_treffer_w0006.png": {
+        "right": 65,
+        "orig_h": 95,
+        "bottom": 81,
+        "top": 22,
+        "orig_w": 95,
+        "left": 39
+    },
+    "stan_spricht_w0000.png": {
+        "right": 65,
+        "orig_h": 95,
+        "bottom": 81,
+        "top": 22,
+        "orig_w": 95,
+        "left": 39
+    },
+    "lNuft_sw0005.png": {
+        "right": 69,
+        "orig_h": 95,
+        "bottom": 78,
+        "top": 20,
+        "orig_w": 95,
+        "left": 34
+    },
+    "stan_strickt_n0002.png": {
+        "right": 69,
+        "orig_h": 95,
+        "bottom": 79,
+        "top": 20,
+        "orig_w": 95,
+        "left": 32
+    },
+    "rennt_sw0003.png": {
+        "right": 76,
+        "orig_h": 95,
+        "bottom": 81,
+        "top": 21,
+        "orig_w": 95,
+        "left": 31
+    },
+    "noarmstan_treffer_se0005.png": {
+        "right": 70,
+        "orig_h": 95,
+        "bottom": 79,
+        "top": 21,
+        "orig_w": 95,
+        "left": 32
+    },
+    "kippt_um_se0007.png": {
+        "right": 78,
+        "orig_h": 95,
+        "bottom": 80,
+        "top": 30,
+        "orig_w": 95,
+        "left": 25
+    },
+    "noarmstan_treffer_w0000.png": {
+        "right": 65,
+        "orig_h": 95,
+        "bottom": 81,
+        "top": 22,
+        "orig_w": 95,
+        "left": 39
+    },
+    "lNuft_ne0000.png": {
+        "right": 71,
+        "orig_h": 95,
+        "bottom": 82,
+        "top": 20,
+        "orig_w": 95,
+        "left": 27
+    },
+    "kippt_um_n0002.png": {
+        "right": 66,
+        "orig_h": 95,
+        "bottom": 70,
+        "top": 27,
+        "orig_w": 95,
+        "left": 30
+    },
+    "stan_strickt_nw0001.png": {
+        "right": 67,
+        "orig_h": 95,
+        "bottom": 81,
+        "top": 22,
+        "orig_w": 95,
+        "left": 26
+    },
+    "stan_strickt_n0000.png": {
+        "right": 68,
+        "orig_h": 95,
+        "bottom": 79,
+        "top": 21,
+        "orig_w": 95,
+        "left": 32
+    },
+    "lNuft_n0006.png": {
+        "right": 66,
+        "orig_h": 95,
+        "bottom": 83,
+        "top": 20,
+        "orig_w": 95,
+        "left": 32
+    },
+    "attack_e0006.png": {
+        "right": 75,
+        "orig_h": 95,
+        "bottom": 90,
+        "top": 19,
+        "orig_w": 95,
+        "left": 29
+    },
+    "lNuft_s0001.png": {
+        "right": 66,
+        "orig_h": 95,
+        "bottom": 79,
+        "top": 19,
+        "orig_w": 95,
+        "left": 34
+    },
+    "attack_n0002.png": {
+        "right": 83,
+        "orig_h": 95,
+        "bottom": 82,
+        "top": 27,
+        "orig_w": 95,
+        "left": 20
+    },
+    "attack_s0007.png": {
+        "right": 75,
+        "orig_h": 95,
+        "bottom": 75,
+        "top": 19,
+        "orig_w": 95,
+        "left": 24
+    },
+    "lNuft_s0008.png": {
+        "right": 66,
+        "orig_h": 95,
+        "bottom": 83,
+        "top": 19,
+        "orig_w": 95,
+        "left": 34
+    },
+    "stan_spricht_se0006.png": {
+        "right": 68,
+        "orig_h": 95,
+        "bottom": 78,
+        "top": 22,
+        "orig_w": 95,
+        "left": 33
+    },
+    "lNuft_se0008.png": {
+        "right": 66,
+        "orig_h": 95,
+        "bottom": 77,
+        "top": 20,
+        "orig_w": 95,
+        "left": 28
+    },
+    "stan_strickt_s0005.png": {
+        "right": 68,
+        "orig_h": 95,
+        "bottom": 86,
+        "top": 22,
+        "orig_w": 95,
+        "left": 30
+    },
+    "stan_spricht_sw0004.png": {
+        "right": 67,
+        "orig_h": 95,
+        "bottom": 79,
+        "top": 21,
+        "orig_w": 95,
+        "left": 32
+    },
+    "attack_e0004.png": {
+        "right": 82,
+        "orig_h": 95,
+        "bottom": 87,
+        "top": 22,
+        "orig_w": 95,
+        "left": 19
+    },
+    "kippt_um_s0002.png": {
+        "right": 67,
+        "orig_h": 95,
+        "bottom": 80,
+        "top": 15,
+        "orig_w": 95,
+        "left": 34
+    },
+    "stan_strickt_e0000.png": {
+        "right": 77,
+        "orig_h": 95,
+        "bottom": 83,
+        "top": 22,
+        "orig_w": 95,
+        "left": 35
+    },
+    "kippt_um_n0004.png": {
+        "right": 67,
+        "orig_h": 95,
+        "bottom": 78,
+        "top": 29,
+        "orig_w": 95,
+        "left": 28
+    },
+    "rennt_w0003.png": {
+        "right": 84,
+        "orig_h": 95,
+        "bottom": 78,
+        "top": 21,
+        "orig_w": 95,
+        "left": 25
+    },
+    "lNuft_sw0001.png": {
+        "right": 69,
+        "orig_h": 95,
+        "bottom": 79,
+        "top": 20,
+        "orig_w": 95,
+        "left": 31
+    },
+    "lNuft_n0008.png": {
+        "right": 66,
+        "orig_h": 95,
+        "bottom": 83,
+        "top": 20,
+        "orig_w": 95,
+        "left": 32
+    },
+    "stan_spricht_e0006.png": {
+        "right": 65,
+        "orig_h": 95,
+        "bottom": 80,
+        "top": 22,
+        "orig_w": 95,
+        "left": 35
+    },
+    "attack_ne0007.png": {
+        "right": 72,
+        "orig_h": 95,
+        "bottom": 85,
+        "top": 19,
+        "orig_w": 95,
+        "left": 31
+    },
+    "attack_n0007.png": {
+        "right": 72,
+        "orig_h": 95,
+        "bottom": 81,
+        "top": 23,
+        "orig_w": 95,
+        "left": 25
+    },
+    "stan_strickt_se0002.png": {
+        "right": 75,
+        "orig_h": 95,
+        "bottom": 89,
+        "top": 22,
+        "orig_w": 95,
+        "left": 33
+    },
+    "lNuft_e0002.png": {
+        "right": 64,
+        "orig_h": 95,
+        "bottom": 78,
+        "top": 20,
+        "orig_w": 95,
+        "left": 27
+    },
+    "attack_w0006.png": {
+        "right": 74,
+        "orig_h": 95,
+        "bottom": 84,
+        "top": 27,
+        "orig_w": 95,
+        "left": 27
+    },
+    "kippt_um_e0004.png": {
+        "right": 80,
+        "orig_h": 95,
+        "bottom": 73,
+        "top": 28,
+        "orig_w": 95,
+        "left": 21
+    },
+    "stan_spricht_n0004.png": {
+        "right": 66,
+        "orig_h": 95,
+        "bottom": 78,
+        "top": 22,
+        "orig_w": 95,
+        "left": 32
+    },
+    "attack_ne0002.png": {
+        "right": 81,
+        "orig_h": 95,
+        "bottom": 83,
+        "top": 24,
+        "orig_w": 95,
+        "left": 25
+    },
+    "lNuft_e0004.png": {
+        "right": 69,
+        "orig_h": 95,
+        "bottom": 78,
+        "top": 20,
+        "orig_w": 95,
+        "left": 27
+    },
+    "attack_se0001.png": {
+        "right": 72,
+        "orig_h": 95,
+        "bottom": 82,
+        "top": 17,
+        "orig_w": 95,
+        "left": 26
+    },
+    "attack_e0000.png": {
+        "right": 65,
+        "orig_h": 95,
+        "bottom": 80,
+        "top": 22,
+        "orig_w": 95,
+        "left": 36
+    }
+}
