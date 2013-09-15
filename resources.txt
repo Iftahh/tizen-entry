@@ -1,8 +1,0 @@
-
-http://opengameart.org/sites/default/files/tiled_cave_1.png
-
-iso-64x64-outside.png
-http://opengameart.org/sites/default/files/iso-64x64-outside.png
-
-iso-64x64-building_2.png
-http://opengameart.org/sites/default/files/iso-64x64-building_2.png
