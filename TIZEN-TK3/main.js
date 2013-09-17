@@ -63,17 +63,55 @@ function init() {
 	//var ambientLight = new THREE.AmbientLight( 0x101010 );
 	//scene.add( ambientLight );
 
-	plight = new THREE.PointLight( 0xff9999, 2.3, 400 );
+	//plight = new THREE.PointLight( 0xff9999, 2.3, 400 );
+	plight = new THREE.SpotLight( 0xff9999, 7.1, 400, 3.1415/2,2);
+	plight.target.position.x=1000*50;
+	plight.target.position.y=50;
+	plight.target.position.z=0;
+	plight.castShadow= true;
 	plight.position.x=25;
 	plight.position.y=65;
 	plight.position.z=25;
+	plight.shadowCameraVisible = true;
 	scene.add( plight );
+
+	plight2 = new THREE.SpotLight( 0xff9999, 7.1, 400, 3.14/2,2);
+	plight2.target.position.x=0;
+	plight2.target.position.y=50;
+	plight2.target.position.z=1000*50;
+	plight2.castShadow= true;
+	plight2.position.x=25;
+	plight2.position.y=65;
+	plight2.position.z=25;
+	plight2.shadowCameraVisible = true;
+	scene.add( plight2 );
+
+	plight3 = new THREE.SpotLight( 0xff9999, 7.1, 400, 3.14/2,2);
+	plight3.target.position.x=-1000*50;
+	plight3.target.position.y=50;
+	plight3.target.position.z=0;
+	plight3.castShadow= true;
+	plight3.position.x=25;
+	plight3.position.y=65;
+	plight3.position.z=25;
+	scene.add( plight3 );
+
+	plight4 = new THREE.SpotLight( 0xff9999, 7.1, 400, 3.14/2, 2);
+	plight4.target.position.x=0;
+	plight4.target.position.y=50;
+	plight4.target.position.z=-1000*50;
+	plight4.castShadow= true;
+	plight4.position.x=25;
+	plight4.position.y=65;
+	plight4.position.z=25;
+	scene.add( plight4 );
 
 	//var directionalLight = new THREE.DirectionalLight( 0x777777 );
 	//directionalLight.position.set( 1, 0.75, 0.5 ).normalize();
 	//scene.add( directionalLight );
 
 	renderer = new THREE.WebGLRenderer( { antialias: true, preserveDrawingBuffer: true } );
+	renderer.shadowMapEnabled=true;
 	renderer.setSize( window.innerWidth, window.innerHeight );
 
 	container.appendChild( renderer.domElement );
@@ -94,6 +132,7 @@ function init() {
 			voxel.position.x=x*50+25;
 			voxel.position.z=z*50+25;
 			voxel.position.y=25;
+			voxel.receiveShadow = true;
 			voxel.matrixAutoUpdate = false;
 			voxel.updateMatrix();
 			scene.add( voxel );
@@ -182,6 +221,8 @@ function onDocumentMouseDown( event ) {
 			console.log('voxelpos='+voxelPosition)
 
 			var voxel = new THREE.Mesh( cubeGeo, cubeMaterial );
+			voxel.castShadow= true;
+			voxel.receiveShadow= true;
 			voxel.position.copy( voxelPosition );
 			voxel.matrixAutoUpdate = false;
 			voxel.updateMatrix();
