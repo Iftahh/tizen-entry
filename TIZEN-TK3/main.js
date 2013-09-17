@@ -65,11 +65,20 @@ function init() {
 	//scene.add( ambientLight );
 
 	//plight = new THREE.PointLight( 0xff9999, 2.3, 400 );
+	plight = new THREE.SpotLight( 0xff9999, 1.5, 400, Math.PI/3.9, 3);
+	plight.target.position.x=27;
+	plight.target.position.y=-1000;
+	plight.target.position.z=3;
+	plight.position.x=25;
+	plight.position.y=355;
+	plight.position.z=25;
+	scene.add( plight );
+	plights.push(plight);
 	for (i=0;i<8;i++) {
-		plight = new THREE.SpotLight( 0xff9999, 7.1, 400, Math.PI/3.9, 3);
-		plight.target.position.x=100000.0*Math.cos(Math.PI/4*i);
+		plight = new THREE.SpotLight( 0xff9999, 7.1, 400, Math.PI/3.6, 3);
+		plight.target.position.x=100000.0*Math.cos(Math.PI/3.6*i);
 		plight.target.position.y=-1000;
-		plight.target.position.z=100000.0*Math.sin(Math.PI/4*i);
+		plight.target.position.z=100000.0*Math.sin(Math.PI/3.6*i);
 		plight.castShadow= true;
 		plight.position.x=25;
 		plight.position.y=55;
@@ -286,6 +295,8 @@ function render() {
 		for (var i=0;i<plights.length;i++)
 			plights[i].position.x+=5;
 	}
+	plights[0].target.position.x= plights[0].position.x;
+	plights[0].target.position.z= plights[0].position.z;
 
 	renderer.render( scene, camera );
 }
