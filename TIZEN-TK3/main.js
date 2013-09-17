@@ -11,6 +11,7 @@ var heroMesh;
 var voxelPosition = new THREE.Vector3(), tmpVec = new THREE.Vector3(), normalMatrix = new THREE.Matrix3();
 var cubeGeo, cubeMaterial;
 var i, intersector;
+var plights=[];
 
 init();
 animate();
@@ -64,47 +65,18 @@ function init() {
 	//scene.add( ambientLight );
 
 	//plight = new THREE.PointLight( 0xff9999, 2.3, 400 );
-	plight = new THREE.SpotLight( 0xff9999, 7.1, 400, 3.1415/2,2);
-	plight.target.position.x=1000*50;
-	plight.target.position.y=50;
-	plight.target.position.z=0;
-	plight.castShadow= true;
-	plight.position.x=25;
-	plight.position.y=65;
-	plight.position.z=25;
-	plight.shadowCameraVisible = true;
-	scene.add( plight );
-
-	plight2 = new THREE.SpotLight( 0xff9999, 7.1, 400, 3.14/2,2);
-	plight2.target.position.x=0;
-	plight2.target.position.y=50;
-	plight2.target.position.z=1000*50;
-	plight2.castShadow= true;
-	plight2.position.x=25;
-	plight2.position.y=65;
-	plight2.position.z=25;
-	plight2.shadowCameraVisible = true;
-	scene.add( plight2 );
-
-	plight3 = new THREE.SpotLight( 0xff9999, 7.1, 400, 3.14/2,2);
-	plight3.target.position.x=-1000*50;
-	plight3.target.position.y=50;
-	plight3.target.position.z=0;
-	plight3.castShadow= true;
-	plight3.position.x=25;
-	plight3.position.y=65;
-	plight3.position.z=25;
-	scene.add( plight3 );
-
-	plight4 = new THREE.SpotLight( 0xff9999, 7.1, 400, 3.14/2, 2);
-	plight4.target.position.x=0;
-	plight4.target.position.y=50;
-	plight4.target.position.z=-1000*50;
-	plight4.castShadow= true;
-	plight4.position.x=25;
-	plight4.position.y=65;
-	plight4.position.z=25;
-	scene.add( plight4 );
+	for (i=0;i<8;i++) {
+		plight = new THREE.SpotLight( 0xff9999, 7.1, 400, Math.PI/3.9, 3);
+		plight.target.position.x=100000.0*Math.cos(Math.PI/4*i);
+		plight.target.position.y=-1000;
+		plight.target.position.z=100000.0*Math.sin(Math.PI/4*i);
+		plight.castShadow= true;
+		plight.position.x=25;
+		plight.position.y=55;
+		plight.position.z=25;
+		scene.add( plight );
+		plights.push(plight);
+	}
 
 	//var directionalLight = new THREE.DirectionalLight( 0x777777 );
 	//directionalLight.position.set( 1, 0.75, 0.5 ).normalize();
@@ -299,16 +271,20 @@ function render() {
 	camera.lookAt( scene.position );
 
 	if (isArrowUp) {
-		plight.position.z-=5;
+		for (var i=0;i<plights.length;i++)
+			plights[i].position.z-=5;
 	}
 	if (isArrowDown) {
-		plight.position.z+=5;
+		for (var i=0;i<plights.length;i++)
+			plights[i].position.z+=5;
 	}
 	if (isArrowLeft) {
-		plight.position.x-=5;
+		for (var i=0;i<plights.length;i++)
+			plights[i].position.x-=5;
 	}
 	if (isArrowRight) {
-		plight.position.x+=5;
+		for (var i=0;i<plights.length;i++)
+			plights[i].position.x+=5;
 	}
 
 	renderer.render( scene, camera );
