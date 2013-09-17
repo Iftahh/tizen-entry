@@ -50,49 +50,46 @@ function init() {
 
 	projector = new THREE.Projector();
 
-	// Floor
-
-	plane = new THREE.Mesh( new THREE.PlaneGeometry( 1000, 1000 ), new THREE.MeshBasicMaterial({color:0x000000}) );
-	plane.rotation.x = - Math.PI / 2;
-	plane.visible = true;
-	scene.add( plane );
-
 	mouse2D = new THREE.Vector3( 0, 10000, 0.5 );
 
-	// Lights
-
-	//var ambientLight = new THREE.AmbientLight( 0x101010 );
-	//scene.add( ambientLight );
-
-	//plight = new THREE.PointLight( 0xff9999, 2.3, 400 );
-	plight = new THREE.SpotLight( 0xff9999, 1.5, 400, Math.PI/3.9, 3);
-	plight.target.position.x=27;
-	plight.target.position.y=-1000;
-	plight.target.position.z=3;
+	plight = new THREE.PointLight( 0xff9999, 2.3, 400 );
 	plight.position.x=25;
-	plight.position.y=355;
+	plight.position.y=65;
 	plight.position.z=25;
 	scene.add( plight );
 	plights.push(plight);
-	for (i=0;i<8;i++) {
-		plight = new THREE.SpotLight( 0xff9999, 7.1, 400, Math.PI/3.6, 3);
-		plight.target.position.x=100000.0*Math.cos(Math.PI/3.6*i);
-		plight.target.position.y=-1000;
-		plight.target.position.z=100000.0*Math.sin(Math.PI/3.6*i);
-		plight.castShadow= true;
-		plight.position.x=25;
-		plight.position.y=55;
-		plight.position.z=25;
-		scene.add( plight );
-		plights.push(plight);
-	}
+
+	// plight = new THREE.SpotLight( 0xff9999, 1.5, 400, Math.PI/3.9, 3);
+	// plight.target.position.x=27;
+	// plight.target.position.y=-1000;
+	// plight.target.position.z=3;
+	// plight.position.x=25;
+	// plight.position.y=355;
+	// plight.position.z=25;
+	// //scene.add( plight );
+	// //plights.push(plight);
+	// for (i=0;i<8;i++) {
+	// 	plight = new THREE.SpotLight( 0xff9999, 11.1, 400, Math.PI/4, 1);
+	// 	plight.target.position.x=100000.0*Math.cos(Math.PI/4*i);
+	// 	plight.target.position.y=-10;
+	// 	plight.target.position.z=100000.0*Math.sin(Math.PI/4*i);
+	// 	plight.castShadow= true;
+	// 	//plight.shadowCameraVisible= true;
+	// 	plight.shadowCameraNear=1;
+	// 	plight.shadowDarkness=0.9;
+	// 	plight.position.x=25;
+	// 	plight.position.y=55;
+	// 	plight.position.z=25;
+	// 	scene.add( plight );
+	// 	plights.push(plight);
+	// }
 
 	//var directionalLight = new THREE.DirectionalLight( 0x777777 );
 	//directionalLight.position.set( 1, 0.75, 0.5 ).normalize();
 	//scene.add( directionalLight );
 
 	renderer = new THREE.WebGLRenderer( { antialias: true, preserveDrawingBuffer: true } );
-	renderer.shadowMapEnabled=true;
+	//renderer.shadowMapEnabled=true;
 	renderer.setSize( window.innerWidth, window.innerHeight );
 
 	container.appendChild( renderer.domElement );
@@ -107,18 +104,32 @@ function init() {
 	window.addEventListener( 'resize', onWindowResize, false );
 
 	// add a floor
-	for (x=-50;x<50;x++) {
-		for(z=-50;z<50;z++) {
-			var voxel = new THREE.Mesh( cubeGeo, cubeMaterial );
-			voxel.position.x=x*50+25;
-			voxel.position.z=z*50+25;
-			voxel.position.y=25;
-			voxel.receiveShadow = true;
-			voxel.matrixAutoUpdate = false;
-			voxel.updateMatrix();
-			scene.add( voxel );
+	for (x=0;x<lenx;x++) {
+		for(z=0;z<leny;z++) {
+			if (get_map_xy(x,z)==0) { 
+				var voxel = new THREE.Mesh( cubeGeo, cubeMaterial );
+				voxel.position.x=x*50+25-lenx/2*50;
+				voxel.position.z=z*50+25-leny/2*50;
+				voxel.position.y=25;
+				//voxel.receiveShadow = true;
+				voxel.matrixAutoUpdate = false;
+				voxel.updateMatrix();
+				scene.add( voxel );
+			}
+			else {
+				var voxel = new THREE.Mesh( cubeGeo, cubeMaterial );
+				voxel.position.x=x*50+25-lenx/2*50;
+				voxel.position.z=z*50+25-leny/2*50;
+				voxel.position.y=25+50;
+				//voxel.receiveShadow = true;
+				voxel.matrixAutoUpdate = false;
+				voxel.updateMatrix();
+				//voxel.castShadow= true; // this is a wall
+				scene.add( voxel );				
+			}
 		}
 	}
+
 
 }
 
@@ -202,8 +213,8 @@ function onDocumentMouseDown( event ) {
 			console.log('voxelpos='+voxelPosition)
 
 			var voxel = new THREE.Mesh( cubeGeo, cubeMaterial );
-			voxel.castShadow= true;
-			voxel.receiveShadow= true;
+			//voxel.castShadow= true;
+			//voxel.receiveShadow= true;
 			voxel.position.copy( voxelPosition );
 			voxel.matrixAutoUpdate = false;
 			voxel.updateMatrix();
@@ -279,24 +290,27 @@ function render() {
 
 	camera.lookAt( scene.position );
 
-	if (isArrowUp) {
-		for (var i=0;i<plights.length;i++)
-			plights[i].position.z-=5;
-	}
-	if (isArrowDown) {
-		for (var i=0;i<plights.length;i++)
-			plights[i].position.z+=5;
-	}
-	if (isArrowLeft) {
-		for (var i=0;i<plights.length;i++)
-			plights[i].position.x-=5;
-	}
-	if (isArrowRight) {
-		for (var i=0;i<plights.length;i++)
-			plights[i].position.x+=5;
-	}
-	plights[0].target.position.x= plights[0].position.x;
-	plights[0].target.position.z= plights[0].position.z;
-
+	if (isArrowUp)
+		move_light(0,0,-5);
+	if (isArrowDown)
+		move_light(0,0,5);
+	if (isArrowLeft)
+		move_light(-5,0,0);
+	if (isArrowRight)
+		move_light(5,0,0);
 	renderer.render( scene, camera );
+}
+
+function move_light(dx,dy,dz) {
+	for (var i=0;i<plights.length;i++) {
+		tx= plights[i].position.x+dx;
+		tx_ix= Math.floor((tx+lenx/2*50)/50);
+		tz= plights[i].position.z+dz;
+		tz_ix= Math.floor((tz+leny/2*50)/50);
+
+		if (get_map_xy(tx_ix,tz_ix)==0) {
+			plights[i].position.x+=dx;
+			plights[i].position.z+=dz;
+		}
+	}
 }
