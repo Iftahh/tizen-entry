@@ -285,10 +285,6 @@ function render() {
 
 	}
 
-	camera.position.x = 1400 * Math.sin( THREE.Math.degToRad( theta ) );
-	camera.position.z = 1400 * Math.cos( THREE.Math.degToRad( theta ) );
-
-	camera.lookAt( scene.position );
 
 	if (isArrowUp)
 		move_light(0,0,-5);
@@ -298,14 +294,21 @@ function render() {
 		move_light(-5,0,0);
 	if (isArrowRight)
 		move_light(5,0,0);
+
+
+	camera.position.x = plights[0].position.x-1000;
+	camera.position.z = plights[0].position.z-500;
+	camera.lookAt( plights[0].position );
+
+
 	renderer.render( scene, camera );
 }
 
 function move_light(dx,dy,dz) {
 	for (var i=0;i<plights.length;i++) {
-		tx= plights[i].position.x+dx;
+		tx= plights[i].position.x+dx*2;
 		tx_ix= Math.floor((tx+lenx/2*50)/50);
-		tz= plights[i].position.z+dz;
+		tz= plights[i].position.z+dz*2;
 		tz_ix= Math.floor((tz+leny/2*50)/50);
 
 		if (get_map_xy(tx_ix,tz_ix)==0) {
