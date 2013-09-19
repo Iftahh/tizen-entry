@@ -112,6 +112,15 @@ function init() {
 				voxel.matrixAutoUpdate = false;
 				voxel.updateMatrix();
 				scene.add( voxel );
+				var voxel = new THREE.Mesh( cubeGeo, cubeMaterial );
+				voxel.position.x=x*50+25-lenx/2*50;
+				voxel.position.z=z*50+25-leny/2*50;
+				voxel.position.y=25+100;
+				voxel.receiveShadow = true;
+				voxel.castShadow = true;
+				voxel.matrixAutoUpdate = false;
+				voxel.updateMatrix();
+				scene.add( voxel );
 			}
 		}
 	}
