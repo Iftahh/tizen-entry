@@ -13,11 +13,13 @@ var floorGeo, floorMaterial;
 var i, intersector;
 var plights=[];
 
+var clock = new THREE.Clock();
+
 init();
 animate();
 
-function init() {
 
+function init() {
 	container = document.createElement( 'div' );
 	document.body.appendChild( container );
 
@@ -28,15 +30,20 @@ function init() {
       
 	// hero
 
-	heroGeo = new THREE.SphereGeometry( 10 );
-	heroMaterial = new THREE.MeshBasicMaterial( { color: 0x0000ff, opacity: 0.3, transparent: true } );
-	heroMesh = new THREE.Mesh( heroGeo, heroMaterial );
-	scene.add( heroMesh );
+	var loader = new THREE.JSONLoader( true );
+	loader.load( "stork.js", function( geometry ) {
+		geometry.computeMorphNormals();
+		var material = new THREE.MeshPhongMaterial( { color: 0xffffff, specular: 0xffffff, shininess: 20, morphTargets: true, morphNormals: true, vertexColors: THREE.FaceColors, shading: THREE.SmoothShading } );
+		heroMesh = new THREE.MorphAnimMesh( geometry, material );
+		heroMesh.duration = 1000;
+		heroMesh.scale.set( 0.2, 0.2, 0.2 );
+		scene.add( heroMesh );
+	} );
 
 	// cubes
 
 	cubeGeo = new THREE.CubeGeometry( 50, 50, 50 );
-	cubeMaterial = new THREE.MeshLambertMaterial( { color: 0xfeb74c, ambient: 0x00ff80, shading: THREE.FlatShading, map: THREE.ImageUtils.loadTexture( "square-outline-textured.png" ) } );
+	cubeMaterial = new THREE.MeshLambertMaterial( { color: 0xbef74c, ambient: 0x00ff80, shading: THREE.FlatShading, map: THREE.ImageUtils.loadTexture( "box_2.jpg" ) } );
 	cubeMaterial.ambient = cubeMaterial.color;
 
 	// floor
@@ -163,19 +170,35 @@ function animate() {
 	requestAnimationFrame( animate );
 
 	if (isArrowUp)
-		move_light(+5,0,0);
+		move_light(+2,0,0);
 	if (isArrowDown)
-		move_light(-5,0,0);
+		move_light(-2,0,0);
 	if (isArrowLeft)
-		move_light(0,0,-5);
+		move_light(0,0,-2);
 	if (isArrowRight)
-		move_light(0,0,+5);
+		move_light(0,0,+2);
 
 	camera.position.x = plights[0].position.x-1000;
 	camera.position.z = plights[0].position.z-500;
 	camera.lookAt( plights[0].position );
 
-	heroMesh.position= plights[0].position;
+	if (heroMesh) {
+		heroMesh.position= plights[0].position;
+		var delta = clock.getDelta();
+		heroMesh.updateAnimation( 1000 * delta );
+
+		if (isArrowUp)
+			heroMesh.rotation.y= +4*Math.PI/8;
+		else
+		if (isArrowDown)
+			heroMesh.rotation.y= -4*Math.PI/8;
+		else
+		if (isArrowLeft)
+			heroMesh.rotation.y= -Math.PI;
+		else
+		if (isArrowRight)
+			heroMesh.rotation.y= 0.0;
+	}
 
 	renderer.render( scene, camera );
 
@@ -185,9 +208,9 @@ function animate() {
 function move_light(dx,dy,dz) {
 
 	for (var i=0;i<plights.length;i++) {
-		tx= plights[i].position.x+dx*3;
+		tx= plights[i].position.x+dx*8;
 		tx_ix= Math.floor((tx+lenx/2*50)/50);
-		tz= plights[i].position.z+dz*3;
+		tz= plights[i].position.z+dz*8;
 		tz_ix= Math.floor((tz+leny/2*50)/50);
 
 		if (get_map_xy(tx_ix,tz_ix)==0) {
