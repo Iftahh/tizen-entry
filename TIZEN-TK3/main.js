@@ -143,10 +143,10 @@ function onDocumentKeyDown( event ) {
 
 function onDocumentKeyUp( event ) {
 	switch ( event.keyCode ) {
-		case 40: isArrowDown  = false; hero.vel_x+=dv; break;
-		case 38: isArrowUp    = false; hero.vel_x-=dv; break;
-		case 39: isArrowRight = false; hero.vel_z-=dv; break;
-		case 37: isArrowLeft  = false; hero.vel_z+=dv; break;
+		case 40: isArrowDown  = false; break;
+		case 38: isArrowUp    = false; break;
+		case 39: isArrowRight = false; break;
+		case 37: isArrowLeft  = false; break;
 	}
 }
 
@@ -216,7 +216,11 @@ function animate_hero() {
 	var delta = hero.clock.getDelta();
 	hero.mesh.updateAnimation( 1000 * delta );
 	if ((hero.vel_x!=0)||(hero.vel_z!=0))
-		hero.mesh.rotation.y= Math.atan2(hero.vel_x,hero.vel_z);
+		var rot_target= Math.atan2(hero.vel_x,hero.vel_z);
+		var rot_delta= hero.mesh.rotation.y-rot_target;
+		if (rot_delta<-Math.PI*1.2) rot_delta+= 2*Math.PI;
+		if ((rot_delta>0.05)||(rot_delta<=0.05))
+			hero.mesh.rotation.y-= rot_delta*0.1; 
 }
 
 function move_camera() {
