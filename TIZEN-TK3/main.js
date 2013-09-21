@@ -63,7 +63,7 @@ function init() {
 	scene.add( plight );
 	hero.plights.push(plight);
 
-    spider = Spider(50,85, 25);
+    spider = Spider(40,85, 5);
     scene.add(spider.sprite);
 
 	// shadows
