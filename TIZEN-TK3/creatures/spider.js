@@ -43,7 +43,7 @@ Spider = function(x,y,z) {
             gSpiderTexture.repeat.y = fh=spriteData.fh;
             gSpiderTexture.offset.x = fx=spriteData.fx;
             gSpiderTexture.offset.y = fy=1-spriteData.fy-fh;
-                
+
             }
             //this.sprite.scale.set( 2*spriteData.w, 2*spriteData.h, 1.0 ); // imageWidth, imageHeight
         },
@@ -54,7 +54,7 @@ Spider = function(x,y,z) {
                 gSpiderTexture.wrapS     = THREE.ClampToEdgeWrapping;
                 gSpiderTexture.wrapT     = THREE.ClampToEdgeWrapping;
 
-                gSpiderGeom = new THREE.PlaneGeometry(30, 30);
+                gSpiderGeom = new THREE.PlaneGeometry(64, 64);
             }
             this.spiderMaterial =  new THREE.MeshBasicMaterial( {
                 map:gSpiderTexture,
