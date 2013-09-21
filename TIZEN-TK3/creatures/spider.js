@@ -42,17 +42,18 @@ Spider = function(x,y,z) {
             if (gSpiderGeom == null) {
                 gSpiderGeom = new THREE.PlaneGeometry(64, 64);
             }
-            this.material =  new THREE.MeshBasicMaterial( {
+            this.material =  new THREE.MeshLambertMaterial( {
                 map:this.texture,
                 side:THREE.DoubleSide,
                 transparent: true
             } );
             var sprite =   new THREE.Mesh(gSpiderGeom, this.material); //new THREE.Sprite( this.spiderMaterial );
             this.sprite = sprite;
-            sprite.rotation.y += 4*Math.PI/3;// account for camera-world angle - want the plane to be aligned with screen x axis not world x axis
+            sprite.rotation.x-=Math.PI/2;
+            sprite.rotation.z += 4*Math.PI/3;// account for camera-world angle - want the plane to be aligned with screen x axis not world x axis
             sprite.receiveShadow = true;
 
-            sprite.position.set( x,y,z );
+            sprite.position.set( x,y-30,z );
             this.animation.setCurrentAnimation('walking_', SOUTH);
             this.updateFrame();
         },
