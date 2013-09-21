@@ -1,10 +1,9 @@
-var container;
+//************************************ Global variables
+// THREE
 var camera, scene, renderer;
-var cube;
-var isArrowUp, isArrowDown, isArrowLeft, isArrowRight;
-var cubeGeo, cubeMaterial;
 
-var spider;
+// HTML
+var container;
 
 // hero
 var hero={}
@@ -13,6 +12,13 @@ hero.vel_z= 0;
 hero.mesh= null;
 hero.plights= [];
 hero.clock= new THREE.Clock();
+
+// Keyboard state
+var isArrowUp, isArrowDown, isArrowLeft, isArrowRight;
+
+// enemies
+var spider;
+var enemies={};
 
 // constants
 var lights_distance= 250;
@@ -87,18 +93,19 @@ function init() {
 
 	add_floor();
 	add_walls();
+	//add_enemies();
 }
 
 function add_floor(){
-	var floorGeo = new THREE.CubeGeometry( 400, 50, 400 );
-	var floorMaterial = new THREE.MeshPhongMaterial( { color: 0xffffff, ambient: 0x00ff80, shading: THREE.FlatShading, map: THREE.ImageUtils.loadTexture( "floor_1.jpg" ) } );
-	floorMaterial.ambient = floorMaterial.color;
+	var floorGeo = new THREE.PlaneGeometry( 400, 400,  12,12);
+	var floorMaterial = new THREE.MeshLambertMaterial( { color: 0xffffff, shading: THREE.FlatShading, map: THREE.ImageUtils.loadTexture( "floor_1.jpg" ) } );
 	for (x=0;x<lenx/8;x++) {
 		for(z=0;z<lenz/8;z++) {
 			var voxel = new THREE.Mesh( floorGeo, floorMaterial );
+			voxel.rotation.x= -Math.PI/2;
 			voxel.position.x=x*400+200-lenx/2*50;
 			voxel.position.z=z*400+200-lenz/2*50;
-			voxel.position.y=25;
+			voxel.position.y=50;
 			voxel.receiveShadow = true;
 			voxel.matrixAutoUpdate = false;
 			voxel.updateMatrix();
@@ -109,17 +116,17 @@ function add_floor(){
 
 function add_walls() {
 	var cubeGeo = new THREE.CubeGeometry( 50, 50, 50 );
-	var cubeMaterial = new THREE.MeshLambertMaterial( { color: 0xbef74c, ambient: 0x00ff80, shading: THREE.FlatShading, map: THREE.ImageUtils.loadTexture( "box_2.jpg" ) } );
-	cubeMaterial.ambient = cubeMaterial.color;
+	var cubeMaterial = new THREE.MeshLambertMaterial( { color: 0xbef74c, shading: THREE.FlatShading, map: THREE.ImageUtils.loadTexture( "box_3.png" ) } );
 	for (x=0;x<lenx;x++) {
 		for(z=0;z<lenz;z++) {
 			map_val= get_map_xy(x,z);
 			if (map_val>0) { 
 				for (var j=0; j<map_val; j++) {
 					var voxel = new THREE.Mesh( cubeGeo, cubeMaterial );
-					voxel.position.x=x*50+25-lenx/2*50;
-					voxel.position.z=z*50+25-lenz/2*50;
+					voxel.position.x=x*50+25-lenx/2*50+Math.random()*3-1.5;
+					voxel.position.z=z*50+25-lenz/2*50+Math.random()*3-1.5;
 					voxel.position.y=25+(j+1)*50;
+					voxel.rotation.y+= Math.random()/4-0.125;
 					voxel.receiveShadow = true;
 					voxel.castShadow = true;
 					voxel.matrixAutoUpdate = false;
@@ -130,6 +137,42 @@ function add_walls() {
 		}
 	}
 }
+
+function add_enemies() {
+	geometry = new THREE.Geometry();
+
+	for ( i = 0; i < 10000; i ++ ) {
+		var vertex = new THREE.Vector3();
+		vertex.x = (Math.random()-0.5) * 64*50;
+		vertex.z = (Math.random()-0.5) * 64*50;
+		vertex.y = Math.random() * 1000 +  50;
+		geometry.vertices.push( vertex );
+	}
+
+	parameters = [
+		[ [1.0, 1, 0.5], 20],
+		[ [.95, 1, 0.5], 16 ],
+		[ [.90, 1, 0.5], 12 ],
+		[ [.85, 1, 0.5], 8 ],
+		[ [.80, 1, 0.5], 4 ]
+	];
+
+	var materials=[];
+	for ( i = 0; i < parameters.length; i ++ ) {
+
+		color = parameters[i][0];
+		size  = parameters[i][1];
+
+		materials[i] = new THREE.ParticleBasicMaterial( { size: size } );
+		materials[i].receiveShadow= true;
+
+		particles = new THREE.ParticleSystem( geometry, materials[i] );
+
+		scene.add( particles );
+
+	}
+}
+
 function onWindowResize() {
 	camera.aspect = window.innerWidth / window.innerHeight;
 	camera.updateProjectionMatrix();
