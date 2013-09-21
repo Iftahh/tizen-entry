@@ -2,6 +2,12 @@
 var gSpiderTexture = null;
 var gSpiderGeom = null;
 
+DEBUG=false;
+fx=fy=0;
+W=2023;
+H=509;
+fw=50/W;
+fh=50/H;
 
 Spider = function(x,y,z) {
     var result= {
@@ -25,10 +31,20 @@ Spider = function(x,y,z) {
 //            this.spiderMaterial.uvOffset.y = spriteData.fy;
 //            this.spiderMaterial.uvScale.x = spriteData.fw;
 //            this.spiderMaterial.uvScale.y = spriteData.fh;
-            gSpiderTexture.repeat.x = spriteData.fw;
-            gSpiderTexture.repeat.y = spriteData.fh;
-            gSpiderTexture.offset.x = spriteData.fx;
-            gSpiderTexture.offset.y = spriteData.fy;
+            if (DEBUG) {
+                   gSpiderTexture.repeat.x = fw;//spriteData.fw;
+            gSpiderTexture.repeat.y = fh;//spriteData.fh;
+            gSpiderTexture.offset.x = fx;//spriteData.fx;
+            gSpiderTexture.offset.y = fy;//spriteData.fy;
+            }
+            else
+            {
+            gSpiderTexture.repeat.x = fw=spriteData.fw;
+            gSpiderTexture.repeat.y = fh=spriteData.fh;
+            gSpiderTexture.offset.x = fx=spriteData.fx;
+            gSpiderTexture.offset.y = fy=1-spriteData.fy-fh;
+                
+            }
             //this.sprite.scale.set( 2*spriteData.w, 2*spriteData.h, 1.0 ); // imageWidth, imageHeight
         },
 
@@ -38,7 +54,7 @@ Spider = function(x,y,z) {
                 gSpiderTexture.wrapS     = THREE.ClampToEdgeWrapping;
                 gSpiderTexture.wrapT     = THREE.ClampToEdgeWrapping;
 
-                gSpiderGeom = new THREE.PlaneGeometry(50, 50);
+                gSpiderGeom = new THREE.PlaneGeometry(30, 30);
             }
             this.spiderMaterial =  new THREE.MeshBasicMaterial( {
                 map:gSpiderTexture,
@@ -47,18 +63,18 @@ Spider = function(x,y,z) {
             } );
             var sprite =   new THREE.Mesh(gSpiderGeom, this.spiderMaterial); //new THREE.Sprite( this.spiderMaterial );
             this.sprite = sprite;
-            sprite.rotation.y += Math.PI/2;
+            sprite.rotation.y -= Math.PI/2;
             sprite.receiveShadow = true;
             //sprite.castShadow = true;
 
 
             sprite.position.set( x,y,z );
-            this.animation.setCurrentAnimation('walking_', EAST);
+            this.animation.setCurrentAnimation('walking_', SOUTH);
             this.updateFrame();
         },
 
         update: function(dt) {
-            var needUpdate = this.animation.update(dt/10);
+            var needUpdate = this.animation.update(dt);
             if (needUpdate) {
                 this.updateFrame();
             }
