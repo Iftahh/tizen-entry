@@ -4,6 +4,7 @@ var cube;
 var isArrowUp, isArrowDown, isArrowLeft, isArrowRight;
 var cubeGeo, cubeMaterial;
 
+var spider;
 
 // hero
 var hero={}
@@ -18,8 +19,10 @@ var lights_distance= 250;
 var dv=2;
 
 // main ;)
-init();
-animate();
+gAssetLoader.loadAssets(['atlas/red_spider.json', 'imgs/red_spider.png'], function() {
+    init();
+    animate(0);
+})
 
 //*******************************************************************
 
@@ -59,6 +62,9 @@ function init() {
 	plight.position.z=25;
 	scene.add( plight );
 	hero.plights.push(plight);
+
+    spider = Spider(50,85, 25);
+    scene.add(spider.sprite);
 
 	// shadows
 	for (i=0;i<3;i++) {
@@ -152,7 +158,7 @@ function onDocumentKeyUp( event ) {
 
 // ***********************************************RENDERING
 
-function animate() {
+function animate(ts) {
 	requestAnimationFrame( animate );
 
 	calc_hero_vel();
@@ -163,6 +169,7 @@ function animate() {
 		move_camera();
 	}
 
+    spider.update(ts);
 	renderer.render( scene, camera );
 }
 
@@ -210,6 +217,10 @@ function move_hero() {
 	hero.mesh.position.x= hero.plights[0].position.x;
 	hero.mesh.position.y= hero.plights[0].position.y-15;
 	hero.mesh.position.z= hero.plights[0].position.z;
+
+    //spider.sprite.position.x = hero.mesh.position.x +  20;
+    //spider.sprite.position.y = hero.mesh.position.y;
+    //spider.sprite.position.z = hero.mesh.position.z;
 }
 
 function animate_hero() {

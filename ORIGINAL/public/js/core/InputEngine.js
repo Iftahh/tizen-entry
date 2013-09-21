@@ -1,4 +1,4 @@
-// based on code from Udacity HTML5 Game Programming course
+v// based on code from Udacity HTML5 Game Programming course
 
 InputEngine = Class.extend({
 

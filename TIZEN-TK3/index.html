@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
-
+<head>
+    <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
 <style>
 	body {
 		font-family: Monospace;
@@ -10,10 +11,19 @@
 	}
 	#oldie { background-color: #ddd !important }
 </style>
-
+</head>
 
 <body>
-	<script src="three.min.js"></script>
+	<script src="third_party/three.min.js"></script>
+    <script src="third_party/zepto.min.js"></script>
+
+    <script src="core/utils.js"></script>
+    <script src="core/AssetLoader.js"></script>
+    <script src="core/Topology.js"></script>
+    <script src="components/Animation.js"></script>
+    <script src="components/Atlas.js"></script>
+    <script src="creatures/spider.js"></script>
+
 	<script src="map.js"></script>
 	<script src="main.js"></script>
 </body>
