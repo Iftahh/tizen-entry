@@ -1,6 +1,6 @@
 
 var gSpiderTexture = null;
-
+var gSpiderGeom = null;
 
 
 Spider = function(x,y,z) {
@@ -21,15 +21,15 @@ Spider = function(x,y,z) {
         updateFrame: function() {
             var imgName = this.animation.getCurrentFrame();
             var spriteData = this.atlas.sprites[imgName];
-            this.spiderMaterial.uvOffset.x = spriteData.fx;
-            this.spiderMaterial.uvOffset.y = spriteData.fy;
-            this.spiderMaterial.uvScale.x = spriteData.fw;
-            this.spiderMaterial.uvScale.y = spriteData.fh;
-//            gSpiderTexture.repeat.x = spriteData.w;
-//            gSpiderTexture.repeat.y = spriteData.h;
-//            gSpiderTexture.offset.x = spriteData.x;
-//            gSpiderTexture.offset.y = spriteData.y;
-            this.sprite.scale.set( 2*spriteData.w, 2*spriteData.h, 1.0 ); // imageWidth, imageHeight
+//            this.spiderMaterial.uvOffset.x = spriteData.fx;
+//            this.spiderMaterial.uvOffset.y = spriteData.fy;
+//            this.spiderMaterial.uvScale.x = spriteData.fw;
+//            this.spiderMaterial.uvScale.y = spriteData.fh;
+            gSpiderTexture.repeat.x = spriteData.fw;
+            gSpiderTexture.repeat.y = spriteData.fh;
+            gSpiderTexture.offset.x = spriteData.fx;
+            gSpiderTexture.offset.y = spriteData.fy;
+            //this.sprite.scale.set( 2*spriteData.w, 2*spriteData.h, 1.0 ); // imageWidth, imageHeight
         },
 
         init: function(x,y,z) {
@@ -38,15 +38,19 @@ Spider = function(x,y,z) {
                 gSpiderTexture.wrapS     = THREE.ClampToEdgeWrapping;
                 gSpiderTexture.wrapT     = THREE.ClampToEdgeWrapping;
 
+                gSpiderGeom = new THREE.PlaneGeometry(50, 50);
             }
-            this.spiderMaterial =  new THREE.SpriteMaterial( {
+            this.spiderMaterial =  new THREE.MeshBasicMaterial( {
                 map:gSpiderTexture,
-                useScreenCoordinates: false,
-                alignment: THREE.SpriteAlignment.bottomCenter,
-                affectedByDistance: false
+                side:THREE.DoubleSide,
+                transparent: true
             } );
-            var sprite = new THREE.Sprite( this.spiderMaterial );
+            var sprite =   new THREE.Mesh(gSpiderGeom, this.spiderMaterial); //new THREE.Sprite( this.spiderMaterial );
             this.sprite = sprite;
+            sprite.rotation.y += Math.PI/2;
+            sprite.receiveShadow = true;
+            //sprite.castShadow = true;
+
 
             sprite.position.set( x,y,z );
             this.animation.setCurrentAnimation('walking_', EAST);
