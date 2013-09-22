@@ -58,7 +58,6 @@ DijkstraMap.prototype = {
 
         this._explorationData[ey*this._numOfCols+ex] = 0;
         pointsToExplore.push([ex,ey, 0]);
-        var NOT_EXPLORED = this.NOT_EXPLORED;
 
         var explored = 0;
         while (pointsToExplore.size() > 0) {
@@ -116,7 +115,7 @@ DijkstraMap.prototype = {
         // loop neighbors in random order - find smallest value
         while (dirs.length > 0) {
             // start from random neighbor
-            var i= (Math.random()*dirs.length).floor();
+            var i= Math.floor(Math.random()*dirs.length);
             var dir = dirs[i];
             dirs.splice(i, 1);
             var xy = Topology.moveCoord(searchAround[0], searchAround[1], dir);
