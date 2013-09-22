@@ -1,6 +1,4 @@
-
 var gSpiderGeom = null;
-
 
 
 Spider = function(x,y,z) {
@@ -14,10 +12,10 @@ Spider = function(x,y,z) {
             'tipping_over_':9
         }),
 
-        atlas: Atlas('atlas/red_spider.json'),
+        atlas: Atlas('red_spider.json'),
         twoDimSprite: null,
         speed: 1,
-
+        rotationSpeed:1,
 
         updateFrame: function() {
             var imgName = this.animation.getCurrentFrame();
@@ -52,8 +50,8 @@ Spider = function(x,y,z) {
 
             this.pathFinding.update(dt);
 
-
             this.twoDimSprite.setDirection(this.pathFinding.directionVector);
+            this.twoDimSprite.update(dt);
         }
 
 
