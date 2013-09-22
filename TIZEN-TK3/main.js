@@ -25,10 +25,16 @@ var lights_distance= 250;
 var dv=2;
 
 // main ;)
-gAssetLoader.loadAssets(['atlas/red_spider.json', 'imgs/red_spider.png'], function() {
-    init();
-    animate(0);
-})
+gAssetLoader.loadAssets([
+        'atlas/red_spider.json',
+        'imgs/red_spider.png',
+        'core/BinaryHeap.js',
+        'components/TwoDimSprite.js'
+    ], function() {
+        init();
+        animate(0);
+    }
+)
 
 //*******************************************************************
 

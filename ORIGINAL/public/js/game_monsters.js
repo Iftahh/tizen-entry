@@ -63,7 +63,7 @@
             }
         },
 
-        _move: function(progress, dt, moveToTile, direction, speed) {
+            _move: function(progress, dt, moveToTile, direction, speed) {
             var mt = moveToTile;
             var spritesHash = gameEngine.tiling.sprites; // TODO
             var spritesInCell = spritesHash[mt[1]] && spritesHash[mt[1]][mt[0]];
