@@ -42,18 +42,20 @@ Spider = function(x,y,z) {
             if (gSpiderGeom == null) {
                 gSpiderGeom = new THREE.PlaneGeometry(64, 64);
             }
-            this.material =  new THREE.MeshLambertMaterial( {
+            this.material =  new THREE.MeshBasicMaterial( {
                 map:this.texture,
                 side:THREE.DoubleSide,
-                transparent: true
+                transparent: true,
+                //color:0x99ffff
             } );
             var sprite =   new THREE.Mesh(gSpiderGeom, this.material); //new THREE.Sprite( this.spiderMaterial );
             this.sprite = sprite;
             sprite.rotation.x-=Math.PI/2;
             sprite.rotation.z += 4*Math.PI/3;// account for camera-world angle - want the plane to be aligned with screen x axis not world x axis
             sprite.receiveShadow = true;
+            sprite.castShadow=false;
 
-            sprite.position.set( x,y-30,z );
+            sprite.position.set( x,y,z );
             this.animation.setCurrentAnimation('walking_', SOUTH);
             this.updateFrame();
         },
@@ -71,7 +73,6 @@ Spider = function(x,y,z) {
             var dir = Math.floor(angle / (Math.PI/4));
             var resi = angle % (Math.PI/4);
             if (dir != this.lastDir) {
-                console.log("Dir: "+dir+"  angle: "+angle + " "+resi);
                 this.lastDir = dir;
                 this.animation.setCurrentAnimation('walking_', (12-dir)%8 );
             }

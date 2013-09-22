@@ -4,6 +4,8 @@ var camera, scene, renderer;
 
 // HTML
 var container;
+var stats;
+var render_stats;
 
 // hero
 var hero={}
@@ -21,7 +23,7 @@ var spider;
 var enemies={};
 
 // constants
-var lights_distance= 250;
+var lights_distance= 750;
 var dv=2;
 
 // main ;)
@@ -49,7 +51,12 @@ function init() {
 	document.addEventListener( 'keydown', onDocumentKeyDown, false );
 	document.addEventListener( 'keyup', onDocumentKeyUp, false );
 	window.addEventListener( 'resize', onWindowResize, false );
-      
+	render_stats= document.getElementById('render_stats');
+   
+	// STATS
+	stats = new Stats();
+	container.appendChild( stats.domElement );
+
 	// hero
 	var loader = new THREE.JSONLoader( true );
 	loader.load( "stork.js", function( geometry ) {
@@ -69,7 +76,7 @@ function init() {
 	scene.add( plight );
 	hero.plights.push(plight);
 
-    spider = Spider(40,85, 5);
+    spider = Spider(120,53, 15);
     scene.add(spider.sprite);
 
 	// shadows
@@ -97,24 +104,28 @@ function init() {
 }
 
 function add_floor(){
+	var mainFloorGeo= new THREE.Geometry();
 	var floorGeo = new THREE.PlaneGeometry( 400, 400,  12,12);
 	var floorMaterial = new THREE.MeshLambertMaterial( { color: 0xffffff, shading: THREE.FlatShading, map: THREE.ImageUtils.loadTexture( "floor_1.jpg" ) } );
 	for (x=0;x<lenx/8;x++) {
 		for(z=0;z<lenz/8;z++) {
-			var voxel = new THREE.Mesh( floorGeo, floorMaterial );
+			var voxel = new THREE.Mesh( floorGeo );
 			voxel.rotation.x= -Math.PI/2;
 			voxel.position.x=x*400+200-lenx/2*50;
 			voxel.position.z=z*400+200-lenz/2*50;
 			voxel.position.y=50;
-			voxel.receiveShadow = true;
-			voxel.matrixAutoUpdate = false;
-			voxel.updateMatrix();
-			scene.add( voxel );
+			THREE.GeometryUtils.merge(mainFloorGeo, voxel);
 		}
 	}	
+	var floor= new THREE.Mesh(mainFloorGeo, floorMaterial);
+	floor.receiveShadow = true;
+	floor.matrixAutoUpdate = false;
+	floor.updateMatrix();
+	scene.add( floor );
 }
 
 function add_walls() {
+	var mainWallsGeo= new THREE.Geometry();
 	var cubeGeo = new THREE.CubeGeometry( 50, 50, 50 );
 	var cubeMaterial = new THREE.MeshLambertMaterial( { color: 0xbef74c, shading: THREE.FlatShading, map: THREE.ImageUtils.loadTexture( "box_3.png" ) } );
 	for (x=0;x<lenx;x++) {
@@ -122,20 +133,22 @@ function add_walls() {
 			map_val= get_map_xy(x,z);
 			if (map_val>0) { 
 				for (var j=0; j<map_val; j++) {
-					var voxel = new THREE.Mesh( cubeGeo, cubeMaterial );
+					var voxel = new THREE.Mesh( cubeGeo );
 					voxel.position.x=x*50+25-lenx/2*50+Math.random()*3-1.5;
 					voxel.position.z=z*50+25-lenz/2*50+Math.random()*3-1.5;
 					voxel.position.y=25+(j+1)*50;
 					voxel.rotation.y+= Math.random()/4-0.125;
-					voxel.receiveShadow = true;
-					voxel.castShadow = true;
-					voxel.matrixAutoUpdate = false;
-					voxel.updateMatrix();
-					scene.add( voxel );
+					THREE.GeometryUtils.merge(mainWallsGeo, voxel);
 				}
 			}
 		}
 	}
+	var walls= new THREE.Mesh(mainWallsGeo, cubeMaterial);
+	walls.receiveShadow= true;
+	walls.castShadow= true;
+	walls.matrixAutoUpdate = false;
+	walls.updateMatrix();
+	scene.add( walls );
 }
 
 function add_enemies() {
@@ -164,7 +177,7 @@ function add_enemies() {
 		size  = parameters[i][1];
 
 		materials[i] = new THREE.ParticleBasicMaterial( { size: size } );
-		materials[i].receiveShadow= true;
+		//materials[i].receiveShadow= true;
 
 		particles = new THREE.ParticleSystem( geometry, materials[i] );
 
@@ -200,8 +213,11 @@ function onDocumentKeyUp( event ) {
 }
 
 // ***********************************************RENDERING
-
+var ti=0;
+var cdt=0;
+var mdt=0;
 function animate(ts) {
+	var t0= (new Date()).getTime();
 	requestAnimationFrame( animate );
 
 	calc_hero_vel();
@@ -213,7 +229,16 @@ function animate(ts) {
 	}
 
     spider.update(ts);
+    stats.update();
 	renderer.render( scene, camera );
+	var tf=(new Date()).getTime();
+	cdt+= tf-t0;
+	if ((tf-ti)>5000) {
+		mdt= cdt/(tf-ti);
+		ti=tf;
+		cdt= 0;
+		render_stats.textContent= '> '+mdt+' ms per frame'
+	}
 }
 
 function calc_hero_vel() {
@@ -223,9 +248,7 @@ function calc_hero_vel() {
 	if (isArrowUp)    hero.vel_x+=dv;
 	if (isArrowRight) hero.vel_z+=dv;
 	if (isArrowLeft)  hero.vel_z-=dv;
-
 	vr= Math.sqrt(hero.vel_x*hero.vel_x+hero.vel_z*hero.vel_z);
-
 	if (vr>0.00001) {
 		hero.vel_x= dv*hero.vel_x/vr;
 		hero.vel_z= dv*hero.vel_z/vr;

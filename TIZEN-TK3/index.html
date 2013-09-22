@@ -10,13 +10,20 @@
 		overflow: hidden;
 	}
 	#oldie { background-color: #ddd !important }
+	#stats { position: absolute; top:0; left: 0 }
+	#stats #fps { background: transparent !important }
+	#stats #fps #fpsText { color: #888 !important }
+	#stats #fps #fpsGraph { display: none }
+	#render_stats { position: absolute; top:100px; left: 5px; color:#66ff66; font-weight: bold; background-color:rgba(50,100,50,0.5);}
 </style>
 </head>
 
 <body>
+	<div id='render_stats'>Nothing to see here!</div>
 	<script src="third_party/three.min.js"></script>
     <script src="third_party/zepto.min.js"></script>
 
+	<script src="stats.min.js"></script>
     <script src="core/utils.js"></script>
     <script src="core/AssetLoader.js"></script>
     <script src="core/Topology.js"></script>
