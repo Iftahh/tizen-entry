@@ -1,7 +1,5 @@
-
 var gSpiderMaterial = null;
 var gSpiderGeom = null;
-
 
 
 Spider = function(x,y,z) {
@@ -15,7 +13,7 @@ Spider = function(x,y,z) {
             'tipping_over_':9
         }),
 
-        atlas: Atlas('atlas/red_spider.json'),
+        atlas: Atlas('red_spider.json'),
         texture: null,
         material: null,
         sprite: null,
