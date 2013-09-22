@@ -1,4 +1,8 @@
 //************************************ Global variables
+
+// just for testing
+var birds_as_enemies= false;
+
 // THREE
 var camera, scene, renderer;
 
@@ -19,7 +23,7 @@ hero.clock= new THREE.Clock();
 var isArrowUp, isArrowDown, isArrowLeft, isArrowRight;
 
 // enemies
-var spider;
+var spiders=[];
 var enemies={};
 
 // constants
@@ -66,6 +70,18 @@ function init() {
 		hero.mesh.duration = 1000;
 		hero.mesh.scale.set( 0.2, 0.2, 0.2 );
 		scene.add( hero.mesh );
+
+		if (birds_as_enemies) {
+			for (var i=0; i<50; i++) {
+				var s=new THREE.MorphAnimMesh( geometry, hero_material );
+				s.receiveShadow= true;
+				s.duration=1000;
+				s.position.set(120+i*10, 55, 15);
+				s.scale.set( 0.2, 0.2, 0.2 );
+		     	spiders.push(s);
+			    scene.add(s);
+			}
+		}
 	} );
 
 	// lights
@@ -76,8 +92,13 @@ function init() {
 	scene.add( plight );
 	hero.plights.push(plight);
 
-    spider = Spider(120,53, 15);
-    scene.add(spider.sprite);
+	if (!birds_as_enemies) {
+		for (var i=0; i<50; i++) {
+			var s=Spider(120+i*10, 53, 15);
+	     	spiders.push(s);
+		    scene.add(s.sprite);
+		}
+	}
 
 	// shadows
 	for (i=0;i<3;i++) {
@@ -222,13 +243,25 @@ function animate(ts) {
 
 	calc_hero_vel();
 
+	if (birds_as_enemies) {
+		var delta = 1/60;
+		for(var i=0; i<spiders.length; i++) {
+			spiders[i].updateAnimation( 1000 * delta );
+			spiders[i].rotation.y+=0.01;
+		}
+	}
+	else {
+		for (var i=0; i<spiders.length; i++)
+	     	spiders[i].update(ts);
+
+	}
+
 	if (hero.mesh) {
 		move_hero();
 		animate_hero();
 		move_camera();
 	}
 
-    spider.update(ts);
     stats.update();
 	renderer.render( scene, camera );
 	var tf=(new Date()).getTime();
