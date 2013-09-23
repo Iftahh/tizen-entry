@@ -102,7 +102,7 @@ function init() {
 
 	if (!birds_as_enemies) {
 		for (var i=0; i<10; i++) {
-			var s=Spider(120+i*100, 83, 15);
+			var s=Spider(120+i*100, 53, 15);
 	     	spiders.push(s);
 		    scene.add(s.sprite);
 		}
@@ -352,9 +352,6 @@ function move_hero() {
         PlayerChaseMap.explore(curTileX, curTileZ, 20);
     }
 
-    //spider.sprite.position.x = hero.mesh.position.x +  20;
-    //spider.sprite.position.y = hero.mesh.position.y;
-    //spider.sprite.position.z = hero.mesh.position.z;
 }
 
 function animate_hero() {

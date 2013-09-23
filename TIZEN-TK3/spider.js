@@ -29,7 +29,7 @@ Spider = function(x,y,z) {
             }
             this.twoDimSprite = new TwoDimSprite(this, gSpiderGeom);
 
-            this.sprite.position.set( x,y-30,z );
+            this.sprite.position.set( x,y,z );
 
             this.pathFinding = new PathFinding(this, PlayerChaseMap);
 

@@ -86,7 +86,9 @@ DijkstraMap.prototype = {
             for (var i=0; i<farNeighbors.length; i++) {
                 var dir = farNeighbors[i];
                 var xy = Topology.moveCoord(xys[0], xys[1], dir);
-                if (  xy[0] < 0 || xy[0] >= this._numOfCols || xy[1] < 0 || xy[1] >= this._numOfRows) {
+                if (  xy[0] < 0 || xy[0] >= this._numOfCols || xy[1] < 0 || xy[1] >= this._numOfRows
+                      || ((this._get(xys[0], xy[1]) ==  NOT_ALLOWED) && (this._get(xy[0], xys[1]) ==  NOT_ALLOWED))
+                ) {
                     continue;
                 }
 
