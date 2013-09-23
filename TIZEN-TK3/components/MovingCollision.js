@@ -14,7 +14,7 @@ function initSpritesGrid() {
     // sprites grid are 2x2 cells for each cell of the map - for finer sprite collision and movement
     for (var z=0; z<lenz*2; z++) {
         for (var x=0; x<lenx*2; x++) {
-            var map_val= get_map_xy(x>>1, z>>1);
+            var map_val= get_map_xz(x>>1, z>>1);
             if (map_val>0) {
                 setSpriteGrid(x,z, NOT_ALLOWED);
             }
