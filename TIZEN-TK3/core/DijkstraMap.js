@@ -87,7 +87,7 @@ DijkstraMap.prototype = {
                 var dir = farNeighbors[i];
                 var xy = Topology.moveCoord(xys[0], xys[1], dir);
                 if (  xy[0] < 0 || xy[0] >= this._numOfCols || xy[1] < 0 || xy[1] >= this._numOfRows
-                      || ((this._get(xys[0], xy[1]) ==  NOT_ALLOWED) && (this._get(xy[0], xys[1]) ==  NOT_ALLOWED))
+                      || this._get(xys[0], xy[1]) ==  NOT_ALLOWED || this._get(xy[0], xys[1]) ==  NOT_ALLOWED
                 ) {
                     continue;
                 }
@@ -121,7 +121,9 @@ DijkstraMap.prototype = {
             var dir = dirs[i];
             dirs.splice(i, 1);
             var xy = Topology.moveCoord(searchAround[0], searchAround[1], dir);
-            if (  xy[0] < 0 || xy[0] >= this._numOfCols || xy[1] < 0 || xy[1] >= this._numOfRows) {
+            if (  xy[0] < 0 || xy[0] >= this._numOfCols || xy[1] < 0 || xy[1] >= this._numOfRows
+                      || this._get(x, xy[1]) ==  NOT_ALLOWED || this._get(xy[0],y) ==  NOT_ALLOWED
+            ) {
                 continue;
             }
 
