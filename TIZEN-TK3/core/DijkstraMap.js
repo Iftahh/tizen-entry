@@ -17,7 +17,7 @@ DijkstraMap = function() {
     var index =0;
     for (var y=0; y<numOfRows; y++) {
         for (var x=0; x<numOfCols; x++) {
-            if (get_map_xy(x,y) == 0 ) {
+            if (get_map_xz(x,y) == 0 ) {
                 this._preExplore[index] = NOT_EXPLORED;
             }
             else {
