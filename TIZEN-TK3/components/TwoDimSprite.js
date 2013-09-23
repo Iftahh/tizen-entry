@@ -1,11 +1,11 @@
 
-// requires the container has "atlas" and "animation"  and "rotationSpeed" components
+// requires the entity has "atlas" and "animation"  and "rotationSpeed" components
 
-var TwoDimSprite = function(container) {
+var TwoDimSprite = function(entity) {
 
-    this.container = container;
+    this.entity = entity;
 
-    this.texture = THREE.ImageUtils.loadTexture(container.atlas.imgUrl);
+    this.texture = THREE.ImageUtils.loadTexture(entity.atlas.imgUrl);
     this.texture.wrapS     = THREE.ClampToEdgeWrapping;
     this.texture.wrapT     = THREE.ClampToEdgeWrapping;
 
@@ -25,7 +25,7 @@ var TwoDimSprite = function(container) {
     sprite.rotation.z = 4*Math.PI/3;// account for camera-world angle - want the plane to be aligned with screen x axis not world x axis
     sprite.receiveShadow = true;
     this.sprite = sprite;
-    container.sprite = sprite;
+    entity.sprite = sprite;
 }
 
 var USE_RESIDUE_ANGLE = false;
@@ -51,10 +51,10 @@ TwoDimSprite.prototype = {
 //            angle -= Math.PI*2;
 //        }
 //        if (angle > Math.PI) {
-//            this.vr = -this.container.rotationSpeed;
+//            this.vr = -this.entity.rotationSpeed;
 //        }
 //        else {
-//            this.vr = this.container.rotationSpeed;
+//            this.vr = this.entity.rotationSpeed;
 //        }
     },
 
@@ -74,7 +74,7 @@ TwoDimSprite.prototype = {
             this.sprite.rotation.z = 4*Math.PI/3 + resi - Math.PI/8;
         }
         dir = (12-dir)%8;
-        var animation = this.container.animation;
+        var animation = this.entity.animation;
         if (dir != animation.currentDirection) {
             animation.setCurrentAnimation(animation.currentAnimation, dir );
         }

@@ -37,7 +37,8 @@ gAssetLoader.loadAssets([
         'core/BinaryHeap.js',
         'core/DijkstraMap.js',
         'components/TwoDimSprite.js',
-        'components/PathFinding.js'
+        'components/PathFinding.js',
+        'components/MovingCollision.js'
     ], function() {
         init();
         animate(0);
@@ -92,6 +93,8 @@ function init() {
 		}
 	} );
 
+    initSpritesGrid();
+
 	// lights
 	plight = new THREE.PointLight( 0xff9999, 5.3, lights_distance );
 	plight.position.x=25;
@@ -134,15 +137,15 @@ function init() {
 
 function add_floor(){
 	var mainFloorGeo= new THREE.Geometry();
-	var floorGeo = new THREE.PlaneGeometry( 400, 400,  12,12);
+	var floorGeo = new THREE.PlaneGeometry( 8*TileDimX, 8*TileDimZ,  12,12);
 	var floorMaterial = new THREE.MeshLambertMaterial( { color: 0xffffff, shading: THREE.FlatShading, map: THREE.ImageUtils.loadTexture( "floor_1.jpg" ) } );
 	for (x=0;x<lenx/8;x++) {
 		for(z=0;z<lenz/8;z++) {
 			var voxel = new THREE.Mesh( floorGeo );
 			voxel.rotation.x= -Math.PI/2;
-			voxel.position.x=x*400+200-lenx/2*TileDimX;
-			voxel.position.z=z*400+200-lenz/2*TileDimZ;
-			voxel.position.y=50;
+			voxel.position.x=x*8*TileDimX -lenx/2*TileDimX;
+			voxel.position.z=z*8*TileDimZ-lenz/2*TileDimZ;
+			voxel.position.y=TileDimY;
 			THREE.GeometryUtils.merge(mainFloorGeo, voxel);
 		}
 	}	
@@ -155,17 +158,18 @@ function add_floor(){
 
 function add_walls() {
 	var mainWallsGeo= new THREE.Geometry();
-	var cubeGeo = new THREE.CubeGeometry( 50, 50, 50 );
+	var cubeGeo = new THREE.CubeGeometry( TileDimX, TileDimY, TileDimZ );
 	var cubeMaterial = new THREE.MeshLambertMaterial( { color: 0xbef74c, shading: THREE.FlatShading, map: THREE.ImageUtils.loadTexture( "box_3.png" ) } );
-	for (x=0;x<lenx;x++) {
-		for(z=0;z<lenz;z++) {
-			map_val= get_map_xy(x,z);
+    var randomMove = Math.min(TileDimX,TileDimZ)*3/50;
+    for(z=0;z<lenz;z++) {
+        for (x=0;x<lenx;x++) {
+			var map_val= get_map_xy(x,z);
 			if (map_val>0) { 
 				for (var j=0; j<map_val; j++) {
 					var voxel = new THREE.Mesh( cubeGeo );
-					voxel.position.x=x*TileDimX+TileDimX/2-lenx/2*TileDimX+(Math.random()*3-1.5)*(j*3+1);
-					voxel.position.z=z*TileDimZ+TileDimZ/2-lenz/2*TileDimZ+(Math.random()*3-1.5)*(j*3+1);
-					voxel.position.y=25+(j+1)*50;
+					voxel.position.x=x*TileDimX+TileDimX/2-lenx/2*TileDimX+(Math.random()*randomMove-1.5)*(j*randomMove+1);
+					voxel.position.z=z*TileDimZ+TileDimZ/2-lenz/2*TileDimZ+(Math.random()*randomMove-1.5)*(j*randomMove+1);
+					voxel.position.y=TileDimY/2+(j+1)*TileDimY;
 					voxel.rotation.y+= (Math.random()/4-0.125)*(j/2+1);
 					THREE.GeometryUtils.merge(mainWallsGeo, voxel);
 				}
@@ -187,13 +191,13 @@ function add_enemies() {
 
 	for ( i = 0; i < 10000; i ++ ) {
 		var vertex = new THREE.Vector3();
-		vertex.x = (Math.random()-0.5) * 64*50;
-		vertex.z = (Math.random()-0.5) * 64*50;
-		vertex.y = Math.random() * 1000 +  50;
+		vertex.x = (Math.random()-0.5) * 64*TileDimX;
+		vertex.z = (Math.random()-0.5) * 64*TileDimZ;
+		vertex.y = Math.random() * 1000 +  TileDimY;
 		geometry.vertices.push( vertex );
 	}
 
-	parameters = [
+	var parameters = [
 		[ [1.0, 1, 0.5], 20],
 		[ [.95, 1, 0.5], 16 ],
 		[ [.90, 1, 0.5], 12 ],
@@ -299,7 +303,9 @@ function calc_hero_vel() {
 }
 
 var TileDimX = 50;
+var TileDimY = 50;
 var TileDimZ = 50;
+
 
 var curTileX = -1;
 var curTileZ = -1;

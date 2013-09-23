@@ -14,6 +14,7 @@ Spider = function(x,y,z) {
 
         atlas: Atlas('red_spider.json'),
         twoDimSprite: null,
+        movingCollision: null,
         speed: 1,
         rotationSpeed:1,
 
@@ -28,6 +29,7 @@ Spider = function(x,y,z) {
                 gSpiderGeom = new THREE.PlaneGeometry(64, 64);
             }
             this.twoDimSprite = new TwoDimSprite(this, gSpiderGeom);
+            this.movingCollision = new MovingCollision(this);
 
             this.sprite.position.set( x,y,z );
 
