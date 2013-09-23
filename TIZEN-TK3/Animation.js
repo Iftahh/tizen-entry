@@ -1,19 +1,20 @@
 
-Animation = function(_animations) { return {
+Animation = function(_animations) {
 
-    frameDelay: 100,
-    lastTs: 0,
-    stopped: false,
+    this.frameDelay= 100;
+    this.lastTs = 0;
+    this.stopped = false;
 
-    finishedCb: [],
-    currentFrame: 0,
-    currentDirection: 0,
-    currentAnimation: '',
-    numFrames: 8,
+    this.finishedCb = [];
+    this.currentFrame = 0;
+    this.currentDirection = 0;
+    this.currentAnimation = '';
+    this.numFrames = 8;
 
-    animations: _animations,
+    this.animations = _animations;
+}
 
-
+Animation.prototype = {
     init: function(duration, frameDelay) {
         if (duration) {
             this.duration = duration;
@@ -89,4 +90,4 @@ Animation = function(_animations) { return {
 //    removeFinishCB: function(id) {
 //        return this.finishCb.remove(id);
 //    }
-}}
+}

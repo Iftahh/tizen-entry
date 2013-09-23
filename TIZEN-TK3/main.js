@@ -31,10 +31,18 @@ var lights_distance= 750;
 var dv=2;
 
 // main ;)
-gAssetLoader.loadAssets(['red_spider.json', 'red_spider.png'], function() {
-    init();
-    animate(0);
-})
+gAssetLoader.loadAssets([
+        'red_spider.json',
+        'red_spider.png',
+        'core/BinaryHeap.js',
+        'core/DijkstraMap.js',
+        'components/TwoDimSprite.js',
+        'components/PathFinding.js'
+    ], function() {
+        init();
+        animate(0);
+    }
+)
 
 //*******************************************************************
 
@@ -93,8 +101,8 @@ function init() {
 	hero.plights.push(plight);
 
 	if (!birds_as_enemies) {
-		for (var i=0; i<50; i++) {
-			var s=Spider(120+i*10, 53, 15);
+		for (var i=0; i<10; i++) {
+			var s=Spider(120+i*100, 83, 15);
 	     	spiders.push(s);
 		    scene.add(s.sprite);
 		}
@@ -132,8 +140,8 @@ function add_floor(){
 		for(z=0;z<lenz/8;z++) {
 			var voxel = new THREE.Mesh( floorGeo );
 			voxel.rotation.x= -Math.PI/2;
-			voxel.position.x=x*400+200-lenx/2*50;
-			voxel.position.z=z*400+200-lenz/2*50;
+			voxel.position.x=x*400+200-lenx/2*TileDimX;
+			voxel.position.z=z*400+200-lenz/2*TileDimZ;
 			voxel.position.y=50;
 			THREE.GeometryUtils.merge(mainFloorGeo, voxel);
 		}
@@ -155,10 +163,10 @@ function add_walls() {
 			if (map_val>0) { 
 				for (var j=0; j<map_val; j++) {
 					var voxel = new THREE.Mesh( cubeGeo );
-					voxel.position.x=x*50+25-lenx/2*50+Math.random()*3-1.5;
-					voxel.position.z=z*50+25-lenz/2*50+Math.random()*3-1.5;
+					voxel.position.x=x*TileDimX+TileDimX/2-lenx/2*TileDimX+(Math.random()*3-1.5)*(j*3+1);
+					voxel.position.z=z*TileDimZ+TileDimZ/2-lenz/2*TileDimZ+(Math.random()*3-1.5)*(j*3+1);
 					voxel.position.y=25+(j+1)*50;
-					voxel.rotation.y+= Math.random()/4-0.125;
+					voxel.rotation.y+= (Math.random()/4-0.125)*(j/2+1);
 					THREE.GeometryUtils.merge(mainWallsGeo, voxel);
 				}
 			}
@@ -171,6 +179,8 @@ function add_walls() {
 	walls.updateMatrix();
 	scene.add( walls );
 }
+
+
 
 function add_enemies() {
 	geometry = new THREE.Geometry();
@@ -288,24 +298,42 @@ function calc_hero_vel() {
 	}
 }
 
+var TileDimX = 50;
+var TileDimZ = 50;
+
+var curTileX = -1;
+var curTileZ = -1;
+
+function coordinateToTile(x,z) {
+    return [
+        Math.floor((x   /*- TileDimX/2*/ )/ TileDimX  +lenx/2),
+        Math.floor((z   /*- TileDimZ/2*/ )/ TileDimZ  +lenz/2)
+    ];
+}
+
+function tileToCoordinate(tx,tz) {
+    return [
+        (tx-lenx/2 +.5)*TileDimX,
+        (tz-lenz/2 +.5)*TileDimZ
+    ];
+}
+
 function move_hero() {
 	var x=hero.plights[0].position.x;
 	var z=hero.plights[0].position.z;
 
-	x_ix= Math.floor((x+lenx/2*50)/50);
-	z_ix= Math.floor((z+lenz/2*50)/50);
+	var xz_ix= coordinateToTile(x,z);
 
-	tx= x+hero.vel_x*8;
-	tz= z+hero.vel_z*8;
+	var tx= x+hero.vel_x*8;
+	var tz= z+hero.vel_z*8;
 
-	tx_ix= Math.floor((tx+lenx/2*50)/50);
-	tz_ix= Math.floor((tz+lenz/2*50)/50);
+    var txz_ix = coordinateToTile(tx,tz);
 
 	var actual_dx=0;
 	var actual_dz=0;
-	if (get_map_xy(tx_ix,z_ix)==0)
+	if (get_map_xy(txz_ix[0],xz_ix[1])==0)
 		actual_dx= hero.vel_x;
-	if (get_map_xy(x_ix,tz_ix)==0)
+	if (get_map_xy(xz_ix[0],txz_ix[1])==0)  // on purpose mix  x of old and z of new?
 		actual_dz= hero.vel_z;
 
 	for (var i=0;i<hero.plights.length;i++) {
@@ -316,6 +344,13 @@ function move_hero() {
 	hero.mesh.position.x= hero.plights[0].position.x;
 	hero.mesh.position.y= hero.plights[0].position.y-15;
 	hero.mesh.position.z= hero.plights[0].position.z;
+
+    var tile = coordinateToTile(hero.mesh.position.x, hero.mesh.position.z);
+    if (tile[0] != curTileX || tile[1] != curTileZ) {
+        curTileX = tile[0];
+        curTileZ = tile[1];
+        PlayerChaseMap.explore(curTileX, curTileZ, 20);
+    }
 
     //spider.sprite.position.x = hero.mesh.position.x +  20;
     //spider.sprite.position.y = hero.mesh.position.y;
