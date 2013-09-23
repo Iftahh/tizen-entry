@@ -9,8 +9,8 @@ var TwoDimSprite = function(container) {
     this.texture.wrapS     = THREE.ClampToEdgeWrapping;
     this.texture.wrapT     = THREE.ClampToEdgeWrapping;
 
+//    this.material =  new THREE.MeshLambertMaterial( {
     this.material =  new THREE.MeshBasicMaterial( {
-//    this.material =  new THREE.MeshBasicMaterial( {
 
         map: this.texture,
         side:THREE.DoubleSide,
@@ -24,8 +24,6 @@ var TwoDimSprite = function(container) {
     sprite.rotation.x = -Math.PI/2;
     sprite.rotation.z = 4*Math.PI/3;// account for camera-world angle - want the plane to be aligned with screen x axis not world x axis
     sprite.receiveShadow = true;
-    //sprite.matrixAutoUpdate = false;
-    sprite.updateMatrix();
     this.sprite = sprite;
     container.sprite = sprite;
 }
