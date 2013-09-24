@@ -140,8 +140,8 @@ function add_floor(){
 		for(z=0;z<lenz/8;z++) {
 			var voxel = new THREE.Mesh( floorGeo );
 			voxel.rotation.x= -Math.PI/2;
-			voxel.position.x=x*8*TileDimX -lenx/2*TileDimX;
-			voxel.position.z=z*8*TileDimZ-lenz/2*TileDimZ;
+			voxel.position.x=x*8*TileDimX -lenx/2*TileDimX+200;
+			voxel.position.z=z*8*TileDimZ-lenz/2*TileDimZ+200;
 			voxel.position.y=TileDimY;
 			THREE.GeometryUtils.merge(mainFloorGeo, voxel);
 		}
