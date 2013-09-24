@@ -2,19 +2,19 @@
 
 PlayerChaseMap = new DijkstraMap()
 
-// requires the container has "sprite.position"  and "speed"
+// requires the entity has "sprite.position"  and "speed",  "movingCollision"
 
-PathFinding = function(container, dijkstraMap) {
+PathFinding = function(entity, dijkstraMap) {
 
     this.dijkstraMap = dijkstraMap;
 
-    this.container = container;
+    this.entity = entity;
 
     this.nextTileX = null;  // next tile to move to (in map)
     this.nextTileZ = null;
     //this.nextX = -1;  // next coordinate to move to (in world)
     //this.nextZ = -1;
-    var tileXZ = coordinateToTile(container.sprite.position.x, container.sprite.position.z)
+    var tileXZ = coordinateToTile(entity.sprite.position.x, entity.sprite.position.z)
     this.currTileX= tileXZ[0];
     this.currTileZ= tileXZ[1];
     this.vx = 0;  // how much to move each step
@@ -26,42 +26,74 @@ PathFinding = function(container, dijkstraMap) {
 PathFinding.prototype = {
 
     update: function(dt) {
-        var container = this.container;
+        var entity = this.entity;
 
         if (this.nextTileX === null) {
-            var tileXZ = coordinateToTile(container.sprite.position.x, container.sprite.position.z)
+            var tileXZ = coordinateToTile(entity.sprite.position.x, entity.sprite.position.z)
 
             // need to search next tile to move to
-            var result = this.dijkstraMap.smallestNeighbor(tileXZ[0], tileXZ[1]);
-            if (result.moveTo) {
-                this.nextTileX = result.moveTo[0];
-                this.nextTileZ = result.moveTo[1];
-                var xz = tileToCoordinate(this.nextTileX, this.nextTileZ);
-                this.nextX = xz[0];
-                this.nextZ = xz[1];
+            var ignoreDirs = [];
+            while(true) {
+                var result = this.dijkstraMap.smallestNeighbor(tileXZ[0], tileXZ[1], ignoreDirs);
+                if (!result.moveTo) {
+                    break;
+                }
 
-                var dx = this.nextX - container.sprite.position.x;
-                var dz = this.nextZ - container.sprite.position.z;
+                var nextTileX = result.moveTo[0];
+                var nextTileZ = result.moveTo[1];
+                var xz = tileToCoordinate(nextTileX, nextTileZ);
+                var nextX = xz[0];
+                var nextZ = xz[1];
+
+                var dx = nextX - entity.sprite.position.x;
+                var dz = nextZ - entity.sprite.position.z;
+
+                // check if at location 0.25 of the way to next tile the sprite is blocked by a moving collision
+                var checkX = entity.sprite.position.x + dx*.25;
+                var checkZ = entity.sprite.position.z + dz*.25;
+                var blockedBy = entity.movingCollision.isBlocked(checkX, checkZ)
+                if (blockedBy != EMPTY && blockedBy != NOT_ALLOWED) {
+                    // moving to this tile is ok by the walls - but the way is blocked by moving sprite - try to find another route
+                    ignoreDirs.push(result.direction);
+                    continue;
+                }
+
+                this.nextTileX = nextTileX;
+                this.nextTileZ = nextTileZ;
+                this.nextX = nextX;
+                this.nextZ = nextZ;
                 var r = Math.sqrt(dx*dx + dz*dz);
                 this.directionVector = {x: dx/r,  z:dz/r}
-                this.vx = this.container.speed * this.directionVector.x;
-                this.vz = this.container.speed * this.directionVector.z;
+                this.vx = this.entity.speed * this.directionVector.x;
+                this.vz = this.entity.speed * this.directionVector.z;
+                break;
             }
         }
 
         if (this.nextTileX != null) {
             // we have a next tile to move to - start moving
-            var dx = this.nextX - container.sprite.position.x;
-            var dz = this.nextZ - container.sprite.position.z;
+            var dx = this.nextX - entity.sprite.position.x;
+            var dz = this.nextZ - entity.sprite.position.z;
             if (Math.abs(dx) < Math.abs(this.vx) ||  Math.abs(dz) < Math.abs(this.vz)) {
-                container.sprite.position.x = this.nextX;
-                container.sprite.position.z = this.nextZ;
+                entity.sprite.position.x = this.nextX;
+                entity.sprite.position.z = this.nextZ;
                 this.nextTileX = null;
             }
             else {
-                container.sprite.position.x += this.vx;
-                container.sprite.position.z += this.vz;
+                var px = entity.sprite.position.x + this.vx;
+                var pz = entity.sprite.position.z + this.vz;
+                var blockedBy = entity.movingCollision.isBlocked(px, pz);
+                if (blockedBy != EMPTY && blockedBy != NOT_ALLOWED) {
+                    // moving here will collide with a moving-collision - change direction
+                    this.nextTileX = null;
+                }
+                else {
+                    entity.sprite.position.x = px;
+                    entity.sprite.position.z = pz;
+                }
             }
+
+            entity.movingCollision.moveTo(entity.sprite.position.x, entity.sprite.position.z )
         }
 
         // velocity field         
@@ -76,14 +108,14 @@ PathFinding.prototype = {
         //         var dz = this.nextTileZ - this.currTileZ;
         //         var r = Math.sqrt(dx*dx + dz*dz);
         //         this.directionVector = {x: dx/r,  z:dz/r}
-        //         this.vx = this.container.speed * this.directionVector.x;
-        //         this.vz = this.container.speed * this.directionVector.z;
+        //         this.vx = this.entity.speed * this.directionVector.x;
+        //         this.vz = this.entity.speed * this.directionVector.z;
         //     }
         // }
 
         // if (this.nextTileX != null) {
         //     // we have a next tile to move to - start moving
-        //     var nextTileXZ = coordinateToTile(container.sprite.position.x+this.vx, container.sprite.position.z+this.vz)
+        //     var nextTileXZ = coordinateToTile(entity.sprite.position.x+this.vx, entity.sprite.position.z+this.vz)
         //     var nextTileX= nextTileXZ[0];
         //     var nextTileZ= nextTileXZ[1];
         //     if ((nextTileX!=this.currTileX)||(nextTileZ!=this.currTileZ)) {
@@ -91,8 +123,8 @@ PathFinding.prototype = {
         //         this.currTileZ= nextTileZ;
         //         this.nextTileX = null;
         //     }
-        //     container.sprite.position.x += this.vx;
-        //     container.sprite.position.z += this.vz;
+        //     entity.sprite.position.x += this.vx;
+        //     entity.sprite.position.z += this.vz;
         // }
 
     }

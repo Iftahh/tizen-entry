@@ -105,7 +105,7 @@ DijkstraMap.prototype = {
     },
 
 
-    smallestNeighbor: function(x, y) {
+    smallestNeighbor: function(x, y, ignoreDirs) {
         var smallestVal = 2147483600;
         var result = {
             searchAround: [x, y]
@@ -113,10 +113,17 @@ DijkstraMap.prototype = {
 
         // check the dirs in random order
         var dirs = FLAT_DIRS.slice();
-        var searchAround = [x,y]
+        if (ignoreDirs) {
+            // don't check these dirs
+            for (var di=0; di<ignoreDirs.length; di++) {
+                var dirToIgnore = ignoreDirs[di];
+                dirs.splice(dirs.indexOf(dirToIgnore), 1);
+            }
+        }
+        var searchAround = [x,y];
         // loop neighbors in random order - find smallest value
         while (dirs.length > 0) {
-            // start from random neighbor
+            // start from random neighbor -
             var i= Math.floor(Math.random()*dirs.length);
             var dir = dirs[i];
             dirs.splice(i, 1);
