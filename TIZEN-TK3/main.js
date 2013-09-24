@@ -31,8 +31,15 @@ var lights_distance= 750;
 var shadowDarkness= 0.75;
 var main_light_intensity= 2.5;
 var main_light_color= 0xffaaaa;
-var pers= 11;
-var dv=2;
+var camera_perspective= 11;
+var window_divider= 2;
+var FPS = 30;
+var get_window_aspect_ratio= function() {
+	return window.innerWidth / window.innerHeight;
+	//return 9/16;
+}
+var dv=5;
+var dr_from_walls=2;
 
 // main ;)
 gAssetLoader.loadAssets([
@@ -53,11 +60,11 @@ gAssetLoader.loadAssets([
 function init() {
 	// THREE
 	scene = new THREE.Scene();
-	renderer = new THREE.WebGLRenderer( { antialias: true, preserveDrawingBuffer: true } );
+	renderer = new THREE.WebGLRenderer( { antialias: false, preserveDrawingBuffer: true } );
 	renderer.shadowMapEnabled=true;
 	renderer.shadowMapSoft = true;
-	renderer.setSize( window.innerWidth, window.innerHeight );
-	camera = new THREE.PerspectiveCamera( pers, window.innerWidth / window.innerHeight, 1, 10000 );
+	renderer.setSize( window.innerHeight/window_divider*get_window_aspect_ratio(), window.innerHeight/window_divider);
+	camera = new THREE.PerspectiveCamera( camera_perspective, get_window_aspect_ratio(), 1000, 3000 );
 	camera.position.y = 1800;
 
 	// HTML
@@ -208,9 +215,9 @@ function add_food() {
 }
 
 function onWindowResize() {
-	camera.aspect = window.innerWidth / window.innerHeight;
+	//camera.aspect = camera_perspective;
 	camera.updateProjectionMatrix();
-	renderer.setSize( window.innerWidth, window.innerHeight );
+	renderer.setSize( window.innerHeight/window_divider*get_window_aspect_ratio(), window.innerHeight/window_divider);
 }
 
 // ***********************************************KEYBOARD
@@ -239,7 +246,12 @@ var cdt=0;
 var mdt=0;
 function animate(ts) {
 	var t0= (new Date()).getTime();
-	requestAnimationFrame( animate );
+	if (FPS<59.9)
+		setTimeout( function() {
+        	requestAnimationFrame( animate );
+    	}, 1000 / (FPS+3.0) );
+	else
+       	requestAnimationFrame( animate );
 
 	calc_hero_vel();
 
@@ -307,8 +319,8 @@ function move_hero() {
 
 	var xz_ix= coordinateToTile(x,z);
 
-	var tx= x+hero.vel_x*8;
-	var tz= z+hero.vel_z*8;
+	var tx= x+hero.vel_x*8*dr_from_walls/dv;
+	var tz= z+hero.vel_z*8*dr_from_walls/dv;
 
     var txz_ix = coordinateToTile(tx,tz);
 
@@ -345,11 +357,10 @@ function move_hero() {
 	    	if (ix<0 || ix>= lenx) continue;
 		    for (iz=ctz-1; iz<=ctz+1; iz++) {
 		    	if (iz<0 || iz>= lenz) continue;
-
 	    		var inx= ix+lenx*iz; 
 	    		if (!(inx in food_grid)) continue;
-
 	    		var varr= food_grid[inx];
+	    		var ixs_to_remove=[];
 			    for (var i=0; i<varr.length; i++) {
 			    	v= varr[i];
 			    	if (v.eaten) continue;
@@ -359,8 +370,11 @@ function move_hero() {
 			    	if (r2<70*70) {
 			    		new_food_eaten.push(v);
 			    		v.eaten= true;
+			    		ixs_to_remove.push(i);
 			    	}
 			    }
+				for (var i=0; i<ixs_to_remove.length; i++)
+					food_grid[inx].splice(ixs_to_remove[i], 1);			    
 	    	}
 	    }
 	}
@@ -378,7 +392,7 @@ function animate_hero() {
 }
 
 function animate_food() {
-	var done_ixs=[];
+	var ixs_to_remove=[];
 	for (var i=0; i<new_food_eaten.length; i++) {
 		v= new_food_eaten[i];
 		dx= hero.mesh.position.x-v.x;
@@ -386,11 +400,14 @@ function animate_food() {
 		v.x+= 0.1*dx;
 		v.z+= 0.1*dz;
 		food_particle_system.geometry.verticesNeedUpdate=true;
-		//dr2= dx*dx+dz*dz;
-		//if (dr2<0.9) done_ixs.push(i);
+		dr2= dx*dx+dz*dz;
+		if (dr2<0.001) {
+			ixs_to_remove.push(i);
+			v.y=-10;
+		}
 	}
-	//for (var i=0; i<new_food_eaten.length; i++)
-	//	new_food_eaten.splice(done_ixs[i], 1);
+	for (var i=0; i<ixs_to_remove.length; i++)
+		new_food_eaten.splice(ixs_to_remove[i], 1);
 }
 
 function move_camera() {
