@@ -6,9 +6,10 @@ import glob
 import re
 import json
 
+TRIM = False
 
 #TRANSPARENT_COLOR = (106, 86, 64, 255)
-SHADOW_COLOR = (39,27,17, 255)
+SHADOW_COLOR = (31,22,13, 255) #(39,27,17, 255)
 
 trimmed = {}
 
@@ -30,6 +31,12 @@ def convert(file_in, file_out):
                 pixdata[x, y] = (255, 255, 255, 0)
             if pixdata[x, y] == SHADOW_COLOR:
                 pixdata[x, y] = (25,25,15, 160)
+
+    if not TRIM:
+        img.save(file_out)
+        return
+
+    # if TRIM
     top = 0
     left = 0
     right = img.size[0]-1
@@ -63,7 +70,7 @@ def convert(file_in, file_out):
         if found:
             break
         left += 1
-    
+
     found = False
     for x in range(img.size[0]-1, left, -1):
         for y in range(top, bottom):

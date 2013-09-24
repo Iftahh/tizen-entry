@@ -1,43 +1,34 @@
-DijkstraMap = Class.extend({
+var NOT_EXPLORED= 2147483647;
+var NOT_ALLOWED= 2147483646;
 
-    _explorationData: [],
-    _numOfCols: 0,
-    _numOfRows: 0,
+DijkstraMap = function() {
 
-    NOT_EXPLORED: 2147483647,
-    NOT_ALLOWED: 2147483646,
+    this._preExplore= [];
+    this._explorationData= [];
+    this._numOfCols= 0;
+    this._numOfRows= 0;
 
-    _topology:  isoTopology,
 
-    init: function(exploreData, topology) {
-        if (topology)
-            this._topology = topology;
-        this._explorationData = exploreData;
-    },
+    var numOfRows = this._numOfRows = lenz;
+    var numOfCols = this._numOfCols = lenx;
+    console.log("Generating explore data - "+numOfCols+"x"+numOfRows);
+    this._preExplore = new Array(numOfRows*numOfCols);
 
-    generateExploration: function(mapData)  {  // same as mapData passed to IsoGenerator.generateIsoMapFromIsoArray
-        // 0 - ground  1-water   2-wall
-        var numOfRows = this._numOfRows = mapData.length;
-        var numOfCols = this._numOfCols = mapData[0].length;
-        console.log("Generating explore data - "+numOfCols+"x"+numOfRows);
-        var NOT_EXPLORED = this.NOT_EXPLORED;
-        var NOT_ALLOWED = this.NOT_ALLOWED;
-        this._explorationData = new Array(numOfRows*numOfCols);
-        var index =0;
-        for (var y=0; y<numOfRows; y++) {
-            var row = mapData[y];
-            for (var x=0; x<numOfCols; x++) {
-                if (row[x] == 0 ) {  // IsometricGenerator.INPUT_GROUND
-                    this._explorationData[index] = NOT_EXPLORED;
-                }
-                else {
-                    this._explorationData[index] = NOT_ALLOWED;
-                }
-                index++;
+    var index =0;
+    for (var y=0; y<numOfRows; y++) {
+        for (var x=0; x<numOfCols; x++) {
+            if (get_map_xz(x,y) == 0 ) {
+                this._preExplore[index] = NOT_EXPLORED;
             }
+            else {
+                this._preExplore[index] = NOT_ALLOWED;
+            }
+            index++;
         }
-    },
+    }
+}
 
+DijkstraMap.prototype = {
     _set: function(x,y, val) {
         this._explorationData[y*this._numOfCols + x] = val;
     },
@@ -55,6 +46,7 @@ DijkstraMap = Class.extend({
         if (!maxDist) {
             maxDist = 99999;
         }
+        this._explorationData = this._preExplore.slice();
         if (this._get(ex,ey) == this.NOT_ALLOWED) {
             console.log("Can't explore around "+ex+","+ey+" because not allowed there");
             return false;
@@ -66,7 +58,6 @@ DijkstraMap = Class.extend({
 
         this._explorationData[ey*this._numOfCols+ex] = 0;
         pointsToExplore.push([ex,ey, 0]);
-        var NOT_EXPLORED = this.NOT_EXPLORED;
 
         var explored = 0;
         while (pointsToExplore.size() > 0) {
@@ -76,10 +67,10 @@ DijkstraMap = Class.extend({
                 break;
             }
             var newScore = xys[2]+1;
-            var closeNeighbors = this._topology.closeNeighbors;
+            var closeNeighbors = Topology.closeNeighbors;
             for (var i=0; i<closeNeighbors.length; i++) {
                 var dir = closeNeighbors[i];
-                var xy = this._topology.moveCoord(xys[0], xys[1], dir);
+                var xy = Topology.moveCoord(xys[0], xys[1], dir);
                 if (  xy[0] < 0 || xy[0] >= this._numOfCols || xy[1] < 0 || xy[1] >= this._numOfRows) {
                     continue;
                 }
@@ -91,11 +82,13 @@ DijkstraMap = Class.extend({
                 }
             }
             newScore = xys[2]+1.414213562;  // sqrt(2) for diagnoals - hopefully this will make the moving more natural - instead of zig-zagging diagonally
-            var farNeighbors = this._topology.farNeighbors;
+            var farNeighbors = Topology.farNeighbors;
             for (var i=0; i<farNeighbors.length; i++) {
                 var dir = farNeighbors[i];
-                var xy = this._topology.moveCoord(xys[0], xys[1], dir);
-                if (  xy[0] < 0 || xy[0] >= this._numOfCols || xy[1] < 0 || xy[1] >= this._numOfRows) {
+                var xy = Topology.moveCoord(xys[0], xys[1], dir);
+                if (  xy[0] < 0 || xy[0] >= this._numOfCols || xy[1] < 0 || xy[1] >= this._numOfRows
+                      || this._get(xys[0], xy[1]) ==  NOT_ALLOWED || this._get(xy[0], xys[1]) ==  NOT_ALLOWED
+                ) {
                     continue;
                 }
 
@@ -112,7 +105,7 @@ DijkstraMap = Class.extend({
     },
 
 
-    smallestNeighbor: function(x, y) {
+    smallestNeighbor: function(x, y, ignoreDirs) {
         var smallestVal = 2147483600;
         var result = {
             searchAround: [x, y]
@@ -120,15 +113,24 @@ DijkstraMap = Class.extend({
 
         // check the dirs in random order
         var dirs = FLAT_DIRS.slice();
-        var searchAround = [x,y]
+        if (ignoreDirs) {
+            // don't check these dirs
+            for (var di=0; di<ignoreDirs.length; di++) {
+                var dirToIgnore = ignoreDirs[di];
+                dirs.splice(dirs.indexOf(dirToIgnore), 1);
+            }
+        }
+        var searchAround = [x,y];
         // loop neighbors in random order - find smallest value
         while (dirs.length > 0) {
-            // start from random neighbor
-            var i= (RNG.getUniform()*dirs.length).floor();
+            // start from random neighbor -
+            var i= Math.floor(Math.random()*dirs.length);
             var dir = dirs[i];
             dirs.splice(i, 1);
-            var xy = this._topology.moveCoord(searchAround[0], searchAround[1], dir);
-            if (  xy[0] < 0 || xy[0] >= this._numOfCols || xy[1] < 0 || xy[1] >= this._numOfRows) {
+            var xy = Topology.moveCoord(searchAround[0], searchAround[1], dir);
+            if (  xy[0] < 0 || xy[0] >= this._numOfCols || xy[1] < 0 || xy[1] >= this._numOfRows
+                      || this._get(x, xy[1]) ==  NOT_ALLOWED || this._get(xy[0],y) ==  NOT_ALLOWED
+            ) {
                 continue;
             }
 
@@ -144,4 +146,4 @@ DijkstraMap = Class.extend({
         return result;
     }
 
-});
+};
