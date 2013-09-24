@@ -1,21 +1,18 @@
 
 // requires the entity has "atlas" and "animation"  and "rotationSpeed" components
-
 var TwoDimSprite = function(entity) {
 
-    this.entity = entity;
-
+    this.entity= entity;
     this.texture = THREE.ImageUtils.loadTexture(entity.atlas.imgUrl);
     this.texture.wrapS     = THREE.ClampToEdgeWrapping;
     this.texture.wrapT     = THREE.ClampToEdgeWrapping;
 
-//    this.material =  new THREE.MeshLambertMaterial( {
     this.material =  new THREE.MeshBasicMaterial( {
-
         map: this.texture,
-        side:THREE.DoubleSide,
+        blending: THREE.AdditiveBlending,
         transparent: true
     } );
+    this.material.depthWrite = false
 
     this.angle = this.targetAngle = -Math.PI/2;
     this.vr = 0; // rotation velocity;

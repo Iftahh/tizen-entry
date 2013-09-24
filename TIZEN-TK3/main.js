@@ -103,7 +103,7 @@ function init() {
 	hero.plights.push(plight);
 
 	for (var i=0; i<10; i++) {
-		var s=Spider(120+i*100, 53, 15);
+		var s=Spider(120+i*100, 53+3-i/10, 15);
      	spiders.push(s);
 	    scene.add(s.sprite);
 	}
