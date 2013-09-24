@@ -62,7 +62,7 @@ function init() {
 	// THREE
 	scene = new THREE.Scene();
 	renderer = new THREE.WebGLRenderer( { antialias: false, preserveDrawingBuffer: true } );
-	renderer.shadowMapEnabled=true;
+	renderer.shadowMapEnabled=false;
 	renderer.shadowMapSoft = true;
 	renderer.setSize( window.innerHeight/window_divider*get_window_aspect_ratio(), window.innerHeight/window_divider);
 	camera = new THREE.PerspectiveCamera( camera_perspective, get_window_aspect_ratio(), 1000, 3000 );
@@ -102,11 +102,11 @@ function init() {
 	scene.add( plight );
 	hero.plights.push(plight);
 
-	for (var i=0; i<10; i++) {
-		var s=Spider(120+i*100, 53+3-i/10, 15);
-     	spiders.push(s);
-	    scene.add(s.sprite);
-	}
+	// for (var i=0; i<10; i++) {
+	// 	var s=Spider(120+i*100, 53+3-i/10, 15);
+ //     	spiders.push(s);
+	//     scene.add(s.sprite);
+	// }
 
 	// shadows
 	for (i=0;i<3;i++) {
