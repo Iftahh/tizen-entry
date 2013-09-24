@@ -32,8 +32,8 @@ var shadowDarkness= 0.75;
 var main_light_intensity= 2.5;
 var main_light_color= 0xffaaaa;
 var camera_perspective= 11;
-var window_divider= 2;
-var FPS = 30;
+var window_divider= 4;
+var FPS = 60;
 var get_window_aspect_ratio= function() {
 	return window.innerWidth / window.innerHeight;
 	//return 9/16;
