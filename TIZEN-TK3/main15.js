@@ -330,8 +330,8 @@ function tileToCoordinate(tx,tz) {
 
 var framecount=0;
 function move_hero() {
-	var x=hero.plights[0].position.x;
-	var z=hero.plights[0].position.z;
+	var x=hero.mesh.position.x;
+	var z=hero.mesh.position.z;
 
 	var xz_ix= coordinateToTile(x,z);
 
@@ -347,14 +347,14 @@ function move_hero() {
 	if (get_map_xz(xz_ix[0],txz_ix[1])==0)  // on purpose mix  x of old and z of new?
 		actual_dz= hero.vel_z;
 
+	hero.mesh.position.x+= actual_dx;
+	hero.mesh.position.y= 70;
+	hero.mesh.position.z+= actual_dz;
 	for (var i=0;i<hero.plights.length;i++) {
-			hero.plights[i].position.x+= actual_dx;
-			hero.plights[i].position.z+= actual_dz;
+			hero.plights[i].position.x= hero.mesh.position.x;
+			hero.plights[i].position.z= hero.mesh.position.z;
+			hero.plights[i].position.y= 85;
 	}
-
-	hero.mesh.position.x= hero.plights[0].position.x;
-	hero.mesh.position.y= hero.plights[0].position.y-15;
-	hero.mesh.position.z= hero.plights[0].position.z;
 
     var tile = coordinateToTile(hero.mesh.position.x, hero.mesh.position.z);
     if (tile[0] != curTileX || tile[1] != curTileZ) {
@@ -427,7 +427,7 @@ function animate_food() {
 }
 
 function move_camera() {
-	camera.position.x = hero.plights[0].position.x-1000;
-	camera.position.z = hero.plights[0].position.z-500;
-	camera.lookAt( hero.plights[0].position );	
+	camera.position.x = hero.mesh.position.x-1000;
+	camera.position.z = hero.mesh.position.z-500;
+	camera.lookAt( hero.mesh.position );	
 }
