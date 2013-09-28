@@ -27,7 +27,7 @@ var food_particle_system;
 var new_food_eaten=[];
 
 // constants
-var lights_distance= 750;
+var lights_distance= 250;
 var shadowDarkness= 0.75;
 var main_light_intensity= 2.5;
 var main_light_color= 0xffaaaa;
@@ -35,6 +35,8 @@ var camera_perspective= 11;
 var window_divider= 2;
 var FPS = 60;
 var shadows=false;
+var point_light=true;
+var plights_y= 85+20;
 var get_window_aspect_ratio= function() {
 	return window.innerWidth / window.innerHeight;
 	//return 9/16;
@@ -62,7 +64,7 @@ gAssetLoader.loadAssets([
 function init() {
 	// THREE
 	scene = new THREE.Scene();
-	renderer = new THREE.WebGLRenderer( { antialias: true, preserveDrawingBuffer: true } );
+	renderer = new THREE.WebGLRenderer( { antialias: true, preserveDrawingBuffer: false, precision:'lowp' } );
 	if (shadows) {
 		renderer.shadowMapEnabled=true;
 		renderer.shadowMapSoft = true;
@@ -99,12 +101,19 @@ function init() {
     initSpritesGrid();
 
 	// lights
-	plight = new THREE.PointLight( main_light_color, main_light_intensity, lights_distance );
-	plight.position.x=25;
-	plight.position.y=85;
-	plight.position.z=25;
-	scene.add( plight );
-	hero.plights.push(plight);
+	if (point_light) {
+		plight = new THREE.PointLight( main_light_color, main_light_intensity, lights_distance );
+		plight.position.x=25;
+		plight.position.y=plights_y;
+		plight.position.z=25;
+		scene.add( plight );
+		hero.plights.push(plight);
+	}
+	else {
+		var light = new THREE.DirectionalLight( 0xeecccc, 1.2 );
+		light.position.set(0.2,1,0.4);
+		scene.add( light );
+	}
 
 	for (var i=0; i<10; i++) {
 		var s=Spider(120+i*100, 53+3-i/10, 15);
@@ -126,7 +135,7 @@ function init() {
 			plight.shadowDarkness=shadowDarkness;
 			plight.shadowCameraFov=120;
 			plight.position.x=25;
-			plight.position.y=85;
+			plight.position.y=plights_y;
 			plight.position.z=25;
 			scene.add( plight );
 			hero.plights.push(plight);
@@ -353,7 +362,7 @@ function move_hero() {
 	for (var i=0;i<hero.plights.length;i++) {
 			hero.plights[i].position.x= hero.mesh.position.x;
 			hero.plights[i].position.z= hero.mesh.position.z;
-			hero.plights[i].position.y= 85;
+			hero.plights[i].position.y= plights_y;
 	}
 
     var tile = coordinateToTile(hero.mesh.position.x, hero.mesh.position.z);
