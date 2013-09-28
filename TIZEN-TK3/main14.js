@@ -140,7 +140,7 @@ function init() {
 
 function add_floor(){
 	var mainFloorGeo= new THREE.Geometry();
-	var floorGeo = new THREE.PlaneGeometry( 8*TileDimX, 8*TileDimZ,  12,12);
+	var floorGeo = new THREE.PlaneGeometry( 8*TileDimX, 8*TileDimZ, 8,8);
 	var floorMaterial = new THREE.MeshLambertMaterial( { color: 0xffffff, shading: THREE.FlatShading, map: THREE.ImageUtils.loadTexture( "floor_1.jpg" ) } );
 	for (x=0;x<lenx/8;x++) {
 		for(z=0;z<lenz/8;z++) {
