@@ -27,13 +27,14 @@ var food_particle_system;
 var new_food_eaten=[];
 
 // constants
-var lights_distance= 250;
+var lights_distance= 750;
 var shadowDarkness= 0.75;
 var main_light_intensity= 2.5;
 var main_light_color= 0xffaaaa;
 var camera_perspective= 11;
-var window_divider= 2;
+var window_divider= 1;
 var FPS = 60;
+var shadows=false;
 var get_window_aspect_ratio= function() {
 	return window.innerWidth / window.innerHeight;
 	//return 9/16;
@@ -62,8 +63,10 @@ function init() {
 	// THREE
 	scene = new THREE.Scene();
 	renderer = new THREE.WebGLRenderer( { antialias: false, preserveDrawingBuffer: true } );
-	renderer.shadowMapEnabled=true;
-	renderer.shadowMapSoft = true;
+	if (shadows) {
+		renderer.shadowMapEnabled=true;
+		renderer.shadowMapSoft = true;
+	}
 	renderer.setSize( window.innerHeight/window_divider*get_window_aspect_ratio(), window.innerHeight/window_divider);
 	camera = new THREE.PerspectiveCamera( camera_perspective, get_window_aspect_ratio(), 1000, 3000 );
 	camera.position.y = 1800;
@@ -109,22 +112,24 @@ function init() {
 	// }
 
 	// shadows
-	for (i=0;i<3;i++) {
-		plight = new THREE.SpotLight( 0xff9999, 3.1, lights_distance, Math.PI/2,2);
-		plight.target.position.x=10000000.0*Math.cos(Math.PI/3*i*2);
-		plight.target.position.y=-155;
-		plight.target.position.z=10000000.0*Math.sin(Math.PI/3*i*2);
-		plight.castShadow= true;
-		plight.onlyShadow= true;
-		plight.shadowCameraNear=1;
-		plight.shadowCameraFar=lights_distance;
-		plight.shadowDarkness=shadowDarkness;
-		plight.shadowCameraFov=120;
-		plight.position.x=25;
-		plight.position.y=85;
-		plight.position.z=25;
-		scene.add( plight );
-		hero.plights.push(plight);
+	if (shadows) {
+		for (i=0;i<3;i++) {
+			plight = new THREE.SpotLight( 0xff9999, 3.1, lights_distance, Math.PI/2,2);
+			plight.target.position.x=10000000.0*Math.cos(Math.PI/3*i*2);
+			plight.target.position.y=-155;
+			plight.target.position.z=10000000.0*Math.sin(Math.PI/3*i*2);
+			plight.castShadow= true;
+			plight.onlyShadow= true;
+			plight.shadowCameraNear=1;
+			plight.shadowCameraFar=lights_distance;
+			plight.shadowDarkness=shadowDarkness;
+			plight.shadowCameraFov=120;
+			plight.position.x=25;
+			plight.position.y=85;
+			plight.position.z=25;
+			scene.add( plight );
+			hero.plights.push(plight);
+		}
 	}
 
 	add_floor();
@@ -147,7 +152,8 @@ function add_floor(){
 		}
 	}	
 	var floor= new THREE.Mesh(mainFloorGeo, floorMaterial);
-	floor.receiveShadow = true;
+	if (shadows)
+		floor.receiveShadow = true;
 	floor.matrixAutoUpdate = false;
 	floor.updateMatrix();
 	scene.add( floor );
@@ -174,8 +180,10 @@ function add_walls() {
 		}
 	}
 	var walls= new THREE.Mesh(mainWallsGeo, cubeMaterial);
-	walls.receiveShadow= true;
-	walls.castShadow= true;
+	if (shadows) {
+		walls.receiveShadow= true;
+		walls.castShadow= true;
+	}
 	walls.matrixAutoUpdate = false;
 	walls.updateMatrix();
 	scene.add( walls );
