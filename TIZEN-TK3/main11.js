@@ -85,6 +85,7 @@ function init() {
 	container.appendChild( stats.domElement );
 
 	// hero
+
 	var loader = new THREE.JSONLoader( true );
 	loader.load( "stork.js", function( geometry ) {
 		geometry.computeMorphNormals();
@@ -273,11 +274,11 @@ function animate(ts) {
 
 	if (hero.mesh) {
 		move_hero();
-		animate_hero();
+		//animate_hero();
 		move_camera();
 	}
 
-	animate_food();
+	//animate_food();
 
     stats.update();
 	renderer.render( scene, camera );
