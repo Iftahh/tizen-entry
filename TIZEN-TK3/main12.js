@@ -32,7 +32,7 @@ var shadowDarkness= 0.75;
 var main_light_intensity= 2.5;
 var main_light_color= 0xffaaaa;
 var camera_perspective= 11;
-var window_divider= 1;
+var window_divider= 2;
 var FPS = 60;
 var shadows=false;
 var get_window_aspect_ratio= function() {
@@ -62,7 +62,7 @@ gAssetLoader.loadAssets([
 function init() {
 	// THREE
 	scene = new THREE.Scene();
-	renderer = new THREE.WebGLRenderer( { antialias: false, preserveDrawingBuffer: true } );
+	renderer = new THREE.WebGLRenderer( { antialias: true, preserveDrawingBuffer: true } );
 	if (shadows) {
 		renderer.shadowMapEnabled=true;
 		renderer.shadowMapSoft = true;
@@ -106,11 +106,11 @@ function init() {
 	scene.add( plight );
 	hero.plights.push(plight);
 
-	// for (var i=0; i<10; i++) {
-	// 	var s=Spider(120+i*100, 53+3-i/10, 15);
- //     	spiders.push(s);
-	//     scene.add(s.sprite);
-	// }
+	for (var i=0; i<10; i++) {
+		var s=Spider(120+i*100, 53+3-i/10, 15);
+     	spiders.push(s);
+	    scene.add(s.sprite);
+	}
 
 	// shadows
 	if (shadows) {
@@ -274,11 +274,11 @@ function animate(ts) {
 
 	if (hero.mesh) {
 		move_hero();
-		//animate_hero();
+		animate_hero();
 		move_camera();
 	}
 
-	//animate_food();
+	animate_food();
 
     stats.update();
 	renderer.render( scene, camera );
