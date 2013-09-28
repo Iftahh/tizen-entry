@@ -186,7 +186,7 @@ function add_walls() {
 function add_food() {
 	geometry = new THREE.Geometry();
 
-	for ( i = 0; i < 1000; i ++ ) {
+	for ( i = 0; i < 500; i ++ ) {
 		var vertex = new THREE.Vector3();
 		vertex.x = (Math.random()-0.5) * 64*TileDimX;
 		vertex.z = (Math.random()-0.5) * 64*TileDimZ;
