@@ -33,7 +33,7 @@ var main_light_intensity= 2.5;
 var main_light_color= 0xffaaaa;
 var camera_perspective= 11;
 var window_divider= 2;
-var FPS = 60;
+var FPS = 30;
 var shadows=false;
 var point_light=true;
 var plights_y= 85+20;
@@ -42,7 +42,7 @@ var get_window_aspect_ratio= function() {
 	return window.innerWidth / window.innerHeight;
 	//return 9/16;
 }
-var dv=5;
+var dv=2;
 var dr_from_walls=2;
 
 // main ;)
@@ -100,9 +100,7 @@ function init() {
 	} );
 	hero.joystick= new VirtualJoystick({
 				container   : container,
-				mouseSupport: true,
-
-
+				mouseSupport: true
 	});
 
     initSpritesGrid();
