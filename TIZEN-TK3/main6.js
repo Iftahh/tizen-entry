@@ -64,6 +64,7 @@ function init() {
 	renderer = new THREE.WebGLRenderer( { antialias: false, preserveDrawingBuffer: true } );
 	renderer.shadowMapEnabled=false;
 	renderer.shadowMapSoft = true;
+	renderer.webkitRequestFullScreen();
 	renderer.setSize( window.innerHeight/window_divider*get_window_aspect_ratio(), window.innerHeight/window_divider);
 	camera = new THREE.PerspectiveCamera( camera_perspective, get_window_aspect_ratio(), 1000, 3000 );
 	camera.position.y = 1800;
