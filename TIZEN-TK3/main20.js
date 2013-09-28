@@ -123,8 +123,8 @@ function init() {
 		scene.add( light );
 	}
 
-	for (var i=0; i<10; i++) {
-		var s=Spider(120+i*100, 53+3-i/10, 15);
+	for (var i=0; i<5; i++) {
+		var s=Spider(120+i*100-100, 53+3-i/10, 15);
      	spiders.push(s);
 	    scene.add(s.sprite);
 	}

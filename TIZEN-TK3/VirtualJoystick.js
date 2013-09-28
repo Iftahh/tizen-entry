@@ -273,20 +273,20 @@ VirtualJoystick.prototype._onTouchMove	= function(event)
 VirtualJoystick.prototype._buildJoystickBase	= function()
 {
 	var canvas	= document.createElement( 'canvas' );
-	canvas.width	= 126/3;
-	canvas.height	= 126/3;
+	canvas.width	= 126/4;
+	canvas.height	= 126/4;
 	
 	var ctx		= canvas.getContext('2d');
 	ctx.beginPath(); 
 	ctx.strokeStyle = this._strokeStyle; 
-	ctx.lineWidth	= 6/3; 
-	ctx.arc( canvas.width/2, canvas.width/2, 40/3, 0, Math.PI*2, true); 
+	ctx.lineWidth	= 6/4; 
+	ctx.arc( canvas.width/2, canvas.width/2, 40/4, 0, Math.PI*2, true); 
 	ctx.stroke();	
 
 	ctx.beginPath(); 
 	ctx.strokeStyle	= this._strokeStyle; 
-	ctx.lineWidth	= 2/2; 
-	ctx.arc( canvas.width/2, canvas.width/2, 60/3, 0, Math.PI*2, true); 
+	ctx.lineWidth	= 0.5; 
+	ctx.arc( canvas.width/2, canvas.width/2, 60/4, 0, Math.PI*2, true); 
 	ctx.stroke();
 	
 	return canvas;
@@ -298,13 +298,13 @@ VirtualJoystick.prototype._buildJoystickBase	= function()
 VirtualJoystick.prototype._buildJoystickStick	= function()
 {
 	var canvas	= document.createElement( 'canvas' );
-	canvas.width	= 86/3;
-	canvas.height	= 86/3;
+	canvas.width	= 86/4;
+	canvas.height	= 86/4;
 	var ctx		= canvas.getContext('2d');
 	ctx.beginPath(); 
 	ctx.strokeStyle	= this._strokeStyle; 
-	ctx.lineWidth	= 6/3; 
-	ctx.arc( canvas.width/2, canvas.width/2, 36/3, 0, Math.PI*2, true); 
+	ctx.lineWidth	= 6/4; 
+	ctx.arc( canvas.width/2, canvas.width/2, 36/4, 0, Math.PI*2, true); 
 	ctx.stroke();
 	return canvas;
 }
