@@ -5,7 +5,6 @@ var camera, scene, renderer;
 // HTML
 var container;
 var stats;
-var render_stats;
 
 // hero
 var hero={}
@@ -14,6 +13,7 @@ hero.vel_z= 0;
 hero.mesh= null;
 hero.plights= [];
 hero.clock= new THREE.Clock();
+hero.joystick= null;
 
 // Keyboard state
 var isArrowUp, isArrowDown, isArrowLeft, isArrowRight;
@@ -37,6 +37,7 @@ var FPS = 60;
 var shadows=false;
 var point_light=true;
 var plights_y= 85+20;
+var use_joystick=true;
 var get_window_aspect_ratio= function() {
 	return window.innerWidth / window.innerHeight;
 	//return 9/16;
@@ -77,17 +78,17 @@ function init() {
 	container = document.createElement( 'div' );
 	container.appendChild( renderer.domElement );
 	document.body.appendChild( container );
-	document.addEventListener( 'keydown', onDocumentKeyDown, false );
-	document.addEventListener( 'keyup', onDocumentKeyUp, false );
+	if (!use_joystick) {
+		document.addEventListener( 'keydown', onDocumentKeyDown, false );
+		document.addEventListener( 'keyup', onDocumentKeyUp, false );
+	}
 	window.addEventListener( 'resize', onWindowResize, false );
-	render_stats= document.getElementById('render_stats');
    
 	// STATS
 	stats = new Stats();
 	container.appendChild( stats.domElement );
 
 	// hero
-
 	var loader = new THREE.JSONLoader( true );
 	loader.load( "stork.js", function( geometry ) {
 		geometry.computeMorphNormals();
@@ -97,6 +98,12 @@ function init() {
 		hero.mesh.scale.set( 0.2, 0.2, 0.2 );
 		scene.add( hero.mesh );
 	} );
+	hero.joystick= new VirtualJoystick({
+				container   : container,
+				mouseSupport: true,
+
+
+	});
 
     initSpritesGrid();
 
@@ -223,7 +230,6 @@ function add_food() {
 			food_grid[inx].push(vertex);
 	}
 
-
 	var material = new THREE.ParticleBasicMaterial({
 	    color: 0xff9999,
 	    size: 70,
@@ -238,9 +244,9 @@ function add_food() {
 }
 
 function onWindowResize() {
-	//camera.aspect = camera_perspective;
-	camera.updateProjectionMatrix();
 	renderer.setSize( window.innerHeight/window_divider*get_window_aspect_ratio(), window.innerHeight/window_divider);
+	camera.aspect= get_window_aspect_ratio();
+	camera.updateProjectionMatrix();
 }
 
 // ***********************************************KEYBOARD
@@ -264,9 +270,6 @@ function onDocumentKeyUp( event ) {
 }
 
 // ***********************************************RENDERING
-var ti=0;
-var cdt=0;
-var mdt=0;
 function animate(ts) {
 	var t0= (new Date()).getTime();
 	if (FPS<59.9)
@@ -291,23 +294,21 @@ function animate(ts) {
 
     stats.update();
 	renderer.render( scene, camera );
-	var tf=(new Date()).getTime();
-	cdt+= tf-t0;
-	if ((tf-ti)>5000) {
-		mdt= cdt/(tf-ti);
-		ti=tf;
-		cdt= 0;
-		render_stats.textContent= '> '+mdt+' ms per frame'
-	}
 }
 
 function calc_hero_vel() {
 	hero.vel_x=0;
 	hero.vel_z=0;
-	if (isArrowDown)  hero.vel_x-=dv;
-	if (isArrowUp)    hero.vel_x+=dv;
-	if (isArrowRight) hero.vel_z+=dv;
-	if (isArrowLeft)  hero.vel_z-=dv;
+	if (!use_joystick) {
+		if (isArrowDown)  hero.vel_x-=dv;
+		if (isArrowUp)    hero.vel_x+=dv;
+		if (isArrowRight) hero.vel_z+=dv;
+		if (isArrowLeft)  hero.vel_z-=dv;
+	}
+	else {
+		hero.vel_x= -hero.joystick.deltaY();
+		hero.vel_z= hero.joystick.deltaX();
+	}
 	vr= Math.sqrt(hero.vel_x*hero.vel_x+hero.vel_z*hero.vel_z);
 	if (vr>0.00001) {
 		hero.vel_x= dv*hero.vel_x/vr;
@@ -408,12 +409,16 @@ function move_hero() {
 function animate_hero() {
 	var delta = hero.clock.getDelta();
 	hero.mesh.updateAnimation( 1000 * delta );
-	if ((hero.vel_x!=0)||(hero.vel_z!=0))
+	if ((hero.vel_x!=0)||(hero.vel_z!=0)) {
 		var rot_target= Math.atan2(hero.vel_x,hero.vel_z);
 		var rot_delta= hero.mesh.rotation.y-rot_target;
 		if (rot_delta<-Math.PI*1.01) rot_delta+= 2*Math.PI;
 		if ((rot_delta>0.05)||(rot_delta<=0.05))
-			hero.mesh.rotation.y-= rot_delta*0.1; 
+			if (!use_joystick)
+				hero.mesh.rotation.y-= rot_delta*0.1; 
+			else
+				hero.mesh.rotation.y-= rot_delta; 
+	}
 }
 
 function animate_food() {
