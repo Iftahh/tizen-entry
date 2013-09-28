@@ -27,12 +27,12 @@ var food_particle_system;
 var new_food_eaten=[];
 
 // constants
-var lights_distance= 750;
+var lights_distance= 250;
 var shadowDarkness= 0.75;
 var main_light_intensity= 2.5;
 var main_light_color= 0xffaaaa;
 var camera_perspective= 11;
-var window_divider= 2;
+var window_divider= 1;
 var FPS = 60;
 var get_window_aspect_ratio= function() {
 	return window.innerWidth / window.innerHeight;
