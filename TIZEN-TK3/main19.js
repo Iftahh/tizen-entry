@@ -1,3 +1,5 @@
+
+var org_window_v;
 //************************************ Global variables
 // THREE
 var camera, scene, renderer;
@@ -71,6 +73,7 @@ function init() {
 		renderer.shadowMapSoft = true;
 	}
 	renderer.setSize( window.innerHeight/window_divider*get_window_aspect_ratio(), window.innerHeight/window_divider);
+	org_window_v= window.innerHeight;
 	camera = new THREE.PerspectiveCamera( camera_perspective, get_window_aspect_ratio(), 1000, 3000 );
 	camera.position.y = 1800;
 
@@ -244,6 +247,7 @@ function add_food() {
 function onWindowResize() {
 	renderer.setSize( window.innerHeight/window_divider*get_window_aspect_ratio(), window.innerHeight/window_divider);
 	camera.aspect= get_window_aspect_ratio();
+	camera.fov= camera_perspective/org_window_v*window.innerHeight;
 	camera.updateProjectionMatrix();
 }
 
@@ -432,8 +436,8 @@ function animate_food() {
 		v= new_food_eaten[i];
 		dx= hero.mesh.position.x-v.x;
 		dz= hero.mesh.position.z-v.z;
-		v.x+= 0.1*dx;
-		v.z+= 0.1*dz;
+		v.x+= 0.2*dx;
+		v.z+= 0.2*dz;
 		food_particle_system.geometry.verticesNeedUpdate=true;
 		dr2= dx*dx+dz*dz;
 		if (dr2<0.001) {

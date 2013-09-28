@@ -15,7 +15,7 @@ Spider = function(x,y,z) {
         atlas: Atlas('red_spider.json'),
         twoDimSprite: null,
         movingCollision: null,
-        speed: 1,
+        speed: 2.1,
         rotationSpeed:1,
 
         updateFrame: function() {
