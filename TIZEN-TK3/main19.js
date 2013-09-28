@@ -14,6 +14,8 @@ hero.mesh= null;
 hero.plights= [];
 hero.clock= new THREE.Clock();
 hero.joystick= null;
+var dv=3;
+var dr_from_walls=2;
 
 // Keyboard state
 var isArrowUp, isArrowDown, isArrowLeft, isArrowRight;
@@ -42,8 +44,6 @@ var get_window_aspect_ratio= function() {
 	return window.innerWidth / window.innerHeight;
 	//return 9/16;
 }
-var dv=2;
-var dr_from_walls=2;
 
 // main ;)
 gAssetLoader.loadAssets([
@@ -268,12 +268,19 @@ function onDocumentKeyUp( event ) {
 }
 
 // ***********************************************RENDERING
+var last_time= new Date().getTime();
+var delay_for_next_time= 1000/FPS;
 function animate(ts) {
-	var t0= (new Date()).getTime();
-	if (FPS<59.9)
+	if (FPS<59.9) {
+		var curr_time= new Date().getTime();
+		delay_for_next_time-= (curr_time-last_time) - 1000/FPS;
+		if (delay_for_next_time<=0)
+			delay_for_next_time= 1;
+		last_time= curr_time;
 		setTimeout( function() {
         	requestAnimationFrame( animate );
-    	}, 1000 / (FPS+3.0) );
+    	}, delay_for_next_time );
+	}
 	else
        	requestAnimationFrame( animate );
 
